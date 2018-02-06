@@ -19,12 +19,8 @@ $(document).ready(function(){
 	$('.slider').slider();
 });
 
-$(document).ready(function(){
-	 $('.carousel').carousel({
-		dist: -80,  //	Perspective zoom. If 0, all items are the same size. (Default: -100)
-	 }
-	 );
- });
+var elem = document.querySelector('.carousel');
+var instance = M.Carousel.init(elem, options);
 
 
 $('.dropdown-button').dropdown({
