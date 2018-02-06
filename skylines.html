@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ant Villa Dean - Interactive CV</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <!-- Preloader Overlay code -->
+
+  <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown Menu Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a class="teal-text text-darken-4" href="projects.html">Photography Projects</a></li>
+    <li><a class="teal-text text-darken-4" href="career.html">Career</a></li>
+    <li><a class="teal-text text-darken-4" href="education.html">More About Me</a></li>
+    <li class="divider"></li>
+    <li><a class="teal-text text-darken-4" href="contact.html">Contact</a></li>
+  </ul>
+  <!-- Navbar with Dropdown Menu Code -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo center-align"><img src="avdeanlogo.png" style="width:50%;"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-button btn-flat waves-effect waves-light pink-text" href="#!" data-activates="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <!-- Mobile Site Navbar -->
+      <ul id="nav-mobile" class="side-nav">
+        <li><a class="teal-text text-darken-4" href="projects.html">Photography Projects</a></li>
+        <li><a class="teal-text text-darken-4" href="career.html">Career</a></li>
+        <li><a class="teal-text text-darken-4" href="education.html">More About Me</a></li>
+        <li class="divider"></li>
+        <li><a class="teal-text text-darken-4" href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- Main Body -->
+  <div id="index-banner">
+    <div class="container">
+      <div class="carousel">
+         <a class="carousel-item" href="#nyc!"><img class="materialboxed" width="100%" src="projects/skies/nyc.jpg"></a>
+         <a class="carousel-item" href="#barbados!"><img class="materialboxed" width="100%" src="projects/skies/barbados.jpg"></a>
+         <a class="carousel-item" href="#stlucia!"><img class="materialboxed" width="100%" src="projects/skies/stlucia.jpg"></a>
+         <a class="carousel-item" href="#tortola!"><img class="materialboxed" width="100%" src="projects/skies/tortola.jpeg"></a>
+         <a class="carousel-item" href="#brooklyn!"><img class="materialboxed" width="100%" src="projects/skies/brooklyn.jpg"></a>
+         <a class="carousel-item" href="#venice!"><img class="materialboxed" width="100%" src="projects/skies/venice.jpg"></a>
+       </div>
+    </div>
+  </div>
+
+      <!-- Footer -->
+      <footer class="page-footer white">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="grey-text text-darken-3">Skylines</h5>
+              <p class="grey-text text-darken-2">Sunsets and skylines are something everyone can appreciate, and I won't say I'm not drawn to them any less than anyone else.</p>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="grey-text text-darken-3">Online Profile</h5>
+              <ul>
+                <li><a class="teal-text text-darken-4" href="#!" alt="LinkedIn Profile" title="LinkedIn Profile">LinkedIn Profile</a></li>
+                <li><a class="teal-text text-darken-4" href="https://500px.com/antvilladean" alt="500px Profile" title="500px Profile">500px Profile</a></li>
+                <li><a class="teal-text text-darken-4" href="#!" alt="Tumblr Profile" title="Tumble Profile">Tumblr Profile</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12 hide-on-small-only">
+              <h5 class="grey-text text-darken-3">Site Navigation</h5>
+              <ul>
+                <li><a class="teal-text text-darken-4" href="index.html">Home</a></li>
+                <li><a class="teal-text text-darken-4" href="projects.html">Photography Projects</a></li>
+                <li><a class="teal-text text-darken-4" href="career.html">Career</a></li>
+                <li><a class="teal-text text-darken-4" href="education.html">More About Me</a></li>
+                <li><a class="teal-text text-darken-4" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <span class="teal-text text-darken-4">Powered by </span><a class="pink-text text-darken-3" href="http://materializecss.com">Materialize CSS</a>
+          </div>
+        </div>
+      </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
