@@ -19,9 +19,10 @@ $(document).ready(function(){
 	$('.slider').slider();
 });
 
-var elem = document.querySelector('.carousel');
-var instance = M.Carousel.init(elem, options);
-
+ $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+    
 
 $('.dropdown-button').dropdown({
 		 inDuration: 300,
