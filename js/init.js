@@ -27,7 +27,7 @@ $(document).ready(function(){
     $('.sidenav').sidenav();
   });
          
-
+$(document).ready(function(){
 $('.dropdown-button').dropdown({
 		 inDuration: 300,
 		 outDuration: 225,
@@ -40,12 +40,10 @@ $('.dropdown-button').dropdown({
 	 }
  );
 // Basic Parallax and SideNav code
-(function($){
-  $(function(){
 
-    $('.button-collapse').sideNav();
+$(document).ready(function(){
     $('.parallax').parallax();
-	 $('.materialboxed').materialbox();
+  });
 
-  }); // end of document ready
+
 })(jQuery); // end of jQuery name space
