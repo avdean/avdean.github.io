@@ -32,32 +32,36 @@
     </div>
   </div>
 
-  <!-- Dropdown Menu Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a class="teal-text text-darken-4" href="projects.html">Photography Projects</a></li>
-    <li><a class="teal-text text-darken-4" href="career.html">Career</a></li>
-    <li><a class="teal-text text-darken-4" href="education.html">More About Me</a></li>
-    <li class="divider"></li>
-    <li><a class="teal-text text-darken-4" href="contact.html">Contact</a></li>
-  </ul>
   <!-- Navbar with Dropdown Menu Code -->
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo center-align"><img src="avdeanlogo.png" style="width:50%;"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="dropdown-button btn-flat waves-effect waves-light pink-text" href="#!" data-activates="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger btn-flat waves-effect waves-light pink-text" href="#" data-target="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+      <ul class="left hide-on-desktop-only">
+        <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
       </ul>
       <!-- Mobile Site Navbar -->
-      <ul id="nav-mobile" class="sidenav">
+      <ul id="slide-out" class="sidenav">
         <li><a class="teal-text text-darken-4" href="projects.html">Photography Projects</a></li>
         <li><a class="teal-text text-darken-4" href="career.html">Career</a></li>
         <li><a class="teal-text text-darken-4" href="education.html">More About Me</a></li>
         <li class="divider"></li>
         <li><a class="teal-text text-darken-4" href="contact.html">Contact</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
+      <!-- Dropdown Menu Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a class="teal-text text-darken-4" href="projects.html">Photography Projects</a></li>
+        <li><a class="teal-text text-darken-4" href="career.html">Career</a></li>
+        <li><a class="teal-text text-darken-4" href="education.html">More About Me</a></li>
+        <li class="divider"></li>
+        <li><a class="teal-text text-darken-4" href="contact.html">Contact</a></li>
+      </ul>
   </nav>
+<!-- end of nav bar -->
+
   <!-- Parallax Container -->
   <div id="index-banner" class="parallax-container">
 
@@ -95,8 +99,8 @@
           <div class="icon-block">
             <h2 class="center cyan-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">A Tinkerer</h5>
-            <p class="light">As you can tell from the website, I like to tinker, alot. This leads me to learn new technologies rapidly, with new skills acquired at every opportunity. There are off course things I would love to learn, UX Design for example, being one of
-              the highest skills on my bucketlist.</p>
+            <p class="light">As you can tell from the website, I like to tinker, alot. This leads me to learn new technologies rapidly, with new skills acquired at every opportunity. There are of course things I would love to learn, UX Design for example, being one of
+              the highest skills on my bucket list.</p>
           </div>
         </div>
 
