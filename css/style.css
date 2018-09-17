@@ -85,3 +85,15 @@ font-family: 'Quicksand', sans-serif;
 .pink-text, .teal-text {
   font-family: 'Quicksand', sans-serif;
 }
+
+div.card-container {
+    -moz-column-width: 23rem;
+    -webkit-column-width: 23rem;
+    -moz-column-gap: 1rem;
+    -webkit-column-gap: 1rem;
+}
+
+.card-panel {
+    display: inline-block;
+    width:  100%;
+}
