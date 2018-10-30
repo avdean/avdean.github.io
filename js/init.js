@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 $(document).ready(function(){
-		$('.materialboxed').materialbox();
-    $('.tooltipped').tooltip({delay: 50});
-		$('.slider').slider();
-    $('.carousel').carousel();
-    $('.sidenav').sidenav();
-		$('.parallax').parallax();
-		$('.dropdown-trigger').dropdown({hover: true});
+	$('.materialboxed').materialbox();
+	$('.tooltipped').tooltip({delay: 50});
+	$('.slider').slider();
+	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
+	$('.sidenav').sidenav();
+	$('.parallax').parallax();
+	$('.dropdown-trigger').dropdown({hover: true});
 
 })(jQuery); // end of jQuery name space
