@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <title>Ant Villa Dean - {{ page.title }}</title>
+  <meta name="description" content="Whether you need web design work, photography, or anything else tech related, come check out my website and see if I fit your needs!">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+  <link href="{{site.baseurl}}/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="{{site.baseurl}}/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+{% include header.html %}
+
+<!-- Parallax Container -->
+ {{ content }}
+
+{% include footer.html %}
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/materialize.js"></script>
+  <script src="{{site.baseurl}}/assets/js/init.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+</body>
+
+</html>
