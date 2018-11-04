@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Welcome to Jekyll"
-date: 2016-05-08 20:34:26
+title: "first Post"
+date: 2016-05-08
 description: 'Put your description here.'
 main-class: 'jekyll'
 image: 'http://res.cloudinary.com/victorpre/image/upload/v1503269369/sample.jpg'
