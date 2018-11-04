@@ -29,14 +29,14 @@ title: Photographer / Geek
           <div class="icon-block">
             <h2 class="center cyan-text"><i class="material-icons">assignment_ind</i></h2>
             <h5 class="center">Jack-of-all-trades</h5>
-            <p class="light">Whether this is a negative or a positive thing can be debated, however I strongly believe that only a select few can really mastery of a certain field (usually making them world-renowned). That said, I work hard to learn new things, and am proud to call myself a general jack-of-all-trades.</p>
+            <p class="light">Whether this is a negative or a positive thing can be debated, however I strongly believe that only a select few can really claim mastery of a certain field (usually making them world-renowned). That said, I work hard to learn new things, and am proud to call myself a general jack-of-all-trades.</p>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="icon-block">
             <h2 class="center cyan-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">A Tinkerer</h5>
-            <p class="light">As you can tell from the website, I like to tinker, alot. This in itself has lead me to learn a lot new technologies rapidly, with new skills acquired at every opportunity. There are of course things I would love to learn, UX Design for example, being one of the highest skills on my bucket list.</p>
+            <p class="light">As you can tell from the website, I like to tinker, a lot. This in itself has lead me to learn a vareity of new technologies rapidly, the most recent being Jekyll. There are, of course, things I would love to learn such as UX Design, which is one of the highest skills on my bucket list.</p>
           </div>
         </div>
       </div>
