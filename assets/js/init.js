@@ -7,6 +7,14 @@ document.addEventListener("DOMContentLoaded", function(){
 		.fadeOut();
 });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left',
+      hoverEnabled: false
+    });
+  });
+
 $(document).ready(function(){
 	$('.materialboxed').materialbox();
 	$('.tooltipped').tooltip({delay: 50});
@@ -15,7 +23,9 @@ $(document).ready(function(){
 	$('.sidenav').sidenav();
 	$('.parallax').parallax();
 	$('.dropdown-trigger').dropdown({hover: true});
+	$('.chips').chips();
 	$('.grid').masonry({itemSelector: '.grid-item', columnWidth: 200});
+
 
 })(jQuery); // end of jQuery name space
 
