@@ -25,28 +25,18 @@ title: Photographer / Geek
     <div class="section">
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="icon-block">
-            <h2 class="center cyan-text"><i class="material-icons">lightbulb_outline</i></h2>
-            <h5 class="center">Confident yet Humble</h5>
-            <p class="light">I am not one to wax lyrical about my knowledge and skills, hopefully through this website you can glean enough of my personality shining through. All I will say is I am confident at what I do, yet never the type to brag or gloat. I like to
-              help and support whenever I can.</p>
+            <h2 class="center cyan-text"><i class="material-icons">assignment_ind</i></h2>
+            <h5 class="center">Jack-of-all-trades</h5>
+            <p class="light">Whether this is a negative or a positive thing can be debated, however I strongly believe that only a select few can really mastery of a certain field (usually making them world-renowned). That said, I work hard to learn new things, and am proud to call myself a general jack-of-all-trades.</p>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="icon-block">
             <h2 class="center cyan-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">A Tinkerer</h5>
-            <p class="light">As you can tell from the website, I like to tinker, alot. This leads me to learn new technologies rapidly, with new skills acquired at every opportunity. There are of course things I would love to learn, UX Design for example, being one of
-              the highest skills on my bucket list.</p>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center cyan-text"><i class="material-icons">cloud_off</i></h2>
-            <h5 class="center">Social Media Free (Mostly)</h5>
-            <p class="light">I have made a point of trying to lead a life free of social media such as Facebook and Twitter. While I know this leads many to see me as old, weird and not with-it, it's allowed me to keep an objective perspective regarding many topics. I
-              do love a bit of reddit though.</p>
+            <p class="light">As you can tell from the website, I like to tinker, alot. This in itself has lead me to learn a lot new technologies rapidly, with new skills acquired at every opportunity. There are of course things I would love to learn, UX Design for example, being one of the highest skills on my bucket list.</p>
           </div>
         </div>
       </div>

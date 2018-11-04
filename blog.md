@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Blog
+comments: true
+# other options
 ---
   <div id="index-banner">
   <div class="section no-pad-bot">
@@ -15,17 +17,15 @@ title: Blog
                 </div>
                 <div class="btn-menu" style="padding:0px">
                   <div class="fixed-action-btn horizontal click-to-toggle" style="position:relative; float:right; bottom:30px; right:10px; z-index: 1">
-                    <a class="btn-floating btn-large z-depth-4 waves-effect waves-light">
+                    <a class="btn-floating btn-large hoverable blue waves-effect waves-light">
                       <i class="large material-icons btn-icon">share</i>
                     </a>
                     <ul>
-                      <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl  }}{{ post.url }}" class="btn-floating fb-color" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Compartilhar no Facebook">
-                          <div class="fb-btn nested-btn valign-wrapper btn-white" >
-                          </div>
-                      </a></li>
-                      <li><a href="https://twitter.com/intent/tweet?text=&quot;{{ post.twitter_text }}&quot;%20{{ site.url }}{{ post.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in post.tags %}{{tag}},{% endfor %}" class="btn-floating twitter-color" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Compartilhar no Twitter">
-                          <div class="twitter-btn nested-btn btn-white">
-                          </div>
+                      <li>
+                      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl  }}{{ post.url }}" class="btn-floating" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </li>                        
+                      <li><a href="https://twitter.com/intent/tweet?text=&quot;{{ post.twitter_text }}&quot;%20{{ site.url }}{{ post.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in post.tags %}{{tag}},{% endfor %}" class="btn-floating twitter-color" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+                        <i class="fab fa-twitter"></i>
                       </a></li>
                     </ul>
                   </div>
