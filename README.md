@@ -39,4 +39,4 @@ Things to fix:
 
 Credits
 ---
-Credit obviously goes to the guys at [Materialize CSS](https://github.com/Dogfalo/materialize), Google for making the [Material Design Philosophy](https://material.io/design/#introduction-goals) in the first place and VictorPre's own [material-jekyll](https://github.com/victorpre/materialize-jekyll)
+Credit obviously goes to the guys at [Materialize CSS](https://github.com/Dogfalo/materialize), Google for making the [Material Design Philosophy](https://material.io/design/#introduction-goals) in the first place and VictorPre's own [material-jekyll](https://github.com/victorpre/materialize-jekyll), which has helped a lot in figuring out how Jekyll can work beyond the standard documentation.
