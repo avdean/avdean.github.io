@@ -5,7 +5,7 @@
 layout: default
 title: Photographer / Geek
 ---
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container load-hidden">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
