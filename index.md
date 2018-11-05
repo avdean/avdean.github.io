@@ -44,7 +44,7 @@ title: Photographer / Geek
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div class="parallax-container valign-wrapper load-hidden">
     <div class="section">
       <div class="container">
         <div class="row center">
