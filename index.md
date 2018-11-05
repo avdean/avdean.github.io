@@ -7,7 +7,7 @@ title: Photographer / Geek
 ---
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container load-hidden">
+      <div class="container">
         <br><br>
         <h1 class="header center white-text">Ant Villa Dean</h1>
         <h3 class="center white-text">Photographer / Geek</h3>
@@ -44,7 +44,7 @@ title: Photographer / Geek
   </div>
 
 
-  <div class="parallax-container valign-wrapper load-hidden">
+  <div class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
         <div class="row center">
