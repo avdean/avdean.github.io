@@ -25,7 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: antvd.captured
 github_username: avdean
 linkedin_username: antvilladean
-fb_username: antvilladean
+unsplash_username: antvd_captured
 
 # Build settings
 markdown: kramdown
