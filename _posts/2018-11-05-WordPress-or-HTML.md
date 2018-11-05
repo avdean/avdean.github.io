@@ -17,17 +17,18 @@ introduction: ''
 
 While my current job doesn't _require_ the knowledge of HTML, it's certainly helped. I know that part of this comes as part of the territory (virtually any job in the digital sector). Depending on who you ask, creating a website can fall into three categories:
 <div class="card-panel grey lighten-4">
-1. You can rely on a paid CMS such as WordPress.com, Squarespace, etc. for a fairly easy experience that depending on how much you spend can be customised exactly to your spec.
-2. You can rely on a free CMS such as WordPress.org, Drupal, etc. for a limited amount of options, and you'll end up paying for something else instead.
-3. You can build it yourself, find the hosting and buy the domain.
+<ol>
+<li>You can rely on a paid CMS such as WordPress.com, Squarespace, etc. for a fairly easy experience that depending on how much you spend can be customised exactly to your spec.</li>
+<li>You can rely on a free CMS such as WordPress.org, Drupal, etc. for a limited amount of options, and you'll end up paying for something else instead.</li>
+<li>You can build it yourself, find the hosting and buy the domain.<\li></ol>
 	
-There's also a key different between WordPress.com and WordPress.org, and it's mostly based around hosting and pricing. .Org is obviously free, however you then have to pay for hosting. While .com has different price sections, the hosting is covered, but you'll also need to buy a theme that you like.
+<p>There's also a key different between WordPress.com and WordPress.org, and it's mostly based around hosting and pricing. .Org is obviously free, however you then have to pay for hosting. While .com has different price sections, the hosting is covered, but you'll also need to buy a theme that you like.</p>
 </div>
 I went with the latter option, as I already knew roughly how I wanted my site to look, and I didn't want to mess around with WordPress. I once helped my girlfriend's dad sort out his taxi website using WordPress, and I can admit that it's a fine platform for many, however I couldn't quite customise it the way I wanted, and the amount of themes left me paralyzed (I'm terrible with choice).  
 
 Funny story about the taxi website site: 
 <div class="card-panel grey lighten-4">
-After two weeks of updating his information and "making a go-of-it", he was subsequently "asked" to remove the site by what at the time felt-like the Taxi Mafia (their way of asking seemed to be more threatening in nature). Suffice to say, this isn't something you tend to bring up in regular conversation and not something I'd really like to grill my soon-to-be-father-in-law about.
+<p>After two weeks of updating his information and "making a go-of-it", he was subsequently "asked" to remove the site by what at the time felt-like the Taxi Mafia (their way of asking seemed to be more threatening in nature). <\p><p>Suffice to say, this isn't something you tend to bring up in regular conversation and not something I'd really like to grill my soon-to-be-father-in-law about.</p>
 </div>
 
 In the end I decided it would be better to build my own site from scratch, or at least use a framework to help structure my page, and originally I hadn't planned on having a blog or needing dynamic content, however it didn't seem right to look for content jobs, without showing my own ability to show personal consistency and I was also tired of having to add my images manually (I'll most likely write about this in-depth in the future).
