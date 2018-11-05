@@ -36,7 +36,7 @@ title: Photographer / Geek
           <div class="icon-block">
             <h2 class="center cyan-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">A Tinkerer</h5>
-            <p class="light">As you can tell from the website, I like to tinker, a lot. This in itself has lead me to learn a vareity of new technologies rapidly, the most recent being Jekyll. There are, of course, things I would love to learn such as UX Design, which is one of the highest skills on my bucket list.</p>
+            <p class="light">As you can tell from the website, I like to tinker, a lot. This in itself has lead me to learn a variety of new technologies rapidly, the most recent being Jekyll. There are, of course, things I would love to learn such as UX Design, which is one of the highest skills on my bucket list.</p>
           </div>
         </div>
       </div>
