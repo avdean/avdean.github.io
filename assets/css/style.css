@@ -98,3 +98,7 @@ div.card-container {
     display: inline-block;
     width:  100%;
 }
+
+html.sr .load-hidden {
+  visibility: hidden;
+}
