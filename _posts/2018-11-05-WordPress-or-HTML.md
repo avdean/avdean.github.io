@@ -3,7 +3,7 @@ layout: post
 title: "WordPress or HTML"
 date: 2018-11-05
 description: 'I've been hovering around the world of web design, for a while now and while my current job doesn't _require_ the knowledge of HTML, it's certainly helped.'
-main-class: 'web'
+main-class: 'jekyll'
 image: 'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fdadee406d9231d84fed8b25fc0b5cc7&auto=format&fit=crop&w=1950&q=80'
 tags:
 - Materialize CSS
