@@ -3,7 +3,7 @@ layout: post
 title: "Wordpress or HTML"
 date: 2018-11-05
 description: ''
-main-class: 'web'
+main-class: 'jekyll'
 image: '{{site.baseurl}}/assets/images/blog/html_boxes.jpg'
 tags:
 - Materialize CSS
