@@ -1,6 +1,5 @@
-<h1>My portfolio site - Ant Villa Dean (TBD)</h1>
-<h2>Currently based on Materialise CSS in conjunction with Jekyll</h2>
-
+My portfolio site - Ant Villa Dean (TBD)
+---
 Without getting into too much detail, I built this website to replace an old blogger website I once had, along with start showcasing certain projects. Since then it grew into a personal website that allows me to explore certain frameworks, and more recently Static-Site-Generators (SSG). The idea of hosting on GitHub simply came about due to being tired of the needless complications that wordpress and it's managerie of plugins. I wanted a simple way to host a couple of simple static pages.
 
 Materialize CSS
