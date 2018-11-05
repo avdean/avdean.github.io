@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wordpress or HTML"
+title: 'Wordpress or HTML'
 date: 2018-11-05
 description: ''
 main-class: 'jekyll'
