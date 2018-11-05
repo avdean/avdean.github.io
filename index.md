@@ -5,9 +5,9 @@
 layout: default
 title: Photographer / Geek
 ---
-  <div id="index-banner" class="parallax-container load-hidden">
+  <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container load-hidden">
         <br><br>
         <h1 class="header center white-text">Ant Villa Dean</h1>
         <h3 class="center white-text">Photographer / Geek</h3>
