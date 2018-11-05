@@ -87,18 +87,21 @@ font-family: 'Quicksand', sans-serif;
 }
 
 
+/* Start of CSS Masonry */
 div.card-container {
     -moz-column-width: 23rem;
     -webkit-column-width: 23rem;
     -moz-column-gap: 1rem;
     -webkit-column-gap: 1rem;
 }
-
 .card-panel {
     display: inline-block;
     width:  100%;
 }
+/* end of CSS Masonry */
 
+/* Start of ScrollReveal */
 html.sr .load-hidden {
   visibility: hidden;
 }
+
