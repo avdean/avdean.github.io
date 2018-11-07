@@ -17,8 +17,8 @@ title: Photographer / Geek
         <br><br>
       </div>
     </div>
-    <div class="parallax hide-on-small-only"><img src="/assets/images/StockLens.jpg" width="80%"></div>
-    <div class="parallax hide-on-med-and-up"><img src="/assets/images/StockCity.jpg"></div>
+    <div class="parallax hide-on-small-only"><img src="{{site.baseurl}}/assets/images/StockLens.jpg" width="80%"></div>
+    <div class="parallax hide-on-med-and-up"><img src="{{site.baseurl}}/assets/images/StockCity.jpg"></div>
   </div>
   <!--   Container Section   -->
   <div class="container">
@@ -53,6 +53,6 @@ title: Photographer / Geek
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="/assets/images/screen.jpg">
+    <div class="parallax"><img src={{site.baseurl}}/assets/images/screen.jpg">
     </div>
   </div>
