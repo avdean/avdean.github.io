@@ -9,8 +9,8 @@ comments: true
     <div class="container blog-posts">
       <div id="masonry-grid" class="row">
         {% for post in site.posts %}
-          <div class="col s12 m6 l4 card-wrapper">
-            <div id="grid-item" class="card hoverable">
+          <div id="grid-item" class="col s12 m6 l4 card-wrapper">
+            <div class="card hoverable">
               {% if post.image  %}
                 <div class="card-image">
                   <img src="{{ post.image }}">
