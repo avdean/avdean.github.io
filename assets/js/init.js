@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   });
 
+    $(document).ready(function() {
+        $('.parallax').parallax();
+    });
+
 $(document).ready(function(){
 	$('.materialboxed').materialbox();
 	$('.tooltipped').tooltip({delay: 50});
