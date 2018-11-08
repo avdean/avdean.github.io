@@ -18,11 +18,6 @@ document.addEventListener("DOMContentLoaded", function(){
     $(document).ready(function() {
         $('.parallax').parallax();
     });
-autoplay()   
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
-}
 
 $(document).ready(function(){
 	$('.materialboxed').materialbox();
