@@ -11,7 +11,7 @@ title: Career
         <div class="icon-block">
           <div class="card">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
-               <img class="activator" src="{{site.baseurl}}/assets/career/careersimg/stubhubnew.png">
+               <img class="activator" src="/assets/career/careersimg/stubhubnew.png">
              </div>
              <div class="card-content">
                <span class="card-title activator grey-text text-darken-3"><h6>2017 - Current:<br>StubHub International</h6>UK + Intl. Partnership Content Coordinator<i class="material-icons right">more_vert</i></span>
@@ -29,7 +29,7 @@ title: Career
         <div class="icon-block">
           <div class="card">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
-               <img class="activator" src="{{site.baseurl}}/assets/career/careersimg/stubhubuk.png">
+               <img class="activator" src="/assets/career/careersimg/stubhubuk.png">
              </div>
              <div class="card-content">
                <span class="card-title activator grey-text text-darken-3"><h6>2016 - 2017:<br>StubHub International</h6>UK Content Specialist<i class="material-icons right">more_vert</i></span>
@@ -47,7 +47,7 @@ title: Career
         <div class="icon-block">
           <div class="card">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
-               <img class="activator" src="{{site.baseurl}}/assets/career/careersimg/ticketbis.png">
+               <img class="activator" src="/assets/career/careersimg/ticketbis.png">
              </div>
              <div class="card-content">
                <span class="card-title activator grey-text text-darken-3"><h6>2013 - 2016: Ticketbis SL</h6>EN Content Manager<i class="material-icons right">more_vert</i></span>
@@ -65,7 +65,7 @@ title: Career
         <div class="icon-block">
           <div class="card">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
-               <img class="activator" src="{{site.baseurl}}/assets/career/careersimg/logo-ebi.png">
+               <img class="activator" src="/assets/career/careersimg/logo-ebi.png">
              </div>
              <div class="card-content">
                <span class="card-title activator grey-text text-darken-3"><h6>2012 - 2013: EBI Idiomas</h6>English Teacher<i class="material-icons right">more_vert</i></span>
@@ -83,7 +83,7 @@ title: Career
         <div class="icon-block">
           <div class="card">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
-               <img class="activator" src="{{site.baseurl}}/assets/career/careersimg/ships.png">
+               <img class="activator" src="/assets/career/careersimg/ships.png">
              </div>
              <div class="card-content">
                <span class="card-title activator grey-text text-darken-3"><h6>2010 - 2012: The Ships Photographer</h6>Photographer<i class="material-icons right">more_vert</i></span>
@@ -98,7 +98,7 @@ title: Career
         </div>
       </div>
         <div class="fixed-action-btn" style="bottom: 24px; right: 24px;">
-          <a href="{{site.baseurl}}/assets/career/AntVillaDean_CV.pdf" target="Download CV" id="menu" class="btn btn-floating btn-large cyan tooltipped" data-position="top" data-delay="50" data-tooltip="Download CV"><i class="material-icons">file_download</i></a>
+          <a href="/assets/career/AntVillaDean_CV.pdf" target="Download CV" id="menu" class="btn btn-floating btn-large cyan tooltipped" data-position="top" data-delay="50" data-tooltip="Download CV"><i class="material-icons">file_download</i></a>
         </div>
     </div>
   </div>
