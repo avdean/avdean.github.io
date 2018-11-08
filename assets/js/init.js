@@ -24,4 +24,5 @@ $(document).ready(function(){
 	$('.parallax').parallax();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
-});
+
+})(jQuery); // end of jQuery name space
