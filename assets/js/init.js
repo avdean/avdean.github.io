@@ -25,7 +25,4 @@ $(document).ready(function(){
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
 	$('.grid').masonry({itemSelector: '.grid-item', columnWidth: 200});
-
-
-})(jQuery); // end of jQuery name space
-
+});
