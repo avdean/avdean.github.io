@@ -21,8 +21,6 @@ $(document).ready(function(){
 	$('.slider').slider();
 	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
 	$('.sidenav').sidenav();
-	$('.parallax').parallax();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
-
 })(jQuery); // end of jQuery name space
