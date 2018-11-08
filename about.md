@@ -187,7 +187,7 @@ title: About Me
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="{{site.baseurl}}/assets/images/space.jpg"></div>
+    <div class="parallax"><img src="/assets/images/space.jpg"></div>
   </div>
 
   <!--   Container Section   -->
@@ -281,7 +281,7 @@ title: About Me
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="{{site.baseurl}}/assets/images/StockCityClean.jpg"></div>
+    <div class="parallax"><img src="/assets/images/StockCityClean.jpg"></div>
   </div>
 
 
