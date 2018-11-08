@@ -28,7 +28,7 @@ $(document).ready(function(){
 	$('.materialboxed').materialbox();
 	$('.tooltipped').tooltip({delay: 50});
 	$('.slider').slider();
-	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
+	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true);
 	$('.sidenav').sidenav();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
