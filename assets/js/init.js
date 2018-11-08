@@ -24,5 +24,4 @@ $(document).ready(function(){
 	$('.parallax').parallax();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
-	$('.grid').masonry({itemSelector: '.grid-item', columnWidth: 200});
 });
