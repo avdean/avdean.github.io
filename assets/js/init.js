@@ -18,12 +18,17 @@ document.addEventListener("DOMContentLoaded", function(){
     $(document).ready(function() {
         $('.parallax').parallax();
     });
+autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
 
 $(document).ready(function(){
 	$('.materialboxed').materialbox();
 	$('.tooltipped').tooltip({delay: 50});
 	$('.slider').slider();
-	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
+	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true, next, 3});
 	$('.sidenav').sidenav();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
