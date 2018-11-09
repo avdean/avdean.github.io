@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: defaultmasonry
 title: Career
 ---
-  <div id="index-banner">  <div id="index-banner" class="grey-dient">
-    <div class="container row">
+  <div id="index-banner">
+    <div class="container">
+      <div class="grid">
       <!-- Content -->
-      <div class="col s12" style="padding-bottom:5%;">
-      </div>
-      <div class="col s12 m6">
+      <div class="grid-sizer"></div>
+      <div class="grid-item">
         <div class="icon-block">
-          <div class="card">
-             <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
+          <div class="card" style="height: 100%">
+             <div class="card-image waves-effect waves-block waves-light" style="max-height:215px">
                <img class="activator" src="/assets/career/careersimg/stubhubnew.png">
              </div>
              <div class="card-content">
@@ -25,9 +25,9 @@ title: Career
            </div>
         </div>
       </div>
-      <div class="col s12 m6">
+      <div class="grid-item">
         <div class="icon-block">
-          <div class="card">
+          <div class="card" style="height: 100%">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
                <img class="activator" src="/assets/career/careersimg/stubhubuk.png">
              </div>
@@ -43,10 +43,10 @@ title: Career
            </div>
         </div>
       </div>
-      <div class="col s12 m8">
+      <div class="grid-item">
         <div class="icon-block">
-          <div class="card">
-             <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
+          <div class="card" style="height: 100%">
+             <div class="card-image waves-effect waves-block waves-light" style="max-height:270px">
                <img class="activator" src="/assets/career/careersimg/ticketbis.png">
              </div>
              <div class="card-content">
@@ -61,9 +61,9 @@ title: Career
            </div>
         </div>
       </div>
-      <div class="col s12 m4">
+      <div class="grid-item">
         <div class="icon-block">
-          <div class="card">
+          <div class="card" style="height: 100%">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
                <img class="activator" src="/assets/career/careersimg/logo-ebi.png">
              </div>
@@ -79,9 +79,9 @@ title: Career
            </div>
         </div>
       </div>
-      <div class="col s12 m6">
+      <div class="grid-item">
         <div class="icon-block">
-          <div class="card">
+          <div class="card" style="height: 100%">
              <div class="card-image waves-effect waves-block waves-light" style="max-height:250px">
                <img class="activator" src="/assets/career/careersimg/ships.png">
              </div>
@@ -97,6 +97,7 @@ title: Career
            </div>
         </div>
       </div>
+    </div>
         <div class="fixed-action-btn" style="bottom: 24px; right: 24px;">
           <a href="/assets/career/AntVillaDean_CV.pdf" target="Download CV" id="menu" class="btn btn-floating btn-large cyan tooltipped" data-position="top" data-delay="50" data-tooltip="Download CV"><i class="material-icons">file_download</i></a>
         </div>
