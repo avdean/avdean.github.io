@@ -8,18 +8,16 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
+    var elems = document.querySelectorAll('.fixed-action-btn',);
     var instances = M.FloatingActionButton.init(elems, {
       direction: 'left',
       hoverEnabled: false
     });
   });
 
-    $(document).ready(function() {
-        $('.parallax').parallax();
-    });
 
 $(document).ready(function(){
+    $('.parallax').parallax();
 	$('.materialboxed').materialbox();
 	$('.tooltipped').tooltip({delay: 50});
 	$('.slider').slider();
