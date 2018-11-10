@@ -21,8 +21,22 @@ $(document).ready(function(){
 	$('.materialboxed').materialbox();
 	$('.tooltipped').tooltip({delay: 50});
 	$('.slider').slider();
-	$('.carousel.carousel-slider').carousel({fullWidth: true, indicators: true});
 	$('.sidenav').sidenav();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
+	$('#container').imagesLoaded( function() {
+		$('.grid').masonry({
+						  // options
+						  columnWidth: '.grid-sizer',
+						  itemSelector: '.grid-item',
+						  percentPosition: true
+
+						})		
+	});
+	$('.carousel-slider').flickity({
+	  // options
+	  cellAlign: 'center',
+	  contain: true
+	});
+
 })(jQuery); // end of jQuery name space
