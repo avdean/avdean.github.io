@@ -33,8 +33,8 @@ Things to fix:
 ---
 
 * Domain - I'll be eventually buying a domain name, though I'm not sure I want to use my own name as the domain
-* Masonry.js and ScrollReveal.js - Though they're not really necessary at the moment, I'd like to have them instilled as part of the Photography and Blog parts (Especially)
-* Tags - I'm still trying to figure out how tags in Jekyl can be utilised further over the standard index page, I really like Victorpre's use, so I'll try to replicate this, I have a feeling it's handled via Javascript.
+* ~~Masonry.js and ScrollReveal.js - Though they're not really necessary at the moment, I'd like to have them instilled as part of the Photography and Blog parts (Especially)~~
+* Tags - I'm still trying to figure out how tags in Jekyl can be utilised further over the standard index page, I really like Victorpre's use, though I think the best method would be through utilising Isotope.js.
 
 Credits
 ---
