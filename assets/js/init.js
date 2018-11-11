@@ -24,15 +24,14 @@ $(document).ready(function(){
 	$('.sidenav').sidenav();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
-	$('#container').imagesLoaded().always( function() {
-		$('.grid').masonry({
-						  // options
+	var $grid = $('.grid').masonry({
+	  // options...
 						  columnWidth: '.grid-sizer',
 						  itemSelector: '.grid-item',
 						  percentPosition: true
-
-						})		
-	});
+						});
+	// layout Masonry after each image loads
+	$grid.imagesLoaded().progress( function() {$grid.masonry('layout');});
 	$('.carousel-slider').flickity({
 	  // options
 	  cellAlign: 'center',
