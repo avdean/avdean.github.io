@@ -24,7 +24,7 @@ $(document).ready(function(){
 	$('.sidenav').sidenav();
 	$('.dropdown-trigger').dropdown({hover: true});
 	$('.chips').chips();
-	$('#container').imagesLoaded( function() {
+	$('#container').imagesLoaded().always( function() {
 		$('.grid').masonry({
 						  // options
 						  columnWidth: '.grid-sizer',
