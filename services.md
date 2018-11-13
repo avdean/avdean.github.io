@@ -14,7 +14,7 @@ title: Services
                 </div>
                 -->
                 <div class="carousel-cell white-text" style="background-image: url({{site.baseurl}}/assets/images/photography.png); width: 100%; height: 100%;">
-                  <h2>Photography</h2>
+                  <h2>Photographer</h2>
                   <p class="white-text">The jack-of-all-trade type of photographer, my photography thrives on adaptability.</p>
                 </div>
                 <div class="carousel-cell white-text" style="background-image: url({{site.baseurl}}/assets/images/retoucher.png); width: 100%; height: 100%;">
