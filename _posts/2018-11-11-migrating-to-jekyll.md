@@ -22,20 +22,20 @@ Of course, as the site grew, the need for something dynamic became much more app
 
 Better yet, it turned out to be surprisingly easy to pick up Jekyll; though there were a number of hurdles in the beginning. 
 <ol>
-<li>Installing Jekyll<br>
+  <li><strong>Installing Jekyll</strong><br>
 <p>Unlike creating HTML from scratch, you can't simply open the HTML page when finished (because it's not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see you're finished page. I've read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing it via the command line.</p></li>
 
-<li>The Command Line<br>
+<li><strong>The Command Line</strong><br>
 <p>If you're not comfortable navigating the command line, it can be a little daunting. Fortunately, there's not much call for it once you've installed Jekyll. The only thing you need to do is <em>cd</em> (change directory) to the folder holding your website, and type <em>Jekyll build</em> or <em>Jekyll serve</em> once there. ("build": build's the site in the \_site folder, "serve" build's the site and displays it on the URL: localhost:4000). Since it's direct, <em>Jekyll serve</em> does the job quite nicely and you can check your changes live.</p></li>
 
-<li>Way of Thinking<br>
+<li><strong>Way of Thinking</strong><br>
 <p>You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need. There are two main versions of this, \_Layouts and \_Includes.</p>
 <p>\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <em>< head ></em> elements, <em>< link rel="" ></em> codes and your <em>script</em> codes.</p>
 <p>\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <em>< header >, < footer ></em> elements come to mind a lot here.</p>
 <p>The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let's say you have 6 different pages and you've added a 7th, you only need to change the header and footer elements once (found in the \_Includes) folder in order For the change to be applied to your entire website.
   It's a pretty nice deal all things considered.</p></li>
 
-<li>YAML and Liquid<br>
+<li><strong>YAML and Liquid</strong><br>
 <p><a href="http://yaml.org/">YAML</a> is the language that Jekyll uses in order to actually read to your files and fortunately it's a pretty easy language to understand, you pretty much define your points in a file called config.yml and that lives in your root folder. There is also Liquid, which is a templating language and that's how Jekyll calls in your HTML snippets, and even allows for certain conditionals so there's a dynamic element to it.</p>
 <p>For a better explanation, definitely check out <a href="https://shopify.github.io/liquid/basics/introduction">Liquid's Official Documentation</a></p>
 <p>Because of this dynamic nature, it also means that Jekyll handles blog posts with just as much ease, though initially trying to get it to work first-time took a lot of abstract thinking since you need to understand how `for loops` work which is very much in scripting territory.</p></li>
