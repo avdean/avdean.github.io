@@ -10,7 +10,7 @@ title: Contact
         <div class="col m4 l4">
           <div class="card">
             <div class="card-image">
-              <img src="{{site.baseurl}}/assets/images/profile.png">
+              <img src="/assets/images/profile.png">
               <span class="card-title">Ant Villa Dean</span>
             </div>
           </div>
