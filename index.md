@@ -7,9 +7,9 @@ title: Online CV
 ---
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container row">
+      <div class="container">
         <br><br>
-        <div class="col s4 card-panel white" style="border-radius: 25%;"> 
+        <div class="center card-panel white" style="border-radius: 25%; margin: auto;"> 
           <img src="/assets/images/avdeanlogowhole.png" style="margin: auto;">
         </div>
         <h3 class="center white-text">Ant Villa Dean - Online CV</h3>
