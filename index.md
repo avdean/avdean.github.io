@@ -9,12 +9,14 @@ title: Photographer / Geek
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center white-text">Ant Villa Dean</h1>
-        <h3 class="center white-text">Photographer / Geek</h3>
+        <img class="header center" src="/assets/images/avdeanlogowhole.png">
+        <h3 class="center white-text">Ant Villa Dean - Online CV</h3>
+<!--
         <div class="row center">
           <h5 class="header col s12 light">For any technical needs you may have!</h5>
         </div>
         <br><br>
+-->
       </div>
     </div>
     <div class="parallax hide-on-small-only"><img src="/assets/images/StockLens.jpg" width="80%"></div>
