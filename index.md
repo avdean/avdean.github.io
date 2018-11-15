@@ -9,7 +9,7 @@ title: Photographer / Geek
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <div class="center card-panel white" style="border-radius: 5%;"> 
+        <div class="center card-panel white" style="border-radius: 25%; width: 30%;"> 
           <img src="/assets/images/avdeanlogowhole.png">
         </div>
         <h3 class="center white-text">Ant Villa Dean - Online CV</h3>
