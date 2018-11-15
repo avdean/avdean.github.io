@@ -3,14 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Photographer / Geek
+title: Online CV
 ---
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container row">
         <br><br>
-        <div class="center card-panel white" style="border-radius: 25%; width: 30%;"> 
-          <img src="/assets/images/avdeanlogowhole.png">
+        <div class="center card-panel white" style="border-radius: 25%; width: 30%; margin: auto;"> 
+          <img src="/assets/images/avdeanlogowhole.png" style="margin: auto;">
         </div>
         <h3 class="center white-text">Ant Villa Dean - Online CV</h3>
 <!--
