@@ -12,7 +12,7 @@ title: Online CV
         <div class="center card-panel hide-on-small-only white" style="border-radius: 25px; width:30%; margin: auto;"> 
           <img src="/assets/images/avdeanlogowhole.png" style="margin:auto; width:100%">
         </div>
-        <h3 class="center white-text">Ant Villa Dean - Online CV</h3>
+        <h3 class="center white-text">Ant Villa Dean <br>Online CV</h3>
 <!--
         <div class="row center">
           <h5 class="header col s12 light">For any technical needs you may have!</h5>
