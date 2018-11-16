@@ -16,7 +16,15 @@ title: Online CV
           <h3 class="center">Useful Skills</h3>
         <div class="row center">
           <div class="row">
-                 <div class="col l3">
+                 <div class="col l2">
+                   <div class="card-panel cyan z-depth-2">
+                     <span class="white-text">
+                      <i class="large material-icons">camera_alt</i>
+                      <p>Photography</p>
+                     </span>
+                   </div>
+                 </div>
+                 <div class="col l2">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">opacity</i>
@@ -24,7 +32,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l3">
+                 <div class="col l2">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">text_fields</i>
@@ -32,7 +40,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l3">
+                 <div class="col l2">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                        <i class="large material-icons">edit</i>
@@ -40,7 +48,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l3">
+                 <div class="col l2">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">show_chart</i>
@@ -48,6 +56,14 @@ title: Online CV
                      </span>
                    </div>
                  </div>
+                 <div class="col l2">
+                   <div class="card-panel cyan z-depth-2">
+                     <span class="white-text">
+                      <i class="large material-icons">cloud</i>
+                      <p>Google Cloud Suite</p>
+                     </span>
+                   </div>
+                 </div>                 
                  <div class="col l2">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
