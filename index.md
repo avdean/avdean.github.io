@@ -129,7 +129,7 @@ title: Online CV
           <h3 class="center">Useful Skills</h3>
         <div class="row center">
           <div class="row">
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">camera_alt</i>
@@ -137,7 +137,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">opacity</i>
@@ -145,7 +145,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">text_fields</i>
@@ -153,7 +153,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                        <i class="large material-icons">edit</i>
@@ -161,7 +161,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">show_chart</i>
@@ -169,7 +169,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">cloud</i>
@@ -177,7 +177,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>                 
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                        <i class="large material-icons">record_voice_over</i>
@@ -185,7 +185,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">http</i>
@@ -193,7 +193,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">color_lens</i>
@@ -201,7 +201,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">code</i>
@@ -209,7 +209,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">people</i>
@@ -217,7 +217,7 @@ title: Online CV
                      </span>
                    </div>
                  </div>
-                 <div class="col l2">
+                 <div class="col s6">
                    <div class="card-panel cyan z-depth-2">
                      <span class="white-text">
                       <i class="large material-icons">language</i>
