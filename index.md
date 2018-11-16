@@ -8,12 +8,12 @@ title: Online CV
 <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <h1 class="header center">Useful Skills</h1>
+        <h1 class="header center">Ant Villa Dean - Online CV</h1>
         <div class="row center">
-          <p class="header col s12">I am a firm believer of learning while you work. Taking a jack-of-all trades approach to learning, I have acquired a number of skills over the years.
-            <br>Below you can find just a few of the most useful skills I have learned since creating this website.</p>
+          <p class="col s12">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
+            <br>Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
         </div>
-        <br><br>
+          <h3 class="center">Useful Skills</h3>
         <div class="row center">
           <div class="row">
                  <div class="col l3">
