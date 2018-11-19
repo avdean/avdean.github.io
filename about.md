@@ -10,7 +10,7 @@ title: About Me
         <div class="center card-panel hide-on-small-only white" style="border-radius: 25px; width:30%; margin: auto;"> 
           <img src="/assets/images/avdeanlogowhole.png" style="margin:auto; width:100%">
         </div>
-        <h3 class="center white-text">About Me</h3>
+        <h3 class="center white-text">Ant Villa Dean - Online Profiles</h3>
 <!--
         <div class="row center">
           <h5 class="header col s12 light">For any technical needs you may have!</h5>
@@ -44,8 +44,8 @@ title: About Me
       </div>
     </div>
   </div>
-<!-- Parallax -->
-  <div class="parallax-container valign-wrapper>
+<!-- Desktop/Only Parallax -->
+  <div class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
         <div class="row center">
