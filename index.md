@@ -10,11 +10,11 @@ title: Online CV
       <div class="container">
         <h1 class="header center">Ant Villa Dean</h1>
         <div class="row center">
-          <h5 class="col s12">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
-            <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</h5>
+          <p class="col s12">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
+            <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
         </div>
         <div class="row center">
-          <h3 class="center">Useful Skills</h3>
+          <h4 class="center">Useful Skills</h4>
         <div class="center" style="padding-right: 25%; padding-left: 25%; padding-top: 10px;">
                     <div class="chip white-text chitty">Photography</div>
                     <div class="chip white-text chitty">Photoshop</div>
