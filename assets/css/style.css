@@ -86,6 +86,11 @@ font-family: 'Quicksand', sans-serif;
   font-family: 'Quicksand', sans-serif;
 }
 
+/* Gradient Background */
+.chitty {
+  background-image: linear-gradient(to right, #F7971E , #FFD200);
+  font-family: 'Quicksand', sans-serif;
+  }
 
 /* Start of Masonry */
 @media only screen and (max-width : 600px) {
