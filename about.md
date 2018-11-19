@@ -44,39 +44,8 @@ title: About Me
       </div>
     </div>
   </div>
-  <div class="container hide-on-large-only">
-        <div class="row center">
-          <h2 class="header col s12 light">Fun Facts About Me</h2>
-        </div>
-        <div class="row center">
-                <div class="col m4">
-                  <div class="card-panel pink z-depth-2">
-                   <i class="large material-icons white-text">favorite</i>
-                    <span class="white-text">
-                     <p>I moved to Madrid back in 2013 for love, and can happily say that my reasons for being here remain the same.</p>
-                    </span>
-                  </div>
-                </div>
-                 <div class="col m4">
-                   <div class="card-panel pink z-depth-2">
-                    <i class="large material-icons white-text">music_note</i>
-                     <span class="white-text">
-                      <p>Having played guitar since I was young, I once performed an open-mic night back in University to pay for beer. Evidence can still be found on YouTube with the right keywords.</p>
-                     </span>
-                   </div>
-                 </div>
-                 <div class="col m4">
-                   <div class="card-panel pink z-depth-2">
-                    <i class="large material-icons white-text">error</i>
-                     <span class="white-text">
-                      <p>I once offered my CV in a Spanish version, however lax translation lead to the CV claiming that I had proudly murdered a total of 12 weddings.</p>
-                     </span>
-                   </div>
-                 </div>
-        </div>
-      </div>
-<!-- Desktop/Only Parallax -->
-  <div class="parallax-container valign-wrapper hide-on-med-and-down">
+<!-- Parallax -->
+  <div class="parallax-container valign-wrapper>
     <div class="section">
       <div class="container">
         <div class="row center">
