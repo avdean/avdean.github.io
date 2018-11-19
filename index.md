@@ -33,7 +33,7 @@ title: Online CV
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="./assets/images/StockLens.jpg" /></div>
+    <div class="parallax"><img src="/assets/images/StockLens.jpg" /></div>
   </div>
 
 <
