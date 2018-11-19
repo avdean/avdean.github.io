@@ -16,8 +16,6 @@ title: Online CV
         <div class="row center">
           <h3 class="center">Useful Skills</h3>
         <div class="center" style="padding-right: 25%; padding-left: 25%; padding-top: 10px;">
-<!--                  {% for tag in site.tags  %}
--->
                     <div class="chip white-text chitty">Photography</div>
                     <div class="chip white-text chitty">Photoshop</div>
                     <div class="chip white-text chitty">Copywriting</div>
@@ -31,8 +29,6 @@ title: Online CV
                     <div class="chip white-text chitty">Jekyll</div>
                     <div class="chip white-text chitty">Coordination</div>
                     <div class="chip white-text chitty">Diplomacy</div>
-<!--                  {% endfor  %}
--->  
         </div>
         </div>
       </div>
