@@ -5,7 +5,7 @@
 layout: default
 title: Online CV
 ---
- <div id="index-banner" class="parallax-container valign-wrapper"  style="height:750px;">
+ <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
         <h1 class="header center">Ant Villa Dean</h1>
@@ -71,7 +71,7 @@ title: Online CV
       <div class="container">
         <div class="row center">
           <h5 class="header col s12 light hide-on-small-only">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session. I've gained an  appreciation for good web design, and actually enjoy coding when given the chance.</h5>
-          <h5 class="header col s12 light hide-on-med-and-up" style="margin-top: -10%">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session.</h5>
+          <h5 class="header col s12 light hide-on-med-and-up">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session.</h5>
         </div>
       </div>
     </div>
