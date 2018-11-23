@@ -1,17 +1,18 @@
 ---
 layout: post
-title: 'Migrating to Jekyll'
-date: 2018-11-11
-description: 'My experience moving my site to an SSG'
-image: 'https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541954989/signs.jpg'
-category: 'Web Design'
+title: Migrating to Jekyll
+date: {}
+description: My experience moving my site to an SSG
+image: >-
+  https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541954989/signs.jpg
+category: Web Design
 tags:
-- SSG
-- HTML Code
-- Jekyll
-categories:
-twitter_text: ''
-introduction: 'My experience moving my site to an SSG'
+  - SSG
+  - HTML Code
+  - Jekyll
+categories: null
+introduction: My experience moving my site to an SSG
+published: true
 ---
 <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@austinchan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Austin Chan"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Austin Chan</span></a>
 
@@ -23,15 +24,15 @@ Of course, as the site grew, the need for something dynamic became much more app
 Better yet, it turned out to be surprisingly easy to pick up Jekyll; though there were a number of hurdles in the beginning. 
 <ol>
   <li><strong>Installing Jekyll</strong><br>
-<p>Unlike creating HTML from scratch, you can't simply open the HTML page when finished (because it's not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see you're finished page. I've read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing it via the command line.</p></li>
+<p>Unlike creating HTML from scratch, you can't simply open the HTML page when finished (because it's not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see your finished page. I've read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing it via the command line.</p></li>
 
 <li><strong>The Command Line</strong><br>
-<p>If you're not comfortable navigating the command line, it can be a little daunting. Fortunately, there's not much call for it once you've installed Jekyll. The only thing you need to do is <em>cd</em> (change directory) to the folder holding your website, and type <em>Jekyll build</em> or <em>Jekyll serve</em> once there. ("build": build's the site in the \_site folder, "serve" build's the site and displays it on the URL: localhost:4000). Since it's direct, <em>Jekyll serve</em> does the job quite nicely and you can check your changes live.</p></li>
+<p>If you're not comfortable navigating the command line, it can be a little daunting. Fortunately, there's not much call for it once you've installed Jekyll. The only thing you need to do is <code>cd</code> (change directory) to the folder holding your website, and type <em>Jekyll build</em> or <code>Jekyll serve</code> once there. ("build": build's the site in the \_site folder, "serve" build's the site and displays it on the URL: localhost:4000). Since it's direct, <code>Jekyll serve</code> does the job quite nicely and you can check your changes live.</p></li>
 
 <li><strong>Way of Thinking</strong><br>
 <p>You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need. There are two main versions of this, \_Layouts and \_Includes.</p>
-<p>\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <em>< head ></em> elements, <em>< link rel="" ></em> codes and your <em>script</em> codes.</p>
-<p>\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <em>< header >, < footer ></em> elements come to mind a lot here.</p>
+<p>\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code><head></code> elements, <em>< link rel="" ></em> codes and your <code>script</code> codes.</p>
+<p>\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> <header>, <footer></code> elements come to mind a lot here.</p>
 <p>The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let's say you have 6 different pages and you've added a 7th, you only need to change the header and footer elements once (found in the \_Includes) folder in order For the change to be applied to your entire website.
   It's a pretty nice deal all things considered.</p></li>
 
