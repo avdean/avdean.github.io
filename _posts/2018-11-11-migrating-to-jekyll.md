@@ -22,24 +22,24 @@ I had already been looking at ways to work with more dynamic technologies, howev
 Of course, as the site grew, the need for something dynamic became much more apparent. In the last few years, there's been a lot of chatter regarding Static Site Generators (SSGs). Basically, an SSG creates a webpage in parts and does it before the user sees it (There are much more <a href="https://css-tricks.com/building-a-jekyll-site-part-1-of-3/">technical blogs</a> that explain this in greater detail), but the point is that it's supposed to be more secure, and easier to deal with. The downside is that you're left without a standard CMS option, minus writing in Markdown, though I've also read that this has been remedied in newer SSGs and hosting pages (Netlify and Gatsby comes to mind here).
 
 Better yet, it turned out to be surprisingly easy to pick up Jekyll; though there were a number of hurdles in the beginning. 
-<ol>
-  <li><strong>Installing Jekyll</strong><br>
+
+<strong>### Installing Jekyll</strong><br>
 <p>Unlike creating HTML from scratch, you can't simply open the HTML page when finished (because it's not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see your finished page. I've read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing it via the command line.</p></li>
 
-<li><strong>The Command Line</strong><br>
-<p>If you're not comfortable navigating the command line, it can be a little daunting. Fortunately, there's not much call for it once you've installed Jekyll. The only thing you need to do is <code>cd</code> (change directory) to the folder holding your website, and type <code>Jekyll build</code> or <code>Jekyll serve</code> once there. ("build": build's the site in the \_site folder, "serve" build's the site and displays it on the URL: localhost:4000). Since it's direct, <code>Jekyll serve</code> does the job quite nicely and you can check your changes live.</p></li>
+<strong>### The Command Line</strong><br>
+If you're not comfortable navigating the command line, it can be a little daunting. Fortunately, there's not much call for it once you've installed Jekyll. The only thing you need to do is <code>cd</code> (change directory) to the folder holding your website, and type <code>Jekyll build</code> or <code>Jekyll serve</code> once there. ("build": build's the site in the \_site folder, "serve" build's the site and displays it on the URL: localhost:4000). Since it's direct, <code>Jekyll serve</code> does the job quite nicely and you can check your changes live.
 
-<li><strong>Way of Thinking</strong><br>
-<p>You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need. There are two main versions of this, \_Layouts and \_Includes.</p>
-<p>\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code> <head> </code> elements, <code>< link rel="" ></code> codes and your <code>script</code> codes.</p>
-<p>\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> <header>, <footer> </code> elements come to mind a lot here.</p>
-<p>The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let's say you have 6 different pages and you've added a 7th, you only need to change the header and footer elements once (found in the \_Includes) folder in order For the change to be applied to your entire website.
-  It's a pretty nice deal all things considered.</p></li>
+<strong>### Way of Thinking</strong><br>
+You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need. There are two main versions of this, \_Layouts and \_Includes.
+\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code> <head> </code> elements, <code>< link rel="" ></code> codes and your <code>script</code> codes.</p>
+\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> <header>, <footer> </code> elements come to mind a lot here.
+  The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let's say you have 6 different pages and you've added a 7th, you only need to change the header and footer elements once (found in the \_Includes) folder in order For the change to be applied to your entire website.
+  It's a pretty nice deal all things considered.
 
-<li><strong>YAML and Liquid</strong><br>
-<p><a href="http://yaml.org/">YAML</a> is the language that Jekyll uses in order to actually read to your files and fortunately it's a pretty easy language to understand, you pretty much define your points in a file called config.yml and that lives in your root folder. There is also Liquid, which is a templating language and that's how Jekyll calls in your HTML snippets, and even allows for certain conditionals so there's a dynamic element to it.</p>
-<p>For a better explanation, definitely check out <a href="https://shopify.github.io/liquid/basics/introduction">Liquid's Official Documentation</a></p>
-<p>Because of this dynamic nature, it also means that Jekyll handles blog posts with just as much ease, though initially trying to get it to work first-time took a lot of abstract thinking since you need to understand how `for loops` work which is very much in scripting territory.</p></li>
-</ol>
+<strong>### YAML and Liquid</strong><br>
+<a href="http://yaml.org/">YAML</a> is the language that Jekyll uses in order to actually read to your files and fortunately it's a pretty easy language to understand, you pretty much define your points in a file called config.yml and that lives in your root folder. There is also Liquid, which is a templating language and that's how Jekyll calls in your HTML snippets, and even allows for certain conditionals so there's a dynamic element to it.
+For a better explanation, definitely check out <a href="https://shopify.github.io/liquid/basics/introduction">Liquid's Official Documentation</a>
+Because of this dynamic nature, it also means that Jekyll handles blog posts with just as much ease, though initially trying to get it to work first-time took a lot of abstract thinking since you need to understand how `for loops` work which is very much in scripting territory.
+
 
 Since I'm still getting to grips with how Jekyll can work, I wouldn't feel comfortable writing a proper how-to on setting up a simple page, however, coupled with a basic framework system I can image it can be pretty easy building out a boilerplate page.
