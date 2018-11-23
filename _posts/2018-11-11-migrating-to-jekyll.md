@@ -24,15 +24,15 @@ Of course, as the site grew, the need for something dynamic became much more app
 Better yet, it turned out to be surprisingly easy to pick up Jekyll; though there were a number of hurdles in the beginning. 
 
 <strong>### Installing Jekyll</strong><br>
-<p>Unlike creating HTML from scratch, you can't simply open the HTML page when finished (because it's not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see your finished page. I've read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing it via the command line.</p></li>
+Unlike creating HTML from scratch, you can't simply open the HTML page when finished (because it's not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see your finished page. I've read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing it via the command line.
 
 <strong>### The Command Line</strong><br>
 If you're not comfortable navigating the command line, it can be a little daunting. Fortunately, there's not much call for it once you've installed Jekyll. The only thing you need to do is <code>cd</code> (change directory) to the folder holding your website, and type <code>Jekyll build</code> or <code>Jekyll serve</code> once there. ("build": build's the site in the \_site folder, "serve" build's the site and displays it on the URL: localhost:4000). Since it's direct, <code>Jekyll serve</code> does the job quite nicely and you can check your changes live.
 
 <strong>### Way of Thinking</strong><br>
 You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need. There are two main versions of this, \_Layouts and \_Includes.
-\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code> <head> </code> elements, <code>< link rel="" ></code> codes and your <code>script</code> codes.</p>
-\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> <header>, <footer> </code> elements come to mind a lot here.
+\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code> < head > </code> elements, <code>< link rel="" ></code> codes and your <code>script</code> codes.</p>
+\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> < header >, < footer > </code> elements come to mind a lot here.
   The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let's say you have 6 different pages and you've added a 7th, you only need to change the header and footer elements once (found in the \_Includes) folder in order For the change to be applied to your entire website.
   It's a pretty nice deal all things considered.
 
