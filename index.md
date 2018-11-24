@@ -1,9 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: Online CV
+published: true
 ---
  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section">
@@ -14,8 +12,8 @@ title: Online CV
             <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
         </div>
         <div class="row center">
-          <h4 class="center">Useful Skills</h4>
-        <div class="center" style="padding-right: 25%; padding-left: 25%; padding-top: 10px;">
+          <h4 class="center">What can I do for you?</h4>
+        <div class="center" style="padding-right: 25%; padding-left: 25%; padding-top: 10px;">
                     <div class="chip white-text chitty">Photography</div>
                     <div class="chip white-text chitty">Photoshop</div>
                     <div class="chip white-text chitty">Copywriting</div>
