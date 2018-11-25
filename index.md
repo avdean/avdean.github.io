@@ -27,14 +27,14 @@ title: Online CV
                     <div class="chip white-text chitty">Jekyll</div>
                     <div class="chip white-text chitty">Coordination</div>
                     <div class="chip white-text chitty">Diplomacy</div>
-        </div
+        </div>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="/assets/images/StockLens.jpg" /></div>
   </div>
 
-<
+
 
   <!--   Container Section   -->
   <div class="container">
