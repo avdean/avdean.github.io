@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Online CV
-published: true
+
 ---
  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section">
@@ -27,7 +27,7 @@ published: true
                     <div class="chip white-text chitty">Jekyll</div>
                     <div class="chip white-text chitty">Coordination</div>
                     <div class="chip white-text chitty">Diplomacy</div>
-        </div>
+        </div
         </div>
       </div>
     </div>
