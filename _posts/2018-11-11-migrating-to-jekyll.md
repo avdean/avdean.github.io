@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating to Jekyll
-date: {}
+date: 2018-11-11
 description: My experience moving my site to an SSG
 image: >-
   https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541954989/signs.jpg
