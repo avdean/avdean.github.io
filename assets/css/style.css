@@ -105,3 +105,11 @@ html.sr .load-hidden {
   visibility: hidden;
 }
 
+.mini-container {
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+code {
+  background-color: #b2dfdb;
+}
