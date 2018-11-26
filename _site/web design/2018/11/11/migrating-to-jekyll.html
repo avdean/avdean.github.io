@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>AntVD.Space - Migrating to Jekyll</title>
+  <meta name="description" content="My experience moving my site to an SSG">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css">
+  <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <!-- Preloader Overlay code -->
+
+  <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar with Dropdown Menu Code -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="/" class="brand-logo center-align"><img src="/assets/images/avdeanlogo.png" style="width:50%;"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/career">Career</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <ul class="left hide-on-desktop-only">
+        <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a></li>
+      </ul>
+      <!-- Mobile Site Navbar -->
+      <ul id="slide-out" class="sidenav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/career">Career</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li class="divider"></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- end of nav bar -->
+
+
+<div id="index-banner">
+
+
+
+
+<div class="container container-main">
+	<div class="post content">
+		<div class="row">
+			<div class="col s12">
+        <div class="col s10 offset-s1" >
+          <div class="col s5 m5 l5 xl4">
+            <p class="grey-text text-lighten-1 valign-wrapper">
+              <i class="material-icons">today </i> &nbsp; 
+
+
+11 November 2018
+
+            </p>
+          </div>
+          <div class="col s7 m7 l7 xl8">
+            <p class="grey-text text-lighten-1 valign-wrapper">
+              <i class="material-icons">access_time </i> &nbsp;5 minutes to read
+            </p>
+          </div>
+					<h2 class="post-title col s12">Migrating to Jekyll</h2>
+					<p class="flow-text grey-text text-lighten-1 col s12">My experience moving my site to an SSG</p>
+					<img class="center-align" style="width: 100%;" src="https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541954989/signs.jpg">
+					<p><a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@austinchan?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Austin Chan"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Austin Chan</span></a></p>
+
+<p>I mentioned this in my previous post, but moving to an SSG was a long time coming. 
+I had already been looking at ways to work with more dynamic technologies, however everywhere I read wrote about how overkill it was to learn something like React or Ruby considering it was for a simple site.</p>
+
+<p>I suppose that kind of made sense, in the same way, you wouldn’t use a blowtorch to light candles. (Don’t get me a wrong I still have plans to learn React, especially as I’ve heard good things about <a href="https://www.gatsbyjs.com/">Gatsby.js</a>.)</p>
+
+<p>Of course, as the site grew, the need for something dynamic became much more apparent.</p>
+
+<p>In the last few years, there’s been a lot of chatter regarding Static Site Generators (SSGs). Basically, an SSG creates a webpage in parts and does it before the user sees it (There are much more <a href="https://css-tricks.com/building-a-jekyll-site-part-1-of-3/">technical blogs</a> that explain this in greater detail), but the point is that it’s supposed to be more secure, and easier to deal with.</p>
+
+<p>The downside is that you’re left without a standard CMS option, minus writing in Markdown, though I’ve also read that this has been remedied in newer SSGs and hosting pages (Netlify and Gatsby comes to mind here).</p>
+
+<p>Better yet, it turned out to be surprisingly easy to pick up Jekyll; though there were a number of hurdles in the beginning.</p>
+
+<h4 id="installing-jekyll">Installing Jekyll</h4>
+<p>Unlike creating HTML from scratch, you can’t simply open the HTML page when finished (because it’s not actually constructed yet). You need Jekyll (and in a sense Ruby) in order to run on your system, to do the constructing to see your finished page.</p>
+
+<p>I’ve read that it CAN be difficult installing Jekyll on Windows, but it was a breeze getting it working on Linux since it was a simple case of installing all the dependancies via the command line.</p>
+
+<h4 id="the-command-line">The Command Line</h4>
+<p>If you’re not comfortable navigating the command line, it can be a little daunting. 
+Fortunately, there’s not much call for it once you’ve installed Jekyll.</p>
+
+<p>The only thing you need to do is <code>cd</code> (change directory) to the folder holding your website via the terminal (or easier yet, open the folder in a terminal directly.) Once there, you can either type in the terminal: <code>Jekyll build</code> or <code>Jekyll serve</code>.</p>
+
+<p>A short explanation here:<br />
+<code>build</code>: builds the site in the _site folder, while <code>serve</code> build’s the site on a server offline and displays it on the URL: localhost:4000.</p>
+
+<p>Since it’s direct, <code>Jekyll serve</code> does the job quite nicely and you can check your changes live.</p>
+
+<h4 id="way-of-thinking">Way of Thinking</h4>
+<p>You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG’s are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need.</p>
+
+<p>There are two main versions of this, _Layouts and _Includes.</p>
+
+<p>_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code> &lt; head &gt; </code> elements, <code>&lt; link rel="" &gt;</code> codes and your <code>script</code> codes.</p>
+
+<p>_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> &lt; header &gt;, &lt; footer &gt; </code> elements come to mind a lot here.</p>
+
+<p>The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let’s say you have 6 different pages and you’ve added a 7th, you only need to change the header and footer elements once (found in the _Includes) folder in order For the change to be applied to your entire website.</p>
+
+<p>It’s a pretty nice deal all things considered.</p>
+
+<h4 id="yaml-and-liquid">YAML and Liquid</h4>
+<p><a href="http://yaml.org/">YAML</a> is the language that Jekyll uses in order to actually read to your files and fortunately it’s a pretty easy language to understand, you pretty much define your points in a file called config.yml and that lives in your root folder.</p>
+
+<p>There is also Liquid, which is a templating language and that’s how Jekyll calls in your HTML snippets, and even allows for certain conditionals so there’s a dynamic element to it.</p>
+
+<p>For a better explanation, definitely check out <a href="https://shopify.github.io/liquid/basics/introduction">Liquid’s Official Documentation</a></p>
+
+<p>Because of this dynamic nature, it also means that Jekyll handles blog posts with just as much ease, though initially trying to get it to work first-time took a lot of abstract thinking since you need to understand how <code class="highlighter-rouge">for loops</code> work which is very much in scripting territory.</p>
+
+<p>Since I’m still getting to grips with how Jekyll can work, I wouldn’t feel comfortable writing a proper how-to on setting up a simple page, however, coupled with a basic framework system I can image it can be pretty easy building out a boilerplate page.</p>
+
+				</div>
+			</div>
+		</div>
+		<section class="row">
+  <div class="col s12 valign-wrapper">
+    <div class="col s10 offset-s1">
+      <h4>Share</h4>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/web%20design/2018/11/11/migrating-to-jekyll.html" class="btn-floating btn-large waves-effect waves-light blue" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/web%20design/2018/11/11/migrating-to-jekyll.html%20via%20&#64;&hashtags=SSG,HTML Code,Jekyll," class="btn-floating btn-large waves-effect waves-light blue" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="share on Twitter" >
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+    <br><br>
+    <section class="row valign-wrapper" itemprop="author">
+  <div class="ol s12" itemscope itemtype="http://schema.org/Person">
+    <div class="col s12 m4 offset-m1 l4 offset-l1">
+      <img itemprop="image" src="/assets/images/profile.png" alt="Ant Villa Dean" class="circle author-img responsive-img">
+    </div>
+    <div class="col s12 m7 author-info">
+      <img src="/assets/images/avdeanlogowhole.png" style="width:50%; margin-left: -10%;">
+      <h6>Ant Villa Dean</h6>
+      <p class="author-description">Anthony is a photographer/copywriter/tech geek living in Madrid. who has made a living working up in the digital sector. </p>
+      <div class="contact-info">
+        <a class="btn-floating btn-large waves-effect waves-light pink" href="https://github.com/avdean" class="social-media-icon" target="_blank">
+        <i class="fab fa-github"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light pink" href="https://500px.com/antvilladean" class="social-media-icon" target="_blank">
+        <i class="fab fa-500px"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light pink" href="https://www.unsplash.com/antvd_captured" class="social-media-icon" target="_blank">
+        <i class="material-icons">camera_alt</i></a>
+        <a class="btn-floating btn-large waves-effect waves-light pink" href="https://www.instagram.com/antvd.captured" class="social-media-icon" target="_blank">
+        <i class="fab fa-instagram"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light pink" href="https://www.linkedin.com/in/antvilladean" class="social-media-icon" target="_blank">
+        <i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+	</div>
+</div>
+
+<section class="comments container">
+  <div class="row">
+    <div class="col s12">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Comments</span>
+          <div id="disqus_thread"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://antvilladean.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+
+  <footer class="page-footer white">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+        </div>
+        <div class="col l3 s12">
+          <h5 class="grey-text text-darken-3">Online Profile</h5>
+          <ul>
+            <li><a class="teal-text text-darken-4" href="https://www.linkedin.com/in/antvilladean/" alt="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a class="teal-text text-darken-4" href="https://github.com/avdean" alt="GitHub" title="GitHub"><i class="fab fa-github"></i> Github</a></li>
+            <li><a class="teal-text text-darken-4" href="https://500px.com/antvilladean" alt="500px" title="500px"><i class="fab fa-500px"></i> 500px</a></li>
+            <li><a class="teal-text text-darken-4" href="https://www.instagram.com/antvd.captured/" alt="Instagram" title="Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a class="teal-text text-darken-4" href="https://www.unsplash.com/antvd.captured/" alt="Unsplash" title="Unsplash"><i class="tiny material-icons">camera_alt</i> Unsplash</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12 hide-on-small-only">
+          <h5 class="grey-text text-darken-3">Site Navigation</h5>
+          <ul>
+            <li><a class="teal-text text-darken-4" href="/index">Home</a></li>            
+            <li><a class="teal-text text-darken-4" href="/projects">Projects</a></li>
+            <li><a class="teal-text text-darken-4" href="/career">Career</a></li>
+            <li><a class="teal-text text-darken-4" href="/services">Services</a></li>
+            <li><a class="teal-text text-darken-4" href="/about">About Me</a></li>
+            <li><a class="teal-text text-darken-4" href="/blog">Blog</a></li>
+            <li><a class="teal-text text-darken-4" href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <span class="teal-text text-darken-4">Powered by </span><a class="pink-text text-darken-3" href="http://materializecss.com">Materialize CSS and Jekyll</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="/assets/js/materialize.js"></script>
+  <script src="/assets/js/init.js"></script>
+
+</body>
+
+</html>
