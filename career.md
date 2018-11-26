@@ -14,11 +14,11 @@ title: Career
                <img class="activator" src="/assets/career/careersimg/stubhubnew.png">
              </div>
              <div class="card-content">
-               <span class="card-title activator grey-text text-darken-3"><h6>2017 - 2018:<br>StubHub (eBay)</h6>UK + Intl. Partnership Content Coordinator<i class="material-icons right">more_vert</i></span>
+               <span class="card-title activator grey-text text-darken-3"><h6>2017 - 2018:<br>StubHub (eBay)</h6>Intl. Partnership Content Coordinator<i class="material-icons right">more_vert</i></span>
                <p>Reveal more</p>
              </div>
              <div class="card-reveal">
-               <span class="card-title grey-text text-darken-3"><strong> StubHub Intl.</strong><i class="material-icons right">close</i></span>
+               <span class="card-title grey-text text-darken-3"><strong> StubHub (eBay)</strong><i class="material-icons right">close</i></span>
                <p><strong>2017 - Current<br>UK + Intl. Partnership Content Coordinator</strong><br><em>Calle Don Ramon de la Cruz, 84, Madrid, Spain</em></p>
                <p style="font-size:85%">To deal with an increase of demand from the UK market, alongside an increase of demand from our growing Partnership department, I was promoted to UK + Intl. Partnership Content Coordinator. My role's main objective is to facilitate and coordinate the needs of both entities to my department, Organic Growth. A role essentially split into two, the partnership side involves connecting the Partnership team to our Content Specialists, designating more complicated asks to the various product departments that StubHub has, our design team, our SEO team, and the Localisation team. In a sense, it is my job to ensure each partnership's onpage treatment goes as smoothly as possible.</p>
              </div>
@@ -36,7 +36,7 @@ title: Career
                <p>Reveal more</p>
              </div>
              <div class="card-reveal">
-               <span class="card-title grey-text text-darken-3"><strong> StubHub Intl.</strong><i class="material-icons right">close</i></span>
+               <span class="card-title grey-text text-darken-3"><strong> StubHub (eBay)</strong><i class="material-icons right">close</i></span>
                <p><strong>2016 - 2017<br>UK Content Specialist</strong><br><em>Calle Don Ramon de la Cruz, 84, Madrid, Spain</em></p>
                <p style="font-size:85%">In 2016, Ticketbis was bought by StubHub, (with itself standing as a sub-division of Ebay). With content editors being given clearer roles, and specialising countries futher, Content Specialists would actually handle Content, Catalogue and Localisation. Considering StubHub already had a UK office, with an entire Customer Service department based in Dublin, the workload demand and pressure to succeed grew higher. Working in both the Ticketbis CMS alongside StubHub's own, I began learning and using StubHub's CMS for both content and catalogue, with Worldserver and LQA testing standing as the new way to deal with translations and localisation. Having to represent the International team from the beginning, I took a much more active role regarding meetings with the UK office, especially when supporting our SEO team.</p>
              </div>
