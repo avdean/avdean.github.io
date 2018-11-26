@@ -59,8 +59,12 @@ The great thing is that there are no set rules on how this is done and you can c
 It's a pretty nice deal all things considered.
 
 #### YAML and Liquid
-<a href="http://yaml.org/">YAML</a> is the language that Jekyll uses in order to actually read to your files and fortunately it's a pretty easy language to understand, you pretty much define your points in a file called config.yml and that lives in your root folder. There is also Liquid, which is a templating language and that's how Jekyll calls in your HTML snippets, and even allows for certain conditionals so there's a dynamic element to it.
+<a href="http://yaml.org/">YAML</a> is the language that Jekyll uses in order to actually read to your files and fortunately it's a pretty easy language to understand, you pretty much define your points in a file called config.yml and that lives in your root folder. 
+
+There is also Liquid, which is a templating language and that's how Jekyll calls in your HTML snippets, and even allows for certain conditionals so there's a dynamic element to it.
+
 For a better explanation, definitely check out <a href="https://shopify.github.io/liquid/basics/introduction">Liquid's Official Documentation</a>
+
 Because of this dynamic nature, it also means that Jekyll handles blog posts with just as much ease, though initially trying to get it to work first-time took a lot of abstract thinking since you need to understand how `for loops` work which is very much in scripting territory.
 
 
