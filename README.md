@@ -18,7 +18,7 @@ That being said, I do have my own personal Pros and Cons of the framework.
 	**Cons**
 	* It does have its fair share of bugs, usually found by tweaking too much
 	* Diverging too far from Materialize CSS's main design aspects results in breaking something
-	* Aside from the main page which is indeed excellent, the documentation regarding Materialize CSS is sparse
+	* Aside from their website which is indeed excellent, the documentation regarding Materialize CSS is sparse
 	* I can see how the layout and general look and feel of Materialize (and in a sense Material Design) 
 	  can be quite homogenising for web design.
 
