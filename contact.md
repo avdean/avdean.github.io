@@ -14,12 +14,10 @@ title: Contact
               <span class="card-title">Ant Villa Dean</span>
             </div>
           </div>
-        </div>
-        <div class="col m8 l8">
-          <div class="col s12" style="margin-top: -2%;">
             <h4 class="hide-on-small-only">Based in Madrid, Spain</h4>
             <h5 class="hide-on-med-and-up center">Based in Madrid, Spain</h5>
-          </div>
+        </div>
+        <div class="col m8 l8">
           <div class="col s12 hide-on-med-and-down">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97173.97825996262!2d-3.7495760673030545!3d40.43793316645201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid%2C+Spain!5e0!3m2!1sen!2sus!4v1540973764456" class="z-depth-2" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>

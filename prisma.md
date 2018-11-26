@@ -9,7 +9,7 @@ title: Prisma
         <div class="grid-sizer"></div>
 		{% for image in site.static_files %}
 		    {% if image.path contains 'projects/prisma' %}
-              <div class="grid-item"  style="padding-left: 25px;">
+              <div class="grid-item"  style="padding-left: 10px; padding-right: 10px;">
               <div class="card">
                 <div class="card-image">
 		       			 <img src="{{ site.baseurl }}{{ image.path }}" alt="image"  class="responsive-img" />

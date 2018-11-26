@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Online CV
+title: Ant Villa Dean - Online CV
 
 ---
  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
-        <h1 class="header center">Ant Villa Dean</h1>
+        <h1 class="header center">AntVD Space<br>Ant Villa Dean</h1>
         <div class="row center">
           <p class="col s12">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
             <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
@@ -68,8 +68,8 @@ title: Online CV
     <div class="section">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light hide-on-small-only">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session. I've gained an  appreciation for good web design, and actually enjoy coding when given the chance.</h5>
-          <h5 class="header col s12 light hide-on-med-and-up">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session.</h5>
+          <p class="header col s12 light hide-on-small-only">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session. I've since gained an  appreciation for good web design, and actually enjoy coding when given the chance.</p>
+          <h6 class="header col s12 light hide-on-med-and-up">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session.</h6>
         </div>
       </div>
     </div>
