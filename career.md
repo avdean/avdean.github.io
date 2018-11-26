@@ -14,7 +14,7 @@ title: Career
                <img class="activator" src="/assets/career/careersimg/stubhubnew.png">
              </div>
              <div class="card-content">
-               <span class="card-title activator grey-text text-darken-3"><h6>2017 - Current:<br>StubHub International</h6>UK + Intl. Partnership Content Coordinator<i class="material-icons right">more_vert</i></span>
+               <span class="card-title activator grey-text text-darken-3"><h6>2017 - 2018:<br>StubHub (eBay)</h6>UK + Intl. Partnership Content Coordinator<i class="material-icons right">more_vert</i></span>
                <p>Reveal more</p>
              </div>
              <div class="card-reveal">
@@ -32,7 +32,7 @@ title: Career
                <img class="activator" src="/assets/career/careersimg/stubhubuk.png">
              </div>
              <div class="card-content">
-               <span class="card-title activator grey-text text-darken-3"><h6>2016 - 2017:<br>StubHub International</h6>UK Content Specialist<i class="material-icons right">more_vert</i></span>
+               <span class="card-title activator grey-text text-darken-3"><h6>2016 - 2017:<br>StubHub (eBay)</h6>UK Content Specialist<i class="material-icons right">more_vert</i></span>
                <p>Reveal more</p>
              </div>
              <div class="card-reveal">
