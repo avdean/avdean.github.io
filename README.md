@@ -1,4 +1,4 @@
-My portfolio site - Ant Villa Dean (TBD)
+My portfolio site - AntVD.Space
 ---
 Without getting into too much detail, I built this website to replace an old blogger website I once had, along with start showcasing certain projects. Since then it grew into a personal website that allows me to explore certain frameworks, and more recently Static-Site-Generators (SSG). The idea of hosting on GitHub simply came about due to being tired of the needless complications that wordpress and it's managerie of plugins. I wanted a simple way to host a couple of simple static pages.
 
@@ -32,7 +32,7 @@ For me the most difficult part was trying to figure out how exactly the blog par
 Things to fix:
 ---
 
-* Domain - I'll be eventually buying a domain name, though I'm not sure I want to use my own name as the domain
+* ~~Domain - I'll be eventually buying a domain name, though I'm not sure I want to use my own name as the domain
 * ~~Masonry.js and ScrollReveal.js - Though they're not really necessary at the moment, I'd like to have them instilled as part of the Photography and Blog parts (Especially)~~
 * Tags - I'm still trying to figure out how tags in Jekyl can be utilised further over the standard index page, I really like Victorpre's use, though I think the best method would be through utilising Isotope.js.
 
