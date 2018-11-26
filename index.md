@@ -6,7 +6,8 @@ title: Ant Villa Dean - Online CV
  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
-        <h1 class="header center">AntVD Space<br>Ant Villa Dean</h1>
+        <h1 class="header center">AntVD.Space</h1>
+        <h3 class="center">Ant Villa Dean</h3>
         <div class="row center">
           <p class="col s12">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
             <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
