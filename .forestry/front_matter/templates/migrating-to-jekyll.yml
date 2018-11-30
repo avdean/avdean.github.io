@@ -1,0 +1,58 @@
+---
+label: Blog Post Template
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+  description: Main image used at the beginning of the blog post
+  config:
+    maxSize: '5'
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+  description: The main description of the post
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+  config:
+    required: true
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: []
+- type: tag_list
+  name: tags
+  label: Tags
+  default: []
+- name: introduction
+  label: Introduction
+  type: text
+  hidden: false
+  default: ''
+  description: This is the opening lines to your blog post, usually the same as description
+    but can be different.
+  config:
+    required: true
+pages:
+- _posts/2018-11-30-broaden-or-focus.md
