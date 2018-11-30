@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ant Villa Dean - Online CV
+title: Ant Villa Dean
 
 ---
  <div id="index-banner" class="parallax-container valign-wrapper">
