@@ -49,7 +49,7 @@ permalink: /projects
                       </a>
                     </div>
                     <div class="card-action">
-                      <a href="{{site.baseurl}}/projects/skylines" class="teal-text text-darken-4">View Gallery</a>
+                      <a href="{{site.baseurl}}/projects/portraits" class="teal-text text-darken-4">View Gallery</a>
                     </div>
                   </div>
                 </div>
