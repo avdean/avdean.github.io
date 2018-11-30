@@ -13,9 +13,14 @@ fields:
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - type: file
   name: image
   label: Image
+  description: Main image used at the beginning of the blog post
+  config:
+    maxSize: '5'
 - name: description
   label: Description
   type: text
@@ -30,17 +35,17 @@ fields:
   label: Category
   type: tag_list
   hidden: false
-  default: ''
-- name: tags
+  default: []
+- type: tag_list
+  name: tags
   label: Tags
-  type: tag_list
-  hidden: false
-  default: ''
+  default: []
 - name: introduction
   label: Introduction
   type: text
   hidden: false
   default: ''
-  description: This is the opening lines to your blog post
+  description: This is the opening lines to your blog post, usually the same as description
+    but can be different.
 pages:
 - _posts/broaden-or-focus.md
