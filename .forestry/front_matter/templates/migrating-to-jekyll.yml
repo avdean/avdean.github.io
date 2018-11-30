@@ -42,3 +42,5 @@ fields:
   hidden: false
   default: ''
   description: This is the opening lines to your blog post
+pages:
+- _posts/broaden-or-focus.md
