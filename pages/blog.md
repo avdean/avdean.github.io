@@ -1,0 +1,63 @@
+---
+layout: defaultmasonry
+title: Blog
+permalink: /blog
+comments: true
+# other options
+---
+  <div id="index-banner">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row grid">
+        <div class="grid-sizer"></div>
+        {% for post in site.posts %}
+          <div class="card-wrapper grid-item" style="padding-left: 25px">
+            <div class="card hoverable">
+              {% if post.image  %}
+                <div class="card-image">
+                  <img src="{{ post.image }}">
+                </div>
+                <div class="btn-menu" style="padding:0px">
+                  <div class="fixed-action-btn horizontal click-to-toggle" style="position:relative; float:right; bottom:30px; right:10px; z-index: 1">
+                    <a class="btn-floating btn-large hoverable blue waves-effect waves-light">
+                      <i class="large material-icons btn-icon">share</i>
+                    </a>
+                    <ul>
+                      <li>
+                      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.follow_baseurl }}{{ post.url }}" class="btn-floating" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </li>                        
+                      <li><a href="https://twitter.com/intent/tweet?{{ site.url }}{{ post.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in post.tags %}{{tag}},{% endfor %}" class="btn-floating twitter-color" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a></li>
+                    </ul>
+                  </div>
+                </div>
+              {% else  %}
+              {% endif %}
+              <div class="card-content">
+                <span class="grey-text text-lighten-1">{% include date.html date=post.date %}</span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="flow-text card-title"><b>{{ post.title }}</b></span></a>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                  <p class="post-description">{{ post.description }}</p>
+                </a>
+                <br>
+                <div class="tags">
+                  {% for tag in post.tags  %}
+                    <a class="tag-name" href="#" data-tag="{{tag | slugify }}"><div class="chip"><b>{{ tag }}</b></div></a>
+                  {% endfor  %}
+                </div>
+              </div>
+              <div class="card-action">
+                <div class="center-align">
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+

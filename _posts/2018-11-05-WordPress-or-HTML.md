@@ -3,8 +3,8 @@ layout: post
 title: 'Wordpress or HTML'
 date: 2018-11-05
 description: 'A short intro about why I built my website'
-main-class: 'jekyll'
 image: 'https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541436045/html_boxes.jpg'
+category: Web Design
 tags:
 - Materialize CSS
 - Web Design
