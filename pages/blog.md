@@ -24,9 +24,9 @@ comments: true
                     </a>
                     <ul>
                       <li>
-                      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}/{{ post.url }}" class="btn-floating" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" class="btn-floating" data-network="facebook" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
                     </li>                        
-                      <li><a href="https://twitter.com/intent/tweet?{{ site.url }}/{{ post.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in post.tags %}{{tag}},{% endfor %}" class="btn-floating twitter-color" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+                      <li><a href="https://twitter.com/intent/tweet?url=https://antvd.space{{ post.url }}&text={{ post.description }}&hashtags={% for tag in post.tags %}{{tag}},{% endfor %}" class="btn-floating twitter-color" data-network="twitter" onclick="window.open(this.href, 'twitter-share','width=580,height=296');return false;" title="Tweet">
                         <i class="fab fa-twitter"></i>
                       </a></li>
                     </ul>
