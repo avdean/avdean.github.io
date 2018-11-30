@@ -11,7 +11,7 @@ comments: true
       <div class="row grid">
         <div class="grid-sizer"></div>
         {% for post in site.posts %}
-          <div class="card-wrapper grid-item" style="padding-left: 25px">
+          <div class="card-wrapper grid-item" style="padding-left: 10px; padding-right: 10px;">
             <div class="card hoverable">
               {% if post.image  %}
                 <div class="card-image">

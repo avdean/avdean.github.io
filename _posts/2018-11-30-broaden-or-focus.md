@@ -2,7 +2,7 @@
 title: To Broaden or Focus
 layout: post
 date: 2018-11-30 09:25:00 +0100
-image: "/uploads/dillon-lobo-716440-unsplash.jpg"
+image: "https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,h_800,x_0/v1543570464/traffic.jpg"
 description: 'A look at both schools of thought: Jack-of-all-trades or Expert artisan'
 category: []
 tags:
