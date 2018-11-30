@@ -26,13 +26,18 @@ fields:
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
+  description: The main description of the post
 - name: date
   label: Date
   type: datetime
   hidden: false
   default: ''
-- name: category
-  label: Category
+  config:
+    required: true
+- name: categories
+  label: Categories
   type: tag_list
   hidden: false
   default: []
@@ -47,5 +52,7 @@ fields:
   default: ''
   description: This is the opening lines to your blog post, usually the same as description
     but can be different.
+  config:
+    required: true
 pages:
 - _posts/broaden-or-focus.md
