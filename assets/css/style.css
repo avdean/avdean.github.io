@@ -80,7 +80,7 @@ font-family: 'Quicksand', sans-serif;
 .coolGradient {
 
  text-transform: uppercase;
-  background: linear-gradient(#007991, #78ffd6);
+  background: linear-gradient(to right, #007991, #78ffd6);
  -webkit-background-clip: text;
    -moz-background-clip: text;
   background-clip: text;
