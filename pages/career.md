@@ -13,7 +13,7 @@ permalink: /career
                       <div class="card">
                           <div class="card-content" style="padding-left: 10%;">
                               <h3 class="coolGradient">{{ jobs.title }}</h3>
-                              <h3 class="coolGradient">{{ jobs.years }}</h3>
+                              <h4 class="coolGradient">{{ jobs.years }}</h4>
                               <h6  class="coolGradient">{{ jobs.company }}</h6>
                               <em>{{ jobs.address }}</em>
                           </div>
