@@ -7,7 +7,7 @@ permalink: /services
     <div class="section">
       <div class="container">
             <div class="col s12" style="padding-bottom:5%;">
-              <h3 class="center">Frontend/Website Setup</h3>
+              <h3 class="center coolGradient">Frontend/Website Setup</h3>
               <p class="center">If you need a quick and fast website / Landing page for your own site, then don't be afraid to get in contact using my handy <a href="{{site.baseurl}}/contact">contact form</a>. As it stands I can create pages for: 
                 <ul class="center">
                   <li class="chip white-text chitty">Restaurants</li>
@@ -19,7 +19,7 @@ permalink: /services
               <p class="center">Check out the <a href="{{site.baseurl}}/projects">projects page</a> to see the websites I have created alongside this one.</p>
             </div>        
             <div class="col s12">
-            <h3 class="center">Other jobs that I can offer</h3>
+            <h3 class="center coolGradient" style="padding-bottom: 2%;">Other jobs that I can offer</h3>
             </div>
             <div class="carousel carousel-slider center" data-flickity='{ "autoPlay": true }'>
                 <!--

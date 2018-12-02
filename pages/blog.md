@@ -19,7 +19,7 @@ comments: true
                 </div>
                 <div class="btn-menu" style="padding:0px">
                   <div class="fixed-action-btn horizontal click-to-toggle" style="position:relative; float:right; bottom:30px; right:10px; z-index: 1">
-                    <a class="btn-floating btn-large hoverable blue waves-effect waves-light">
+                    <a class="btn-floating btn-large hoverable cyan darken-2 waves-effect waves-light">
                       <i class="large material-icons btn-icon">share</i>
                     </a>
                     <ul>
@@ -36,20 +36,20 @@ comments: true
               {% endif %}
               <div class="card-content">
                 <span class="grey-text text-lighten-1">{% include date.html date=post.date %}</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="flow-text card-title"><b>{{ post.title }}</b></span></a>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="flow-text card-title coolGradient"><b>{{ post.title }}</b></span></a>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                  <p class="post-description">{{ post.description }}</p>
+                  <p class="post-description grey-text darken-4">{{ post.description }}</p>
                 </a>
                 <br>
                 <div class="tags">
                   {% for tag in post.tags  %}
-                    <a class="tag-name" href="#" data-tag="{{tag | slugify }}"><div class="chip"><b>{{ tag }}</b></div></a>
+                    <a href="#" data-tag="{{tag | slugify }}"><div class="chip"><b>{{ tag }}</b></div></a>
                   {% endfor  %}
                 </div>
               </div>
               <div class="card-action">
-                <div class="center-align">
-                  <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read More</a>
+                <div class="left-align">
+                  <a href="{{ post.url | prepend: site.baseurl }}" style="color:#007991;">Read More</a>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ title: Ant Villa Dean
         <h1 class="header center">AntVD.Space</h1>
         <h3 class="center">Ant Villa Dean</h3>
         <div class="row center">
-          <p class="col s12">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
+          <p class="flow-text">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
             <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
         </div>
         <div class="row center">
@@ -43,7 +43,7 @@ title: Ant Villa Dean
       <!--   Icon Section   -->
       <div class="row">
         <div class="row center">
-          <h2 class="header col s12 light">Education</h2>
+          <h2 class="header col s12 coolGradient">Education</h2>
         </div>
         <div class="col s12 m6">
           <div class="icon-block">
@@ -69,8 +69,7 @@ title: Ant Villa Dean
     <div class="section">
       <div class="container">
         <div class="row center">
-          <p class="header col s12 light hide-on-small-only">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session. I've since gained an  appreciation for good web design, and actually enjoy coding when given the chance.</p>
-          <h6 class="header col s12 light hide-on-med-and-up">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session.</h6>
+          <p class="header col s12 flow-text">My interests include art and photography, travelling the world and losing spectacularly at the odd gaming session. I've since gained an  appreciation for good web design, and actually enjoy coding when given the chance.</p>
         </div>
       </div>
     </div>

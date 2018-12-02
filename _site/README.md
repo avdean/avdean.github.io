@@ -32,9 +32,9 @@ For me the most difficult part was trying to figure out how exactly the blog par
 Things to fix:
 ---
 
-* ~~Domain - I'll be eventually buying a domain name, though I'm not sure I want to use my own name as the domain
+* ~~Domain - I'll be eventually buying a domain name, though I'm not sure I want to use my own name as the domain~~
 * ~~Masonry.js and ScrollReveal.js - Though they're not really necessary at the moment, I'd like to have them instilled as part of the Photography and Blog parts (Especially)~~
-* Clean up root - I know I need to tuck away all of the pages and use permalinks instead, so that not everything is out in the open, so when I've got time I'll get on that.
+* ~~Clean up root - I know I need to tuck away all of the pages and use permalinks instead, so that not everything is out in the open, so when I've got time I'll get on that.~~
 * Tags - I'm still trying to figure out how tags in Jekyl can be utilised further over the standard index page, I really like Victorpre's use, though I think the best method would be through utilising Isotope.js.
 
 Credits
