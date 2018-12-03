@@ -6,8 +6,8 @@ title: Ant Villa Dean
  <div id="index-banner" class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
-        <h1 class="header center">AntVD.Space</h1>
-        <h3 class="center">Ant Villa Dean</h3>
+        <h1 class="header center">Ant Villa Dean</h1>
+        <h3 class="center" style="font-weight:300;">AntVD.Space</h3>
         <div class="row center">
           <p class="flow-text">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
             <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
