@@ -56,6 +56,7 @@ footer.page-footer {
 
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Quicksand', sans-serif;
+font-weight: 500;
 }
 
 .card-title  {
@@ -63,11 +64,12 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .dropdown-content {
-  font-family: 'Quicksand:300', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .pink-text, .teal-text {
   font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 
 /* Gradient Background */
@@ -78,19 +80,15 @@ font-family: 'Quicksand', sans-serif;
 
 /* Gradient Title */
 .coolGradient {
-
- text-transform: uppercase;
+  text-transform: uppercase;
   background: linear-gradient(to right, #007991, #78ffd6);
- -webkit-background-clip: text;
-   -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: text;
- -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-fill-color: transparent;
-  color: #78ffd6;
-
-
-
+  color: #007991;;
 }
 
 
