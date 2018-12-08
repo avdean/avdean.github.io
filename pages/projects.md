@@ -34,7 +34,7 @@ permalink: /projects
                       </a>
                     </div>
                     <div class="card-action">
-                      <p>Weddingstr is an application idea that a friend had, which I chose to run with. I decided to build a landing page for the non-fictional application to show how I would present it, along with highlight key features that the application would need in order to compete with its competition.</p>
+                      <p>Weddingstr is an application idea that a friend had, which I chose to run with. I decided to build a landing page for the fictional application to show how I would present it, along with highlight key features that the application would need in order to compete with its competition.</p>
                       <a href="https://weddingstr.netlify.com/" class="teal-text text-darken-4">Visit Website</a>
                     </div>
                   </div>
