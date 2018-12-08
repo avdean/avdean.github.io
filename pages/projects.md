@@ -28,6 +28,22 @@ permalink: /projects
                 <div class="icon-block">
                   <div class="card hoverable">
                     <div class="card-image">
+                      <a href="https://weddingstr.netlify.com/" target="_blank">
+                        <img class="responsive-img" src="{{site.baseurl}}/assets/projects/weddingstr.png">
+                        <span class="card-title">Weddingstr</span>
+                      </a>
+                    </div>
+                    <div class="card-action">
+                      <p>Weddingstr is an application idea that a friend had, which I chose to run with. I decided to build a landing page for the non-fictional application to show how I would present it, along with highlight key features that the application would need in order to compete with its competition.</p>
+                      <a href="https://weddingstr.netlify.com/" class="teal-text text-darken-4">Visit Website</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item"  style="padding-left: 10px; padding-right: 10px;">
+                <div class="icon-block">
+                  <div class="card hoverable">
+                    <div class="card-image">
                       <a href="{{site.baseurl}}/projects/projects/skylines">
                         <img class="responsive-img" src="{{site.baseurl}}/assets/projects/skies/tortola.jpg">
                         <span class="card-title">Skylines</span>
