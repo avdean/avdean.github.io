@@ -8,17 +8,17 @@ title: Ant Villa Dean
       <div class="container">
         <h1 class="header center">Ant Villa Dean</h1>
         <h3 class="center" style="font-weight:300;">AntVD.Space</h3>
-        <div class="row center">
-          <p class="flow-text">Welcome to my online Portfolio, as you can see I am a firm believer of learning while you work. 
-            <br />Taking a jack-of-all trades approach to learning, below you can find just a few of the most useful skills I have acquired.</p>
+        <div class="row center flow-text">
+          <p>Hello! My name’s Ant and this is my online portfolio.</p>
+          <p>As you can see, I’ve worked hard to acquire skills across a wide range of disciplines. That’s because I want to help my clients solve any problem that’s stopping them being successful – one day I could be a copywriter, with a sprinkle of UX know-how, the next a coder with penchant for HTML and CSS.</p>
+          <p>Feel free to take a look around. Like what you see? Hit me up. </p>
         </div>
         <div class="row center">
-          <h4 class="center">What can I do for you?</h4>
+          <h4 class="center">What I can do for you</h4>
         <div class="center" style="padding-right: 25%; padding-left: 25%; padding-top: 10px;">
                     <div class="chip white-text chitty">Photography</div>
                     <div class="chip white-text chitty">Photoshop</div>
                     <div class="chip white-text chitty">Copywriting</div>
-                    <div class="chip white-text chitty">Spanish</div>
                     <div class="chip white-text chitty">Microsoft Office Suite</div>
                     <div class="chip white-text chitty">Google Cloud Suite</div>
                     <div class="chip white-text chitty">Google Analytics</div>
@@ -26,8 +26,7 @@ title: Ant Villa Dean
                     <div class="chip white-text chitty">CSS</div>
                     <div class="chip white-text chitty">JQuery</div>
                     <div class="chip white-text chitty">Jekyll</div>
-                    <div class="chip white-text chitty">Coordination</div>
-                    <div class="chip white-text chitty">Diplomacy</div>
+                    <div class="chip white-text chitty">Project Management</div>
         </div>
         </div>
       </div>
