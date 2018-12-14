@@ -6,9 +6,9 @@ image: "https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,h_800,x_0/v154
 description: 'A look at both schools of thought: Jack-of-all-trades or Expert artisan'
 category: []
 tags:
-- lifestyle
-- opinion
-- web design
+- Lifestyle
+- Opinion
+- Web Design
 introduction: 'A look at both schools of thought: Jack-of-all-trades or Expert artisan'
 categories:
 - Lifestyle

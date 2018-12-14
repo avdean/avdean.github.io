@@ -19,6 +19,14 @@ p {
   color: #26a69a;
 }
 
+.tagButton {
+  background: linear-gradient(to right, #007991, #009191);
+  text-transform: capitalize;
+  font-weight: bold;
+  color:white;
+  font-family: Quicksand;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -97,21 +105,21 @@ font-weight: 500;
 
 /* Start of Masonry */
 @media only screen and (max-width : 600px) {
-  .grid-sizer, 
+  .grid-sizer,
   .grid-item {
     width:100%;
   }
 }
 
 @media only screen and (min-width : 600px) {
-  .grid-sizer, 
+  .grid-sizer,
   .grid-item {
     width:50%;
   }
 }
 
 @media only screen and (min-width : 992px) {
-  .grid-sizer, 
+  .grid-sizer,
   .grid-item {
     width:33%;
   }

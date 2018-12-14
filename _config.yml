@@ -32,7 +32,7 @@ collections:
 
 # Build settings
 markdown: kramdown
-plugins:
+plugins_dir: /.forestry
   - jekyll-feed
 sources:
     - _assets/
