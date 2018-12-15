@@ -26,6 +26,9 @@ p {
   color:white;
   font-family: Quicksand;
 }
+.highlight:hover {
+  filter: brightness(150%);
+}
 
 .parallax-container {
   min-height: 380px;
