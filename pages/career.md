@@ -18,7 +18,7 @@ permalink: /career
                               <h6  class="coolGradient">{{ jobs.company }}</h6>
                               <em>{{ jobs.address }}</em>
                           </div>
-                          <div class="card-content show-on-large" style="padding-left: 10%; margin-top: -5%;">
+                          <div class="card-content show-on-large" style="padding-left: 10%;">
                             <h5 class="coolGradient">Tasks</h5>
                             {% for task in jobs.tasks %}
                             <div class="tagButton chip" data-filter=".{{ task }}">{{ task }}</div>
@@ -28,7 +28,7 @@ permalink: /career
                             <div class="tagButton chip" data-filter=".{{ tool }}">{{ tool }}</div>
                             {% endfor  %}
                           </div>
-                         <div class="card-content hide-on-med-and-down" style="padding-left: 10%; padding-bottom: 5%; margin-top: -2%;">
+                         <div class="card-content hide-on-med-and-down" style="padding-left: 10%; padding-bottom: 5%;">
                             <button data-target="modal{{ jobs.descriptionCall }}" class="modal-trigger waves-effect waves-light btn-large tagButton highlight btn-flat">READ DESCRIPTION</button>
                             <div id="modal{{ jobs.descriptionCall }}" class="modal">
                               <div class="modal-content">
