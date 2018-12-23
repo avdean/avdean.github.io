@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css">
   <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    {% include cookies.html %}
   <!-- Google Analytics snippet  -->
   {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
@@ -46,7 +48,6 @@
 {% include footer.html %}
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="/assets/js/jquery.ihavecookies.js"></script>
   <script src="/assets/js/materialize.js"></script>
   <script src="/assets/js/init.js"></script>
 </body>
