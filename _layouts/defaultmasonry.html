@@ -34,6 +34,14 @@
   <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- Cookies Policy Consent  -->
+    {% include cookies-consent.html %}
+  <!-- Google Analytics snippet  -->
+
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+
 </head>
 
 <body>
