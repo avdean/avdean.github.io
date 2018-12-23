@@ -28,10 +28,16 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css">
   <link href="/assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Cookies Policy Consent  -->
+    {% include cookies-consent.html %}
+  <!-- Google Analytics snippet  -->
+
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </head>
 
 <body>
