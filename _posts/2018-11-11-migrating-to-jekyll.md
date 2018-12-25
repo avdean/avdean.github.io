@@ -36,21 +36,21 @@ I've read that it CAN be difficult installing Jekyll on Windows, but it was a br
 If you're not comfortable navigating the command line, it can be a little daunting. 
 Fortunately, there's not much call for it once you've installed Jekyll. 
 
-The only thing you need to do is <code>cd</code> (change directory) to the folder holding your website via the terminal (or easier yet, open the folder in a terminal directly.) Once there, you can either type in the terminal: <code>Jekyll build</code> or <code>Jekyll serve</code>.
+The only thing you need to do is `cd` (change directory) to the folder holding your website via the terminal (or easier yet, open the folder in a terminal directly.) Once there, you can either type in the terminal: `Jekyll build` or `Jekyll serve`.
 
 A short explanation here:<br>
-<code>build</code>: builds the site in the \_site folder, while <code>serve</code> build's the site on a server offline and displays it on the URL: localhost:4000. 
+`build` builds the site in the \_site folder, while `serve` build's the site on a server offline and displays it on the URL: localhost:4000. 
 
-Since it's direct, <code>Jekyll serve</code> does the job quite nicely and you can check your changes live.
+Since it's direct, `Jekyll serve` does the job quite nicely and you can check your changes live.
 
 #### Way of Thinking
 You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need. 
 
 There are two main versions of this, \_Layouts and \_Includes.
 
-\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg.  <code> < head > </code> elements, <code>< link rel="" ></code> codes and your <code>script</code> codes.
+\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg. `< head >` elements, `< link rel="" >` codes and your `script` codes.
 
-\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier <code> < header >, < footer > </code> elements come to mind a lot here.
+\_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier `<header>, <footer>` elements come to mind a lot here.
 
 The great thing is that there are no set rules on how this is done and you can code this part however you find easiest. The biggest plus is this; let's say you have 6 different pages and you've added a 7th, you only need to change the header and footer elements once (found in the \_Includes) folder in order For the change to be applied to your entire website.
 
