@@ -140,10 +140,6 @@ html.sr .load-hidden {
  padding-right: 5%;
 }
 
-code {
-  background-color: #b2dfdb;
-}
-
 /* Cookie Dialog */
 #gdpr-cookie-message {
     position: fixed;
