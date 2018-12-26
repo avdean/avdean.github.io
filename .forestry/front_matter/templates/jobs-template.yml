@@ -1,0 +1,40 @@
+---
+label: Jobs Template
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: years
+  label: Years
+  type: text
+  hidden: false
+  default: ''
+- name: company
+  label: Company
+  type: text
+  hidden: false
+  default: ''
+- name: address
+  label: Address
+  type: text
+  hidden: false
+  default: ''
+- name: tasks
+  label: Tasks
+  type: list
+  hidden: false
+  default: ''
+- name: tools
+  label: Tools
+  type: list
+  hidden: false
+  default: ''
+- name: descriptionCall
+  label: Descriptioncall
+  type: text
+  hidden: false
+  default: ''
