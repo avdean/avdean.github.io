@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="site-wrapper">
+
+    <header class="site-head">
+        <div class="site-head-container">
+            <a class="nav-burger" href="#">
+                <div class="hamburger hamburger--collapse" aria-label="Menu" role="button" aria-controls="navigation">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </a>
+            <nav id="swup" class="site-head-left">
+                <ul class="nav" role="menu">
+                  {{ $currentPage := . }}
+                  {{ range .Site.Menus.main }}
+                    <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" role="menuitem" href="{{ .URL | absLangURL }}">{{ .Name | title }}</a>
+                  {{ end }}
+                </ul>
+
+            </nav>
+            <div class="site-head-center">
+                <a class="site-head-logo" href="https://london.ghost.io">{{ .Site.Params.Title }}</a>
+            </div>
+            <div class="site-head-right">
+              <div class="social-links">
+                {{ with .Site.Params.social.github }}
+                <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
+                {{ end }}
+                {{ with .Site.Params.social.linkedin }}
+                <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
+                {{ end }}
+                {{ with .Site.Params.social.medium }}
+                <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
+                {{ end }}
+                {{ with .Site.Params.social.instagram }}
+                <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
+                {{ end }}
+              </div>
+            </div>
+        </div>
+    </header>
+
+<main id="site-main" class="site-main">
+  <div id="swup" class="transition-fade" data-swup="1">
+
+
+<article class="post-content post ">
+
+<header class="post-content-header">
+<h1 class="post-content-title">404 Error</h1>
+</header>
+
+<p class="post-content-excerpt">That page doesn't seem to exist</p>
+
+
+
+<footer class="post-content-footer">
+          {{ .Site.Data.FrontMatter.footerContent }}
+        </footer>
+      </article>
+    </div>
+  </main>
+{{ end }}

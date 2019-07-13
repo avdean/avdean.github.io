@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.LanguageCode }}">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="description" content="A bold, minimal theme for Ghost, focused on clean typography &amp; beautiful imagery">
+
+    <title>{{ .Site.Data.FrontMatter.title }}</title>
+
+    {{ $css := "css/screen.css" | absURL }}
+    <link rel="stylesheet" href="{{ $css }}">
+
+
+</head>
+    <body>
+      <div class="site-wrapper">
+
+            <header class="site-head">
+                <div class="site-head-container">
+                    <a class="nav-burger" href="#">
+                        <div class="hamburger" aria-label="Menu" role="button" aria-controls="navigation">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <nav id="swup" class="site-head-left">
+                        <ul class="nav" role="menu">
+                          {{ $currentPage := . }}
+                          {{ range .Site.Menus.main }}
+                            <a class="nav-link" role="menuitem" href="{{ .URL }}">{{ .Name | title }}</a>
+                          {{ end }}
+                        </ul>
+
+                    </nav>
+                    <div class="site-head-center">
+                        <a class="site-head-logo" href="#">{{ .Site.Data.FrontMatter.title }}</a>
+                    </div>
+                    <div class="site-head-right">
+                      <div class="social-links">
+                        {{ with .Site.Data.FrontMatter.github }}
+                        <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
+                        {{ end }}
+                        {{ with .Site.Data.FrontMatter.linkedin }}
+                        <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
+                        {{ end }}
+                        {{ with .Site.Data.FrontMatter.medium }}
+                        <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
+                        {{ end }}
+                        {{ with .Site.Data.FrontMatter.instagram }}
+                        <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
+                        {{ end }}
+                      </div>
+                    </div>
+                </div>
+            </header>
+
+        <div class="site-content">
+            <div class="container">
+              <main id="site-main" class="site-main">
+                  <div id="swup" class="transition-fade">
+
+
+              <header class="page-head">
+              <h2 class="page-head-title"> {{ .Site.Data.FrontMatter.headerTitle }}</h2>
+              </header>
+
+              <div class="post-feed">
+                  {{ range .Pages.ByPublishDate.Reverse }}
+                      <article class="post-card  post {{ if eq .Params.wideImage true }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage }})">
+                      <a class="post-card-link" href="{{ .RelPermalink }}">
+                      <div class="post-card-content">
+                          <h2 class="post-card-title">{{ .Title }}</h2>
+                      </div>
+                      </a>
+                      </article>
+                  {{ end }}
+              </div>
+
+
+
+                  </div>
+              </main>
+
+            </div>
+
+            <footer class="site-foot">
+               {{ .Site.Data.FrontMatter.footerContent }}
+            </footer>
+            </div>
+            <script src="js/swup.js"></script>
+            <script src="js/infinitescroll.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+            </script>
+
+            <script>
+            $(document).ready(function() {
+              // Mobile Menu Trigger
+              $('.nav-burger').click(function() {
+                $('body').toggleClass('site-head-open');
+              });
+              $('.site-head-open a').click(function() {
+                $('body').removeClass('site-head-open');
+              });
+            });
+
+            // Initiate Swup transitions
+            var swup = new Swup();
+            swup.usePlugin(swupMergeHeadPlugin, {
+              option: true
+            });
+            document.addEventListener('swup:contentReplaced', event => {
+              initInfiniteScroll(window, document);
+            });
+            </script>
+
+            <script>
+            var images = document.querySelectorAll('.kg-gallery-image img');
+            images.forEach(function(image) {
+              var container = image.closest('.kg-gallery-image');
+              var width = image.attributes.width.value;
+              var height = image.attributes.height.value;
+              var ratio = width / height;
+              container.style.flex = ratio + ' 1 0%';
+            })
+            </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+baseURL = ""
+title = "AntVD.Space"
+languageCode = "en-us"
+theme = "london"
+logo = ""
+sectionPagesMenu = "main"
+## Main Menu
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = ""
+[[menu.main]]
+    name = "Articles"
+    identifier = "articles"
+    weight = 2
+    url = "/articles"
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 3
+    url = "/projects"
+    [[menu.main]]
+        name = "Curriculum"
+        identifier = "curriculum"
+        weight = 4
+        url = "/curriculum"
