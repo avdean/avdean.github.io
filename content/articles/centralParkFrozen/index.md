@@ -1,7 +1,7 @@
 ---
 title: "Chilly Central Park - Photo Essay"
 subTitle: "A Refreshing Photo Essay of Central Park in Winter"
-FeatureImage: horizon.jpg
+FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1563013509/horizon.jpg
 wideImage: true
 draft: false
 largeImages: true

@@ -1,7 +1,7 @@
 ---
 title: "Skylines"
 subTitle: "Where Air, Land or Sea meet"
-FeatureImage: "/projects/skylines/barbados.jpg"
+FeatureImage: /projects/skylines/barbados.jpg
 galleryFolder: "skylines"
 wideImage: false
 draft: false
