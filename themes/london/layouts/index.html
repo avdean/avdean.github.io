@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="HandheldFriendly" content="True">
-    <meta name="description" content="A bold, minimal theme for Ghost, focused on clean typography &amp; beautiful imagery">
+    <meta name="description" content="{{ .Site.Data.FrontMatter.description }}">
 
     <title>{{ .Site.Data.FrontMatter.title }}</title>
 
@@ -69,7 +69,7 @@
               </header>
 
               <div class="post-feed">
-                  {{ range .Pages.ByPublishDate.Reverse }}
+                  {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "eq" "projects" }}
                       <article class="post-card  post {{ if eq .Params.wideImage true }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage }})">
                       <a class="post-card-link" href="{{ .RelPermalink }}">
                       <div class="post-card-content">

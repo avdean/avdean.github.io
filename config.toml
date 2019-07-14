@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://antvd.space"
 title = "AntVD.Space"
 languageCode = "en-us"
 theme = "london"
@@ -9,7 +9,7 @@ sectionPagesMenu = "main"
     name = "Home"
     weight = 1
     identifier = "home"
-    url = ""
+    url = "https://antvd.space"
 [[menu.main]]
     name = "Articles"
     identifier = "articles"
