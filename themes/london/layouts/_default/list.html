@@ -51,7 +51,7 @@
 
       <div class="post-feed">
           {{ range .Pages.ByPublishDate.Reverse }}
-              <article class="post-card  post {{ if .Params.wideImage "true" }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage  }})">
+              <article class="post-card  post {{ if eq .Params.wideImage "true" }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage  }})">
               <a class="post-card-link" href="{{ .RelPermalink }}">
               <div class="post-card-content">
                   <h2 class="post-card-title">{{ .Title }}</h2>
