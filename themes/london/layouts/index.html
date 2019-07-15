@@ -69,7 +69,7 @@
               </header>
 
               <div class="post-feed">
-                  {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "eq" "projects" }}
+                  {{ range where .Site.RegularPages.ByPublishDate.Reverse "Type" "in" .Site.Params.mainSections }}
                       <article class="post-card  post {{ if eq .Params.wideImage true }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage }})">
                       <a class="post-card-link" href="{{ .RelPermalink }}">
                       <div class="post-card-content">
