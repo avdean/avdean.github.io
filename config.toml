@@ -4,6 +4,9 @@ languageCode = "en-us"
 theme = "london"
 logo = ""
 sectionPagesMenu = "main"
+## Content Blocks
+[params]
+    mainSections = ["projects", "articles"]
 ## Main Menu
 [[menu.main]]
     name = "Home"
