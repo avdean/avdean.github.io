@@ -6,7 +6,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="description" content="{{ .Site.Data.FrontMatter.description }}">
 
-    <title>{{ .Title }} | {{ .Site.Params.title }}</title>
+    <title>{{ .Params.title }} | {{ .Site.Title }}</title>
 
     {{ $css := "css/screen.css" | absURL }}
     <link rel="stylesheet" href="{{ $css }}">
