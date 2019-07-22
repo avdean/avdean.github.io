@@ -28,3 +28,8 @@ sectionPagesMenu = "main"
         identifier = "curriculum"
         weight = 4
         url = "/curriculum"
+    [[menu.main]]
+        name = "Contact"
+        identifier = "contact"
+        weight = 4
+        url = "/contact"
