@@ -64,7 +64,7 @@
         <img src="{{ . }}" class="kg-image">
       </figure>
     {{ end }}
-  {{ with .Page.Params.imagesLarge }}
+  {{ range .Page.Params.imagesLarge }}
         <figure class="kg-card kg-image-card">
           <img src="{{ . }}" class="kg-image">
         </figure>
