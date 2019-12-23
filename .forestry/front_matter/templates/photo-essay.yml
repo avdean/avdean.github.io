@@ -20,12 +20,17 @@ fields:
 - type: boolean
   name: largeImages
   label: largeImages
-- name: gallery
+- name: imagesWide
   type: image_gallery
   config: {}
   showOnly:
     value: false
-  label: gallery
+    field: wideImage
+  label: Gallery (Wide)
   description: Images to add to gallery
+- name: imagesLarge
+  type: image_gallery
+  config: {}
+  label: Gallery (Large)
 pages:
 - content/articles/test.md
