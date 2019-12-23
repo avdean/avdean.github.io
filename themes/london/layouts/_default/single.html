@@ -59,14 +59,12 @@
 
 <div class="post-content-body">
 {{ .Content }}
-{{ if eq .Params.largeImages true }}
 {{ with .Page.Params.imagesWide }}
   {{ range . }}
   <figure class="kg-card kg-image-card kg-width-wide">
     <img src="{{ . }}" class="kg-image">
   </figure>
     {{ end }}
-  {{ else }}
   {{ with .Page.Params.imagesLarge }}
     {{ range . }}
     <figure class="kg-card kg-image-card">
