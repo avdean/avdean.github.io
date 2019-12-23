@@ -20,3 +20,10 @@ fields:
 - type: boolean
   name: largeImages
   label: largeImages
+- name: gallery
+  type: image_gallery
+  config: {}
+  showOnly:
+    value: false
+  label: gallery
+  description: Images to add to gallery
