@@ -60,18 +60,18 @@
 <div class="post-content-body">
 {{ .Content }}
 {{ if eq .Params.largeImages true }}
-{{ with .Resources.Match "images/*" }}
+{{ with .Page.Params.imagesWide }}
   {{ range . }}
   <figure class="kg-card kg-image-card kg-width-wide">
-    <img src="{{ .RelPermalink }}" class="kg-image">
+    <img src="{{ . }}" class="kg-image">
   </figure>
     {{ end }}
   {{ end }}
   {{ else }}
-  {{ with .Resources.Match "images/*" }}
+  {{ with .Page.Params.imagesLarge }}
     {{ range . }}
     <figure class="kg-card kg-image-card">
-      <img src="{{ .RelPermalink }}" class="kg-image">
+      <img src="{{ . }}" class="kg-image">
     </figure>
       {{ end }}
     {{ end }}
