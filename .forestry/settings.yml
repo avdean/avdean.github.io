@@ -19,10 +19,10 @@ sections:
   label: Articles
   create: all
   match: "**/*"
-upload_dir: AntvdUploads
-public_path: ''
+upload_dir: https://res.cloudinary.com/dmw0znxgj/image/upload
+public_path: https://res.cloudinary.com/dmw0znxgj/image/upload
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 instant_preview: 
 build:
