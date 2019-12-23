@@ -27,3 +27,5 @@ fields:
     value: false
   label: gallery
   description: Images to add to gallery
+pages:
+- content/articles/test.md
