@@ -24,7 +24,7 @@ fields:
   type: image_gallery
   config: {}
   showOnly:
-    value: false
+    value: true
     field: wideImage
   label: Gallery (Wide)
   description: Images to add to gallery
