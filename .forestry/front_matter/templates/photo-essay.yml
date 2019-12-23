@@ -32,5 +32,8 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery (Large)
+  showOnly:
+    field: largeImages
+    value: true
 pages:
 - content/articles/test.md
