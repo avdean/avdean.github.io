@@ -1,0 +1,22 @@
+---
+label: Photo Essay
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: subTitle
+  label: subTitle
+- type: file
+  name: FeatureImage
+  label: FeatureImage
+- type: boolean
+  name: wideImage
+  label: wideImage
+- type: boolean
+  name: largeImages
+  label: largeImages
