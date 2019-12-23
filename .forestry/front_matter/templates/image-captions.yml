@@ -1,4 +1,14 @@
 ---
 label: Image+Captions
 hide_body: true
-fields: []
+fields:
+- name: imageWithCaption
+  type: file
+  config:
+    maxSize: 250
+  label: Image with Caption
+- name: caption/alt_text
+  type: text
+  config:
+    required: false
+  label: Caption/Alt Text
