@@ -36,4 +36,5 @@ fields:
     field: largeImages
     value: true
 pages:
+- content/articles/centralParkFrozen/index.md
 - content/articles/test.md
