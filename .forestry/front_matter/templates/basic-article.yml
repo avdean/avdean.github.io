@@ -11,9 +11,6 @@ fields:
 - type: file
   name: FeatureImage
   label: FeatureImage
-- type: text
-  name: galleryFolder
-  label: galleryFolder
 - type: boolean
   name: wideImage
   label: wideImage
