@@ -745,7 +745,4 @@ p>img {
     margin-bottom:5%;
 }
 
-p>a {
-     color:#2AB7CA;
-}
-
+p>a { font-weight: 500; transition: all .5s; border-bottom: 1px solid; } p>a:hover span { font-weight: 700; } p>a:hover { text-shadow: 1px 1px 0px #ddd, 2px 2px 0px #ddd, 3px 3px 0px #ddd; }
