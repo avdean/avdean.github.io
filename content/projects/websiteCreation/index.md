@@ -26,4 +26,4 @@ Skip the City was a multilingual blog I set up using Wordpress, while working wi
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584460805/AntvdUploads/Screenshot_2020-03-17_at_16.59.30_foq4fc.png)
 
 We also worked on an Instagram together with a very clear and distinct design, for travel:  
-[@skipthecity_es]()
+[@skipthecity_es](https://instagram.com/skipthecity_es)
