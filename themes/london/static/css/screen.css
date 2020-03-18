@@ -733,16 +733,34 @@ body {
 /* Custom Edits
 /* ----------------------------------------------------------- */
 
-p>img {    
+p>img {
     -webkit-box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
     box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
-    margin-bottom:5%;
+
 }
 
 .kg-image {
     -webkit-box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
     box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
-    margin-bottom:5%;
 }
 
-p>a { font-weight: 500; transition: all .5s; border-bottom: 1px solid; } p>a:hover span { font-weight: 700; }
+p>a {
+    text-decoration:none;
+     border-bottom: 1px solid #0b8d9f;
+     box-shadow: inset 0 -1px 0 #0b8d9f;
+     color: inherit;
+     transition: background 0.3s cubic-bezier(.33,.66,.66,1);
+}
+
+p>a:hover {
+    background: #0b8d9f;
+    text-decoration:none;
+    color: white;
+    transition: color .3s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+    p>img, .kg-image {
+      margin-bottom:5%;
+    }
+}
