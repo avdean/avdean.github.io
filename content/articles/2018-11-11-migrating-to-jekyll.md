@@ -2,7 +2,6 @@
 title: Migrating to Jekyll
 subTitle: My experience moving my site to an SSG
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541954989/signs.jpg
-galleryFolder: skylines
 wideImage: false
 
 ---
@@ -40,9 +39,11 @@ Since it's direct, `Jekyll serve` does the job quite nicely and you can check yo
 #### Way of Thinking
 You know how your CSS exists in a file, your javascript exists in another file and you reference it all in your HTML page. SSG's are pretty much an extension of this, dividing the entire HTML code into digestible snippets, depending on what you need.
 
+(Update: In fact, I actually moved from Jekyll to Hugo, and part of the beauty of this site, which is actually a port of Ghost CMS' open-source theme London, is that the CSS is also handled in a similar way, with the website's components styled on an individual basis through separate CSS files.)
+
 There are two main versions of this, \_Layouts and \_Includes.
 
-\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg. `< head >` elements, `< link rel="" >` codes and your `script` codes.
+\_Layouts is where the default stuff lives, you would place code here that is unlikely to change at all, eg. `<head>` elements, `<link rel="">` codes and your `script` codes.
 
 \_Includes is where you put repetitive elements that you might not want to include on every single page, but will make your life easier `<header>, <footer>` elements come to mind a lot here.
 

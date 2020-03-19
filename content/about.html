@@ -65,40 +65,20 @@
 
             <article class="post-content post">
               <header class="post-content-header">
-              <h2 class="post-content-title">Curriculum Vitae</h2>
+              <h2 class="post-content-title">About</h2>
               </header>
-              {{ range .Site.Data.jobs }}
-                <div class="col-12">
-                  <h3>{{ .title }} <br> {{ .years }}</h3>
-                  <figure class="kg-card kg-image-card">
-                    <img src="{{ .image }}" class="kg-image">
-                  </figure>
-                  <h6>{{ .company }} - {{ .address }}</h6>
-                  <p>{{ .content | markdownify }}</p>
+
                   <div class="row">
-                    <div class="col-6">
-                      <dt>Tasks</dt>
-                      <dd>
-                        <ul>
-                          {{ range .tasks }}
-                          <li>{{ . }}</li>
-                          {{ end }}
-                        </ul>
-                      </dd>
+                    <div class="col-12">
+                      <div class="post-content-body">
+                          <h2>{{ .Site.Data.about.tagline }}</h2>
+                          <figure class="kg-card kg-image-card kg-width-full">
+                            <img src="{{ .Site.Data.about.image }}" class="kg-image">
+                          </figure>
+                            {{ .Site.Data.about.HTMLcontent | markdownify }}
+                      </div>
                     </div>
-                    <div class="col-6">
-                      <dt>Tools</dt>
-                      <dd>
-                        <ul>
-                          {{ range .tools }}
-                          <li>{{ . }}</li>
-                          {{ end }}
-                        </ul>
-                      </dd>
-                    </div>
-                  </div>
                 </div>
-                  {{ end }}
               </article>
                   </div>
               </main>

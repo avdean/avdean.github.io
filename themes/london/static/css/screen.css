@@ -612,7 +612,8 @@ body {
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400!important;
-    background: var(--color-bg);
+    background: #1b182c;
+    color:#bae3e7;
     border-radius: 3px;
 }
 
