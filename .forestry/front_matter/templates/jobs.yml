@@ -1,4 +1,59 @@
 ---
 label: Jobs
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: Accompanying picture for job
+- name: title
+  type: text
+  config:
+    required: false
+  label: Job Title
+- name: years
+  type: text
+  config:
+    required: false
+  label: Years
+  description: The amount of years at company (eg. 2007 - 2008)
+- name: company
+  type: text
+  config:
+    required: false
+  label: Company
+  description: Name of company
+- name: address
+  type: text
+  config:
+    required: false
+  label: Address
+  description: Address of Company
+- name: tasks
+  type: list
+  config:
+    use_select: false
+    min: '4'
+    max: '15'
+  label: Tasks
+  description: Tasks handled during job
+- name: tools
+  type: list
+  config:
+    use_select: false
+    min: '4'
+    max: '15'
+  label: Tools
+  description: Tools used during job
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
+  description: A single paragraph describing the role at job, and what it entailed.
