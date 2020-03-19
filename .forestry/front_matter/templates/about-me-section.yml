@@ -1,6 +1,6 @@
 ---
 label: About Me Section
-hide_body: false
+hide_body: true
 fields:
 - name: tagline
   type: text

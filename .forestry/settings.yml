@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/frontmatter.toml
   label: Main Front Content
-  match: "**/*"
 - type: directory
   path: data/jobs
   label: Jobs
