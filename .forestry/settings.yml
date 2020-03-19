@@ -4,9 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
+- type: directory
   path: data/jobs
-  label: Jobs
+  label: Job Board
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
+  templates:
+  - jobs
 - type: directory
   path: content
   label: Pages
