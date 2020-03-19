@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/about.yaml
   label: About me
-  match: "**/*"
 - type: document
   path: data/frontmatter.toml
   label: Main Front Content
