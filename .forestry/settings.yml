@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: data/about
+  path: data
   label: About Me
-  match: "**/*"
 - type: directory
   path: data/jobs
   label: Jobs
