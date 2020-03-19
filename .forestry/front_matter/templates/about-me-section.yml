@@ -1,4 +1,26 @@
 ---
 label: About Me Section
 hide_body: false
-fields: []
+fields:
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: tagline
+  description: Opening Statement
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: Picture of me (Large, Landscape)
+- name: HTMLcontent
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: HTMLcontent
+  description: Content in HTML/Markdown
