@@ -20,20 +20,20 @@
 
             </nav>
             <div class="site-head-center">
-                <a class="site-head-logo" href="#">{{ .Site.Data.FrontMatter.title }}</a>
+                <a class="site-head-logo" href="#">{{ .Site.Data.front.title }}</a>
             </div>
             <div class="site-head-right">
               <div class="social-links">
-                {{ with .Site.Data.FrontMatter.github }}
+                {{ with .Site.Data.front.github }}
                 <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
                 {{ end }}
-                {{ with .Site.Data.FrontMatter.linkedin }}
+                {{ with .Site.Data.front.linkedin }}
                 <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
                 {{ end }}
-                {{ with .Site.Data.FrontMatter.medium }}
+                {{ with .Site.Data.front.medium }}
                 <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
                 {{ end }}
-                {{ with .Site.Data.FrontMatter.instagram }}
+                {{ with .Site.Data.front.instagram }}
                 <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
                 {{ end }}
               </div>
@@ -74,6 +74,6 @@
     </div>
   </main>
       <footer class="site-foot">
-         {{ .Site.Data.FrontMatter.footerContent }}
+         {{ .Site.Data.front.footerContent }}
       </footer>
 {{ end }}
