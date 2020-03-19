@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: data/about.yml
+  path: data/about.yaml
   label: About me
 - type: document
   path: data/frontmatter.toml
