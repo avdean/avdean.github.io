@@ -59,3 +59,5 @@ fields:
   label: Content
   description: A single paragraph describing the role at job, and what it entailed.
     (Written in HTML)
+pages:
+- data/jobs/head-of-content.yml
