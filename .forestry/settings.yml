@@ -9,7 +9,7 @@ sections:
   label: Job Board
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
   templates:
   - jobs
 - type: directory
