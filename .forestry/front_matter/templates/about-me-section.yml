@@ -24,3 +24,5 @@ fields:
       format: markdown
   label: HTMLcontent
   description: Content in HTML/Markdown
+pages:
+- data/about.yaml
