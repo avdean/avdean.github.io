@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: data/about.yaml
+  label: About me
+  match: "**/*"
+- type: document
   path: data/frontmatter.toml
   label: Main Front Content
 - type: directory
@@ -15,11 +19,6 @@ sections:
   new_doc_ext: yml
   templates:
   - jobs
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 - type: directory
   path: content/projects
   label: Projects
