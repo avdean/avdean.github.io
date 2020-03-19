@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: data/about.yaml
-  label: About me
+  path: data/frontmatter.toml
+  label: Main Front Content
   match: "**/*"
 - type: directory
   path: data/jobs
