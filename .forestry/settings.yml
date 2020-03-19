@@ -8,7 +8,7 @@ sections:
   path: data/about.yaml
   label: About me
 - type: document
-  path: data/FrontMatter.yaml
+  path: data/front.yaml
   label: Main Front Content
 - type: directory
   path: data/jobs
