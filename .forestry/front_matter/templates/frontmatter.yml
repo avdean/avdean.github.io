@@ -38,3 +38,5 @@ fields:
     maxSize: 250
   label: CV Upload
   description: Choose CV PDF to upload
+pages:
+- data/front.yaml
