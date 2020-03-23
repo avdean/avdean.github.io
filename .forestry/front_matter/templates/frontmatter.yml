@@ -15,10 +15,13 @@ fields:
   label: metaTitle
   description: Site - Meta Title
 - name: description
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
-    max: '120'
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Site Meta Description
   description: Meta Description of the website
 - name: headerTitle
