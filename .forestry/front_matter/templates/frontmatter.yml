@@ -14,7 +14,7 @@ fields:
     required: false
   label: metaTitle
   description: Site - Meta Title
-- name: metadescription
+- name: description
   type: text
   config:
     required: false
