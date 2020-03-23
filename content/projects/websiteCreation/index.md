@@ -21,12 +21,20 @@ Pasión en Miniatura, is a Spanish blog centred around miniature cars. The idea 
 
 [Skip the City](https://skipthecity.com/ "Skip the City")
 
-Skip the City ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584460805/AntvdUploads/Screenshot_2020-03-17_at_16.59.30_foq4fc.png)was a multilingual blog I set up using Wordpress, while working with travel company, Hellotickets. While the English homepage, was a proof of concept, of what it could become, the Spanish site is where you'll find the meat of the blog, with many posts structured by myself, and written by a colleague and friend.
+![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584460805/AntvdUploads/Screenshot_2020-03-17_at_16.59.30_foq4fc.png)
+
+Skip the City was a multilingual blog I set up using Wordpress, while working with travel company, Hellotickets. While the English homepage, was a proof of concept, of what it could become, the Spanish site is where you'll find the meat of the blog, with many posts structured by myself, and written by a colleague and friend.
 
 While I had previously worked in wordpress before, years ago, this was my first real dive into the platform. I had to use a number of CSS tricks and hacks, in order to get the site to how we wanted it. But in the end, I'm very proud of how it turned out.
 
 We also worked on an Instagram together with a very clear and distinct design, for travel:  
 [@skipthecity_es](https://instagram.com/skipthecity_es)
 
-  
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584461751/AntvdUploads/Screenshot_2020-03-17_at_17.07.30_s7lnrx.png)
+
+[Weddingstr]()
+
+![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584966182/AntvdUploads/Weddingstr_l27hyn.png)
+
+Weddingstr is a concept application I thought up. The concept is an application that would help the soon-to-be-married, wedding planners find the perfect wedding venue, while giving wedding venues an easy-to-use place to organize and contact clients.  
+Basically a hybrid of AirBnB/Booking.com for wedding venues.
