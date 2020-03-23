@@ -67,6 +67,9 @@
               <header class="post-content-header">
               <h2 class="post-content-title">Curriculum Vitae</h2>
               </header>
+                <div class="col-12">
+                    <button class="button large primary" style="display: block; margin-left: auto; margin-right: auto;"><a href="{{ .Site.Data.front.cvUpload }}">Download CV</a></button>
+                </div>
               {{ range .Site.Data.jobs }}
                 <div class="col-12">
                   <h3>{{ .title }} <br> {{ .years }}</h3>

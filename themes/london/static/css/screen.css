@@ -737,12 +737,14 @@ body {
 p>img {
     -webkit-box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
     box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
+    border-radius: 8px;
 
 }
 
 .kg-image {
     -webkit-box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
     box-shadow: 0 30px 60px -10px rgba(0,0,0,.2), 0 18px 36px -18px rgba(0,0,0,.22);
+    border-radius: 8px;
 }
 
 p>a {
@@ -758,6 +760,16 @@ p>a:hover {
     text-decoration:none;
     color: white;
     transition: color .3s ease-out;
+}
+
+input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
+    color: #fff !important;
+    background-color: #1b182c;
+    box-shadow: none;
+}
+
+.button.primary:hover, button.primary:hover, input[type=button].primary:hover, input[type=reset].primary:hover, input[type=submit].primary:hover {
+  background-color: #2f3d44;
 }
 
 @media only screen and (max-width: 600px) {
