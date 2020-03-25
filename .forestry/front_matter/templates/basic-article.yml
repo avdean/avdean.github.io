@@ -24,4 +24,5 @@ fields:
   name: wideImage
   label: wideImage
 pages:
+- content/articles/2018-11-05-WordPress-or-HTML.md
 - content/projects/websiteCreation/index.md
