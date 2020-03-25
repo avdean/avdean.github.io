@@ -5,6 +5,15 @@ fields:
 - type: text
   name: title
   label: title
+- name: date
+  type: datetime
+  description: Date of post to publish
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Date
 - type: text
   name: subTitle
   label: subTitle
