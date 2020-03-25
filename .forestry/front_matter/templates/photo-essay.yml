@@ -37,6 +37,7 @@ fields:
     value: true
 pages:
 - content/articles/centralParkFrozen/index.md
+- content/projects/helloticketsImagery/hellotickets-redesign-concepts.md
 - content/projects/prisma/index.md
 - content/projects/skylines/index.md
 - content/projects/tiltshift/index.md
