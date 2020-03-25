@@ -16,7 +16,8 @@ fields:
   label: FeatureImage
 - type: boolean
   name: wideImage
-  label: wideImage
+  label: Wide Image on Home
+  description: Decide where you want this to be a Wide image
 - type: boolean
   name: largeImages
   label: largeImages
@@ -26,8 +27,8 @@ fields:
   showOnly:
     value: true
     field: wideImage
-  label: Gallery (Wide)
-  description: Images to add to gallery
+  label: Gallery
+  description: Images to add to gallery (Bigger than content insert)
 - name: imagesLarge
   type: image_gallery
   config: {}
