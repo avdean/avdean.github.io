@@ -25,10 +25,10 @@ fields:
   type: image_gallery
   config: {}
   showOnly:
-    value: true
-    field: wideImage
+    value: false
   label: Gallery
   description: Images to add to gallery (Bigger than content insert)
+  hidden: false
 - name: imagesLarge
   type: image_gallery
   config: {}
