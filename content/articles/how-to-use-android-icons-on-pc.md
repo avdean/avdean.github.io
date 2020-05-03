@@ -7,7 +7,7 @@ title = "How to use Android icons on PC"
 wideImage = false
 
 +++
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588540058/AntvdUploads/Screenshot_20200430-203342_tuhyrr.png)Knee-deep in quarantine, I decided to delve into giving my Linux setup a little  of a refresh, I know it's been a while since I've posted a proper article, and this is a topic that really appeals to a very select few. But for those select few, its definitely cool to know.
+![This is an iconpack I wanted to use.](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588540058/AntvdUploads/Screenshot_20200430-203342_tuhyrr.png "Crayon iconpack")Knee-deep in quarantine, I decided to delve into giving my Linux setup a little  of a refresh, I know it's been a while since I've posted a proper article, and this is a topic that really appeals to a very select few. But for those select few, its definitely cool to know.
 
 So I stumbled into a neat little trick to use Android's iconpacks outside of.. well Android and it's relatively easy to do.
 
