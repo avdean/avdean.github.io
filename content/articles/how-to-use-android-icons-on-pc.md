@@ -11,6 +11,10 @@ Knee-deep in quarantine, I decided to delve into giving my Linux setup a little 
 
 So I stumbled into a neat little trick to use Android's iconpacks outside of.. well Android and it's relatively easy to do. You basically need the below 3 things:
 
+1. An iconpack (preferably one you like)
+2. SDCard Maid application
+3. A way to transfer files between your phone and computer. (Drive, Dropbox, etc.)
+
 >     
 >     
 >     
