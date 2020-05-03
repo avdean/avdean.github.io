@@ -2,8 +2,8 @@
 FeatureImage = ""
 date = 2020-05-03T22:00:00Z
 draft = true
-subTitle = "Android iconpacks outside of android"
-title = "How to use Android icons on PC"
+subTitle = "How to use Android iconpacks outside of android"
+title = "Getting the most out of Android iconpacks"
 wideImage = false
 
 +++
@@ -17,8 +17,14 @@ So I stumbled into a neat little trick to use Android's iconpacks outside of.. w
 
 You basically need the below 3 things:
 
-1. An iconpack (preferably one you like)
+1. An iconpack installed on Android (preferably one you like)
 2. SDCard Maid application
 3. A way to transfer files between your phone and computer. (Drive, Dropbox, etc.)
 
-> 
+### The iconpack
+
+There are tons of great icons Android help spruce up your phone, both free and for purchase (many of them of tend to go on sale, a good place to look  is [r/googleplaydeals](Reddit.com/r/googleplaydeals)).
+
+### SDCard Maid
+
+So basically you need SDCard Maid as it lets you export the iconpack as an APK (that's where the icons are).
