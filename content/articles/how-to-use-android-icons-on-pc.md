@@ -56,4 +56,4 @@ Now you can use those icons to your hearts content!
 
 anyway, for those that are interested, this is how my final desktop looks like:
 
-{{< img src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png" class="kg-image kg-width-full">}}
+{{< figure src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png" class="kg-image kg-width-full">}}
