@@ -3,7 +3,7 @@ FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1588589170/An
 date = 2020-05-03T22:00:00Z
 subTitle = "How to use Android iconpacks outside of android"
 title = "Getting the most out of Android iconpacks"
-wideImage = true
+wideImage = false
 
 +++
 Knee-deep in quarantine, I decided to delve into giving my Linux setup a little  of a refresh, I know it's been a while since I've posted a proper article, and this is a topic that really appeals to a very select few. But for those select few, its definitely cool to know.
