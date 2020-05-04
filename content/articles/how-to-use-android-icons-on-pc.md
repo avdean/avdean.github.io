@@ -22,7 +22,6 @@ You basically need the below 3 things:
 
 There are tons of great icons Android help spruce up your phone, both free and for purchase (many of them of tend to go on sale, a good place to look  is [r/googleplaydeals](https://www.reddit.com/r/googleplaydeals)).
 
-
 ![This is Crayon iconpack I wanted to use.](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588540058/AntvdUploads/Screenshot_20200430-203342_tuhyrr.png "Crayon iconpack")
 
 ### SD Maid
@@ -57,4 +56,4 @@ Now you can use those icons to your hearts content!
 
 anyway, for those that are interested, this is how my final desktop looks like:
 
-{{< figure src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png" title="Example Image" class="kg-width-full">}}
+{{< img src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png" class="kg-image kg-width-full">}}
