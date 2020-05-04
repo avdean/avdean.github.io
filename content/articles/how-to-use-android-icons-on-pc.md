@@ -8,7 +8,7 @@ wideImage = false
 +++
 Knee-deep in quarantine, I decided to delve into giving my Linux setup a little  of a refresh, I know it's been a while since I've posted a proper article, and this is a topic that really appeals to a very select few. But for those select few, its definitely cool to know.
 
-So I stumbled into a neat little trick to use Android's iconpacks outside of.. well Android and it's relatively easy to do. 
+So I stumbled into a neat little trick to use Android's iconpacks outside of.. well Android and it's relatively easy to do.
 
 ### Getting started you need:
 
@@ -36,7 +36,7 @@ In my case, I'm looking for Crayon Iconpack, you'll need to refresh the app list
 
 Once you've found your iconpack, press and hold down on the application (our iconpack in this case), to export it as an APK. You can then find it using a file explorer within your phone, though you'll probably find them in **Downloads.**
 
-Once you've found the APK you'll want to share it to your PC, Mac, Laptop etc. I found it pretty easy using Google Drive for this kind of stuff, but it's really up to you (You can even email the file to yourself. 
+Once you've found the APK you'll want to share it to your PC, Mac, Laptop etc. I found it pretty easy using Google Drive for this kind of stuff, but it's really up to you (You can even email the file to yourself.
 
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588589737/AntvdUploads/Screenshot_30_Apr_2020_20_37_16_nqfcgh.png)
 
@@ -47,13 +47,14 @@ Now that you've got your APK on to your computer, all you need to do is rename t
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590235/AntvdUploads/apktozip_tjcej4.png)
 
 Once you unzip it, you'll find the contents looking something similar to this, you'll want to open the `res` file:  
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590399/AntvdUploads/APKContents_kqgvxy.png)Inside there you'll find a slew of folders, however there will be one housing the icons all in PNG format:  
-  
+![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590399/AntvdUploads/APKContents_kqgvxy.png)Inside there you'll find a slew of folders, however there will be one housing the icons all in PNG format:
+
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590612/AntvdUploads/AllIcons_hckmwl.png)
 
-Now you can use those icons to your hearts content!   
-(Within reason that is, since many iconpack are bought, keep in mind when you should and shouldn't use them..)  
-  
-anyway, for those that are interested, this is how my final desktop looks like:  
-  
+Now you can use those icons to your hearts content!  
+(Within reason that is, since many iconpack are bought, keep in mind when you should and shouldn't use them..)
+
+anyway, for those that are interested, this is how my final desktop looks like:
+
+
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png)
