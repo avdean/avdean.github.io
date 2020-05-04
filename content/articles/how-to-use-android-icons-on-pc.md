@@ -20,7 +20,7 @@ You basically need the below 3 things:
 
 ### The Iconpack
 
-There are tons of great icons Android help spruce up your phone, both free and for purchase (many of them of tend to go on sale, a good place to look  is [r/googleplaydeals](Reddit.com/r/googleplaydeals)).
+There are tons of great icons Android help spruce up your phone, both free and for purchase (many of them of tend to go on sale, a good place to look  is [r/googleplaydeals](https://www.reddit.com/r/googleplaydeals)).
 
 ![This is Crayon iconpack I wanted to use.](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588540058/AntvdUploads/Screenshot_20200430-203342_tuhyrr.png "Crayon iconpack")
 
