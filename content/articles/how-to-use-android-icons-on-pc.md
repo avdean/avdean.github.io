@@ -1,7 +1,7 @@
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1588589170/AntvdUploads/20200504_100458-01_ckhnh9.jpg"
 date = 2020-05-03T22:00:00Z
-subTitle = "How to use Android iconpacks outside of android"
+subTitle = "How to use Android iconpacks outside of Android"
 title = "Getting the most out of Android iconpacks"
 wideImage = false
 
@@ -44,12 +44,15 @@ Once you've found the APK you'll want to share it to your PC, Mac, Laptop etc. I
 
 Now that you've got your APK on to your computer, all you need to do is rename the .apk extension to .zip so that you can unpack it:
 
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590235/AntvdUploads/apktozip_tjcej4.png)
+{{< figure src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590235/AntvdUploads/apktozip_tjcej4.png" class="kg-card kg-image-card kg-width-wide">}}
 
 Once you unzip it, you'll find the contents looking something similar to this, you'll want to open the `res` file:  
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590399/AntvdUploads/APKContents_kqgvxy.png)Inside there you'll find a slew of folders, however there will be one housing the icons all in PNG format:
 
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590612/AntvdUploads/AllIcons_hckmwl.png)
+{{< figure src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590399/AntvdUploads/APKContents_kqgvxy.png" class="kg-card kg-image-card kg-width-wide">}}
+
+Inside there you'll find a slew of folders, however there will be one housing the icons all in PNG format:
+
+{{< figure src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590612/AntvdUploads/AllIcons_hckmwl.png" class="kg-card kg-image-card kg-width-wide">}}
 
 Now you can use those icons to your hearts content!  
 (Within reason that is, since many iconpack are bought, keep in mind when you should and shouldn't use them..)
