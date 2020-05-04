@@ -57,5 +57,4 @@ Now you can use those icons to your hearts content!
 
 anyway, for those that are interested, this is how my final desktop looks like:
 
-
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png class="kg-width-full")
+{{< figure src="https://res.cloudinary.com/dmw0znxgj/image/upload/v1588590881/AntvdUploads/Screenshot_20200504_124332_rjskl6.png" title="Example Image" class="kg-width-full">}}
