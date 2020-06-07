@@ -1,7 +1,6 @@
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1591536824/AntvdUploads/thomas-jensen-QABDpFYhNpk-unsplash_bfjiac.jpg"
 date = 2020-06-06T22:00:00Z
-draft = true
 subTitle = "Migrating from Jekyll to Hugo"
 title = "Migration 2.0 - Jekyll to Hugo"
 wideImage = false
