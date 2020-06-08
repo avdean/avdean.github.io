@@ -3,7 +3,7 @@ title: Website Creation
 subTitle: For both practice and learning, I created and set up websites for friends
   and family. These are the finished products.
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1584966535/AntvdUploads/RedBrick_etexas.jpg
-wideImage: false
+wideImage: true
 largeImages: true
 date: 2019-01-07T00:00:00+01:00
 
