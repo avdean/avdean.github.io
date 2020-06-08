@@ -3,7 +3,7 @@ title: Tiltshift
 subTitle: Life made miniature
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1577120663/AntvdUploads/LaGuardia_n2a0mp.jpg
 galleryFolder: tiltshift
-wideImage: false
+wideImage: true
 largeImages: true
 imagesLarge:
 - https://res.cloudinary.com/dmw0znxgj/image/upload/v1577120682/AntvdUploads/olden_yejkur.jpg
