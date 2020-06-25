@@ -1,6 +1,6 @@
 ---
 title: Wordpress or HTML
-date: 2018-08-01T00:00:00+02:00
+date: 2019-01-02T00:00:00+01:00
 subTitle: A short intro about why I built my website
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541436045/html_boxes.jpg
 wideImage: false

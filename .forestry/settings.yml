@@ -28,6 +28,9 @@ sections:
   label: Articles
   create: all
   match: "**/*"
+  templates:
+  - basic-article
+  - photo-essay
 upload_dir: AntvdUploads
 public_path: https://res.cloudinary.com/dmw0znxgj/image/upload
 front_matter_path: ''
