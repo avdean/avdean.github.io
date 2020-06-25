@@ -6,7 +6,7 @@ imagesWide = []
 largeImages = true
 subTitle = "Concept imagery for Hellotickets"
 title = "Hellotickets Redesign Concepts"
-wideImage = true
+wideImage = false
 
 +++
 With the help of our product designer, these concepts were created to give credence to his ideas and plan for Hellotickets' imagery to represent each city or activity.  
