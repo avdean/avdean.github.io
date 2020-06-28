@@ -1,5 +1,5 @@
 +++
-FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1593078151/AntvdUploads/Screenshot_20200625_114203_qpttz5.png"
+FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1593344210/AntvdUploads/IMG-20200628-WA0000-01_dxlaxw.jpg"
 date = 2020-06-24T22:00:00Z
 subTitle = "A React application using the Marvel API!"
 title = "Introducing Marvel-Discover"
