@@ -9,11 +9,11 @@ wideImage = false
 I have created my first React web-application!  
 [https://marvel-discover.netlify.app](https://marvel-discover.netlify.app "Marvel Discover")
 
-What's most important about it is that I wanted to create something that could call Restful APIs successfully, and rather nerdilly there is a Marvel API for exactly that. 
+What's most important about it is that I wanted to create something that could call Restful APIs successfully, and rather nerdilly there is a Marvel API for exactly that.
 
 There isn't much to it at the moment, as I'm only half way through the course, but it is kind of gratifying to see something beginning to form.
 
-I also started using Figma for the planning and proto-typing of different elements, and it's actually really pleasant to use. 
+I also started using Figma for the planning and prototyping of different elements, and it's actually really pleasant to use.
 
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1593078666/AntvdUploads/Screenshot_20200625_115046_oztpmd.png)
 
