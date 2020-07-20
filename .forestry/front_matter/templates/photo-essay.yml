@@ -21,12 +21,6 @@ fields:
 - type: boolean
   name: largeImages
   label: largeImages
-- name: imagesReg
-  type: image_gallery
-  config: {}
-  label: Gallery (Regular)
-  showOnly:
-    value: false
 - name: imagesWide
   type: image_gallery
   config: {}
@@ -41,7 +35,8 @@ fields:
   label: Gallery (Large)
   showOnly:
     field: largeImages
-    value: truepages:
+    value: true
+pages:
 - content/articles/centralParkFrozen/index.md
 - content/projects/anime-colour-grading.md
 - content/projects/helloticketsImagery/hellotickets-redesign-concepts.md
