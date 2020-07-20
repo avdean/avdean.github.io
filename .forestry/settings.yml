@@ -23,6 +23,8 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - photo-essay
 - type: directory
   path: content/articles
   label: Articles
