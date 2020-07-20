@@ -2,7 +2,8 @@
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230788/AntvdUploads/_MG_0456_xfmh2e.jpg"
 date = 2020-07-19T22:00:00Z
 imagesLarge = []
-imagesWide = ["https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230947/AntvdUploads/_MG_0228_fwjqfr.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230961/AntvdUploads/20191024_185045_HDR_yuronv.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230955/AntvdUploads/20191024_184410_HDR_bcjjms.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230936/AntvdUploads/IMG_20181124_205647_cusd9r.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230957/AntvdUploads/_MG_0197_a0opxp.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230953/AntvdUploads/IMG_20200711_135612_ygj5t0.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230948/AntvdUploads/IMG_20200705_224229_wupc2e.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230959/AntvdUploads/IMG_20200705_224622_uq6d96.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230954/AntvdUploads/20191228_155621_HDR_k2vhyq.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595233110/AntvdUploads/IMG_20200704_205007_bwdcfr.jpg"]
+imagesWide = []
+imagesReg = ["https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230947/AntvdUploads/_MG_0228_fwjqfr.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230961/AntvdUploads/20191024_185045_HDR_yuronv.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230955/AntvdUploads/20191024_184410_HDR_bcjjms.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230936/AntvdUploads/IMG_20181124_205647_cusd9r.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230957/AntvdUploads/_MG_0197_a0opxp.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230953/AntvdUploads/IMG_20200711_135612_ygj5t0.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230948/AntvdUploads/IMG_20200705_224229_wupc2e.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230959/AntvdUploads/IMG_20200705_224622_uq6d96.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595230954/AntvdUploads/20191228_155621_HDR_k2vhyq.jpg", "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595233110/AntvdUploads/IMG_20200704_205007_bwdcfr.jpg"]
 largeImages = false
 subTitle = "Experimenting with Lightroom's colour editing"
 title = "Anime Colour Grading"
@@ -26,7 +27,7 @@ Finally there's the neon side of things, with _Ghost in the Shell_, _Akira_ and 
 Because of this, something I've been toying with in the last couple of months, is how powerful Lightroom's colour grading is, especially when you couple that with trying to recreate this animated/painted look.
 
 The exercise itself involves bringing out the shadows, and knocking back the highlights as far as possible. This is because true blacks don't often exist in these background pieces unless it's night, meaning you get to see a lot more details in the shadows.  
-  
+
 There's also a bit playing around with the specific types of colours used, the general colour cast of the scene, adding noise reduction, grain etc.  
-  
+
 All in all, I think some work better than others, and it's definitely a case that I'll think I'll carry on experimenting with.

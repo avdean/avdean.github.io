@@ -59,6 +59,11 @@
 
 <div class="post-content-body">
 {{ .Content }}
+{{ range .Page.Params.imagesReg }}
+      <figure class="kg-card kg-image-card">
+        <img src="{{ . }}" class="kg-image">
+      </figure>
+    {{ end }}
 {{ range .Page.Params.imagesWide }}
        <figure class="kg-card kg-image-card kg-width-wide">
         <img src="{{ . }}" class="kg-image">
