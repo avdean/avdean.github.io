@@ -7,19 +7,19 @@ title = "Breaking down the Bitcoin Whitepaper"
 wideImage = false
 
 +++
-With crypto currently in the zeitgeist again since 2018, I decided to actually read Satoshi Nakamoto's bitcoin whitepaper and do my long overdue.. due diligence. 
+With crypto currently in the zeitgeist again since 2018, I decided to actually read Satoshi Nakamoto's bitcoin whitepaper and do my long overdue.. due diligence.
 
-To help understand it, I figured it would be a fun exercise to try and laydown what exactly the bitcoin whitepaper basically says. 
+To help understand it, I figured it would be a fun exercise to try and laydown what exactly the bitcoin whitepaper basically says.
 
-To be honest, it's not a hugely difficult read, it's only 9 pages long, but it does get pretty technical by  7. 
+To be honest, it's not a hugely difficult read, it's only 9 pages long, but it does get pretty technical by 7.
 
-So yeah, it's nice to have someone else's spark notes. 
+So yeah, it's nice to have someone else's spark notes.
 
 So let's begin:
 
 ## The Abstract
 
-So basically this is just Satoshi contextualising the whitepaper. He explain how a digital currency is possible, but the problem is something/someone is needed to prevent double spending. 
+So basically this is just Satoshi contextualising the whitepaper. He explain how a digital currency is possible, but the problem is something/someone is needed to prevent double spending.
 
 Thus he proposed bitcoin and it's proof-of-work method to counteract the double spend issue in a completely trustless manner. It gets a little technical here but basically he proposes a digital chain that keeps the original timestamp of a transaction within each instance. This in essence is the fundamentals of Blockchain technology.
 
@@ -36,5 +36,3 @@ He points ouy how truly non-reversible transactions can't really happen as there
 He also rightly points out that if this was a physical currency, there'd be a direct exchange and none of these issues would exist.
 
 And so we get to Satoshi's proposal: a currency based on cryptographical proof (read: stupidly complex) instead of trust. It's key characteristics being that there is no middleman for transactions, it's impractical to reverse (due to the computing power needed) and double spending is negated due to the whole chain and timestamp.
-
- 
