@@ -11,3 +11,8 @@ title = "Synthetic Art"
 wideImage = false
 
 +++
+In the last year AI image generation has improved leaps and bounds, and in turn I've been exploring the possibilities of Midjourney.
+
+There's a lot to be said about the intricacies and ethical questions, regarding AI's role in the art world, but ultimately it's a tool, much like Photoshop, and it's still possible to find a resonance, narrative and personal style from using it.
+
+I've talked previously on anime colour grading, and this is an extension of that.
