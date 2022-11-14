@@ -98,3 +98,23 @@
 .kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide {
     margin-top: calc( -7vw + 0.75em );
 }
+
+.flexContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:2vw;
+    align-content:center;
+    align-items: center;
+}
+
+.flexItem {
+    display:flex;
+    width:30%;
+}
+
+@media (max-width: 600px) {
+    .flexItem {
+    width:100%;
+    }
+}

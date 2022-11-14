@@ -53,17 +53,24 @@
 
 <p class="post-content-excerpt">{{ .Page.Params.subTitle }}</p>
 
-<div class="post-content-image">
-<img class="kg-image" src=" {{ with .Page.Params.FeatureImage }} {{ . }} {{ end }}">
-</div>
+{{ with .Page.Params.FeatureImage }} 
+  <div class="post-content-image">
+    <img class="kg-image" src="{{ . }}">
+  </div>
+{{ end }}
 
 <div class="post-content-body">
 {{ .Content }}
-{{ range .Page.Params.imagesReg }}
-      <figure class="kg-card kg-image-card">
-        <img src="{{ . }}" class="kg-image">
-      </figure>
+{{ if .Page.Params.imagesReg }}
+  <div class="flexContainer">
+    {{ range .Page.Params.imagesReg }}
+          <div class="flexItem kg-card kg-image-card">
+            <img src="{{ . }}" class="kg-image">
+          </div>
     {{ end }}
+  </div>
+{{ end }}
+
 {{ range .Page.Params.imagesWide }}
        <figure class="kg-card kg-image-card kg-width-wide">
         <img src="{{ . }}" class="kg-image">

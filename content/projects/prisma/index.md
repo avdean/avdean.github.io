@@ -3,8 +3,8 @@ title: Prisma
 subTitle: AI inspired by Humans
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1577120549/AntvdUploads/Flower_kxmdyh.jpg
 wideImage: false
-largeImages: true
-imagesLarge:
+largeImages: false
+imagesReg:
 - https://res.cloudinary.com/dmw0znxgj/image/upload/v1577120579/AntvdUploads/shakespeare_rsjtlk.jpg
 - https://res.cloudinary.com/dmw0znxgj/image/upload/v1577120578/AntvdUploads/Purple_suevzg.jpg
 - https://res.cloudinary.com/dmw0znxgj/image/upload/v1577120577/AntvdUploads/Pacman_trqak0.jpg
