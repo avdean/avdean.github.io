@@ -1,5 +1,5 @@
 +++
-FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1668368047/AntvdUploads/BabyBike_yaveik.png"
+FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1668465364/AntvdUploads/MidjourneyLady_boxzwh.png"
 date = 2022-11-12T23:00:00Z
 draft = true
 imagesLarge = []
