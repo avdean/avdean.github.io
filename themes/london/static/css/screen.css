@@ -551,10 +551,14 @@ body {
     margin: 4vw 0;
     position: relative;
     width: 75vw;
-    min-width: 100%;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     transform: translateX(calc(50vw - 50%));
+}
+@media (min-width: 1200px) {
+    .post-content-image {
+        width: 40vw;
+    }
 }
 
 .post-content-body {
