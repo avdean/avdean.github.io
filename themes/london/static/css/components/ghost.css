@@ -102,8 +102,8 @@
 .flexContainer {
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap:2vw;
+    justify-content: left;
+    gap:2vw 2vh;
     align-content:center;
     align-items: center;
 }
@@ -113,6 +113,14 @@
     width:30%;
 }
 
+@media screen and (min-width:700px) and (max-width: 1200px) {
+    .flexItem {
+    width:50%;
+    }
+.flexContainer {
+    gap:1vw 1vh;
+}
+}
 @media screen and (max-width: 600px) {
     .flexItem {
     width:100%;
