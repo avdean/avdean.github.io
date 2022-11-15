@@ -70,7 +70,7 @@
                 <div class="col-12">
                     <button class="button large primary" style="display: block; margin-left: auto; margin-right: auto;"><a href="{{ .Site.Data.front.cvUpload }}">Download CV</a></button>
                 </div>
-              {{ range .Site.Data.jobs }}
+              {{ range $.Site.Data.jobs }}
                 <div class="col-12">
                   <h3>{{ .title }} <br> {{ .years }}</h3>
                   <figure class="kg-card kg-image-card">

@@ -402,14 +402,17 @@ body {
 .post-feed {
     display: flex;
     flex-wrap: wrap;
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vh;
 }
 
 .post-card {
     position: relative;
-    flex: 1 1 50%;
+    flex: 1 1 45%;
     display: flex;
     position: relative;
     height: 35vw;
+    border-radius: 25px;
     background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
     background-size: cover;
     overflow: hidden;

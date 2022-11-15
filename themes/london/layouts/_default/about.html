@@ -71,11 +71,11 @@
                   <div class="row">
                     <div class="col-12">
                       <div class="post-content-body">
-                          <h2>{{ .Site.Data.about.tagline }}</h2>
+                          <h2>{{ .Page.Params.tagline }}</h2>
                           <figure class="kg-card kg-image-card kg-width-full">
-                            <img src="{{ .Site.Data.about.image }}" class="kg-image">
+                            <img src="{{ .Page.Params.image }}" class="kg-image">
                           </figure>
-                            {{ .Site.Data.about.HTMLcontent | markdownify }}
+                            {{ .Content }}
                       </div>
                     </div>
                 </div>
