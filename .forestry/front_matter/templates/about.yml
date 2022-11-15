@@ -1,0 +1,16 @@
+---
+label: About
+hide_body: false
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+  description: About me image
+- name: tagline
+  type: text
+  config:
+    required: false
+  label: tagline
+  description: Tagline underneath about me header
