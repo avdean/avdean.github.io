@@ -65,7 +65,7 @@
   <div class="flexContainer">
     {{ range .Page.Params.imagesReg }}
           <div class="flexItem kg-card kg-image-card">
-            <img src="{{ . }}" class="kg-image">
+            <a href="#{{ . }}"><img src="{{ . }}" class="kg-image"></a>
           </div>
     {{ end }}
   </div>
@@ -73,18 +73,24 @@
 
 {{ range .Page.Params.imagesWide }}
        <figure class="kg-card kg-image-card kg-width-wide">
-        <img src="{{ . }}" class="kg-image">
+        <a href="#{{ . }}"><img src="{{ . }}" class="kg-image"></a>
       </figure>
     {{ end }}
   {{ range .Page.Params.imagesLarge }}
         <figure class="kg-card kg-image-card kg-width-full">
-          <img src="{{ . }}" class="kg-image">
+          <a href="#{{ . }}"><img src="{{ . }}" class="kg-image"></a>
         </figure>
       {{ end }}
 </div>
       </article>
     </div>
   </main>
+  {{ range .Page.Params.imagesReg }}
+    <div class="lightbox-target" id="{{ . }}">
+      <img src="{{ . }}"/>
+      <a class="lightbox-close" href="#"></a>
+   </div>
+   {{ end }}
       <footer class="site-foot">
          {{ .Site.Data.front.footerContent }}
       </footer>
