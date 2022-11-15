@@ -51,7 +51,7 @@
     text-align: left;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .kg-width-full {
         width: 100vw;
     }
@@ -113,7 +113,7 @@
     width:30%;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .flexItem {
     width:100%;
     }
