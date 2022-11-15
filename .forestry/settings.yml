@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: data/about.yaml
-  label: About me
+- type: directory
+  path: content/about
+  label: About
+  create: none
+  match: "**/*"
+  templates:
+  - about
 - type: document
   path: data/front.yaml
   label: Main Front Content
