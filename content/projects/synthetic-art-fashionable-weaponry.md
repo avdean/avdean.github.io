@@ -16,4 +16,4 @@ Take for example the video game franchise Borderlands, there are various weaponr
 
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1669109481/AntvdUploads/borderlands-manufacturers_kofhdx.jpg)
 
-This is an imagining of that using real world brands.
+This is an imagining of that concept using real world brands.
