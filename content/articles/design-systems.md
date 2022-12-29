@@ -21,4 +21,4 @@ For those that don't know, Figma is a cloud-based design and prototyping tool.
 
 One of the main advantages of Figma is that it allows multiple designers to collaborate on a project in real-time, making it an ideal tool for teams working on a design system. Figma also has a wide range of features specifically designed for design systems, including the ability to create and manage a library of reusable components, set up specific design rules and constraints, and automate the design process with prototyping and testing tools. Figma's user-friendliness and underlying features can greatly streamline the process of creating and maintaining a design system, without needing hours of training to get started.
 
-Anyway, that's enough from me, just wanted to get this off my chest, as it's been niggling at me for a while.
+Anyway, that's enough from me, just wanted to get this off my chest, as it's been niggling at me for a while. When there's time I'll try to give a short tutorial how you can use Figma to set up the baselines of a Design System. 
