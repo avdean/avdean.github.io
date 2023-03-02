@@ -12,14 +12,14 @@ So we've all heard of ChatGPT at this point, but if you're tired of the rate lim
 
 OpenAI does actually have their own **Playground** on their site, which lets you tinker with their APIs but it does leave a lot to be desired UX/UI wise.
 
-Of course, the [OpenAI API key is a paid service](https://openai.com/pricing "OpenAI Pricing"), but it is much cheaper than going with ChatGPT's $20/month subscription model as you pay by the token (and you can even cap how much you're willing to spend). 
+Of course, the [OpenAI API key is a paid service](https://openai.com/pricing "OpenAI Pricing"), but it is much cheaper than going with ChatGPT's $20/month subscription model as you pay by the token (and you can even cap how much you're willing to spend).
 
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1677754321/AntvdUploads/Billing_stymrs.jpg)
 
 ### Davinci vs ChatGPT
 
-Now, the upside to text-davinci-003 is it's actually more accurate and correct in regards to the data it shares in comparison to ChatGPT. However, I should note that it's also more socially awkward than chatGPT, and doesn't have the same flair as ChatGPT. That's because text-davinci-003 wasn't trained specifically for chat, likewise with Cushman and code responses.   
-  
+Now, the upside to text-davinci-003 is it's actually more accurate and correct in regards to the data it shares in comparison to ChatGPT. However, I should note that it's also more socially awkward than chatGPT, and doesn't have the same flair as ChatGPT. That's because text-davinci-003 wasn't trained specifically for chat, likewise with Cushman and code responses.
+
 But is also means it less inhibited with its answers, as there is no moderation API attached. This means that you can get more unconventional or unexpected responses, which can be both amusing and informative.
 
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1677754761/AntvdUploads/Example_liwcxy.jpg)
@@ -29,9 +29,13 @@ In addition to text-davinci-003, my frontend client also allows you to access ot
 ### Setting the client up
 
 To get started with the client, you'll need to do 2 things:  
-\- Sign up and grab your own OpenAI API key from OpenAI.   
+\- Sign up and grab your own OpenAI API key from OpenAI.  
 \- Sign up to Glitch.com and remix your own personal OpenAI server using [this server](dit/#!/davinci-server?path=server.js%3A1%3A0 "Davinci Server"), and place your API key in the server's ENV section.  (You can also edit the temperature and token allowance here too)  
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1677755062/AntvdUploads/Glitch_nnovrq.jpg)
+
+Start the client:  
+[https://cgpt2-5.netlify.app/](https://cgpt2-5.netlify.app/ "Davinci Client 2.0") and enter your Glitch server URL which can be found in Glitch like so:  
+![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1677755414/AntvdUploads/ServerURL_ogvt6e.jpg)
 
 ### A few caveats
 
