@@ -1,7 +1,6 @@
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1677754933/AntvdUploads/ClientWelcome_dsro5r.jpg"
 date = 2023-03-01T20:00:00Z
-draft = true
 subTitle = "Introducing my frontend client for OpenAI's text models"
 title = "I made a thing for AI!"
 wideImage = false
