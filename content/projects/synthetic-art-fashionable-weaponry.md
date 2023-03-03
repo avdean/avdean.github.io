@@ -1,3 +1,12 @@
+---
+_template: photo_essay
+---
+
+
+
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1669102680/AntvdUploads/Google_with_copy_qk2k7v.png"
 date = 2022-11-18T23:00:00Z

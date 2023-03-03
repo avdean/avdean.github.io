@@ -1,3 +1,12 @@
+---
+_template: photo_essay
+---
+
+
+
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1668465364/AntvdUploads/MidjourneyLady_boxzwh.png"
 date = 2022-11-13T18:00:00Z

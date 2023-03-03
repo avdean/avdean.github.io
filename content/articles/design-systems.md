@@ -1,3 +1,9 @@
+---
+_template: basic_article
+---
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1672157921/AntvdUploads/VagrantTea_Mickey_mouse_in_the_style_of_Charles_M._Schulz_illus_f726579e-b3f1-4d17-81c5-2a8eff03a356_rr7cqo.png"
 date = 2022-11-18T23:00:00Z

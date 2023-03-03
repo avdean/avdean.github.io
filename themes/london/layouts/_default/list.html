@@ -20,22 +20,13 @@
 
             </nav>
             <div class="site-head-center">
-                <a class="site-head-logo" href="#">{{ .Site.Data.front.title }}</a>
+                <a class="site-head-logo" href="#">{{ .Name | title }}</a>
             </div>
             <div class="site-head-right">
               <div class="social-links">
-                {{ with .Site.Data.front.github }}
-                <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
-                {{ end }}
-                {{ with .Site.Data.front.linkedin }}
-                <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
-                {{ end }}
-                {{ with .Site.Data.front.medium }}
-                <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
-                {{ end }}
-                {{ with .Site.Data.front.instagram }}
-                <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
-                {{ end }}
+                <a href="https://github.com/avdean" title="Github" target="_blank">Github</a>
+                <a href="https://linkedin.com/in/antvilladean/" title="LinkedIn" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/antvd.captured" title="Instagram" target="_blank">Instagram</a>
               </div>
             </div>
         </div>
@@ -63,7 +54,7 @@
     </div>
   </main>
   <footer class="site-foot">
-     {{ .Site.Data.front.footerContent }}
+    Copyright, 2022 Ant Villa Dean
   </footer>
   </div>
 

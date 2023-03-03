@@ -1,3 +1,9 @@
+---
+_template: basic_article
+---
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595232802/AntvdUploads/IMG_20200720_095111_t1yxuh.jpg"
 date = 2020-06-24T22:00:00Z

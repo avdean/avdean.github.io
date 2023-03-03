@@ -28,15 +28,15 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - photo-essay
+  - photo_essay
 - type: directory
   path: content/articles
   label: Articles
   create: all
   match: "**/*"
   templates:
-  - basic-article
-  - photo-essay
+  - basic_article
+  - photo_essay
 upload_dir: AntvdUploads
 public_path: https://res.cloudinary.com/dmw0znxgj/image/upload
 front_matter_path: ''

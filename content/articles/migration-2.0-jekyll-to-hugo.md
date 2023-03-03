@@ -1,3 +1,9 @@
+---
+_template: basic_article
+---
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1591536824/AntvdUploads/thomas-jensen-QABDpFYhNpk-unsplash_bfjiac.jpg"
 date = 2020-06-06T22:00:00Z

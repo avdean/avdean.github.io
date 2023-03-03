@@ -1,11 +1,15 @@
 ---
 title: To Broaden or Focus
 subTitle: My experience moving my site to an SSG
-FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,h_800,x_0/v1543570464/traffic.jpg
+FeatureImage: >-
+  https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,h_800,x_0/v1543570464/traffic.jpg
 wideImage: false
-date: 2019-10-01T00:00:00.000+02:00
-
+date: 2019-09-30T22:00:00.000Z
+_template: basic_article
 ---
+
+
+
 Since building this website and then sharing it with some colleagues and friends, one thing was brought to my attention above everything else.
 
 The website was far too broad with readers failing to find the main point that I was trying to get across.

@@ -1,3 +1,9 @@
+---
+_template: basic_article
+---
+
+
+
 +++
 FeatureImage = ""
 date = 2021-04-26T22:00:00Z

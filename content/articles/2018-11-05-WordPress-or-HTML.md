@@ -1,10 +1,15 @@
 ---
 title: Wordpress or HTML
-date: 2019-01-02T00:00:00.000+01:00
+date: 2019-01-01T23:00:00.000Z
 subTitle: A short intro about why I built my website
-FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541436045/html_boxes.jpg
+FeatureImage: >-
+  https://res.cloudinary.com/dmw0znxgj/image/upload/c_scale,w_1000/v1541436045/html_boxes.jpg
 wideImage: false
+_template: basic_article
 ---
+
+
+
 While my current job doesn't require the knowledge of HTML,  it's certainly helped. I know that part of this comes as part of the  territory (virtually any job in the digital sector). Depending on who  you ask, creating a website can fall into three categories: <div class="card-panel grey lighten-4"> <ol> <li>You can rely on a paid CMS such as WordPress.com, Squarespace, etc.  for an easy experience. which, depending on how much you spend be tailored exactly to your spec.</li> <li>You can rely on a free CMS such as WordPress.org, Drupal, etc. for a limited amount of options. The downside is that and you'll end up paying for something else instead.</li> <li>You can build it yourself, find the hosting and buy the domain.</li> </ol>
 
 <p>There's also a key different between WordPress.com and WordPress.org. which do with hosting and pricing. .Org is obviously free, however you'll have to find and pay for external hosting. .Com has different price levels, with the hosting covered. The downside is that if you want something unique, you'll also need to pay for a theme that you like.</p>

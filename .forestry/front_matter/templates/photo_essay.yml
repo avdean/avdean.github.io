@@ -21,27 +21,6 @@ fields:
 - type: boolean
   name: largeImages
   label: largeImages
-- name: imagesReg
-  type: image_gallery
-  config: {}
-  label: Gallery
-  description: Can be used on own or with Large/Wide
-  hidden: false
-- name: imagesLarge
-  type: image_gallery
-  config: {}
-  label: Gallery (Large)
-  showOnly:
-    field: largeImages
-    value: true
-- name: imagesWide
-  type: image_gallery
-  config: {}
-  showOnly:
-    value: false
-  label: Gallery (Wide)
-  description: Images to add to gallery (Full-width Gallery)
-  hidden: false
 pages:
 - content/articles/centralParkFrozen/index.md
 - content/projects/anime-colour-grading.md

@@ -1,3 +1,12 @@
+---
+_template: photo_essay
+---
+
+
+
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1595237904/AntvdUploads/IMG_20200704_205007_nfcsyo.jpg"
 date = 2020-07-19T22:00:00Z

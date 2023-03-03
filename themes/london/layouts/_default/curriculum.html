@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="HandheldFriendly" content="True">
-    <meta name="description" content="{{ .Site.Data.front.description }}">
+    <meta name="description" content="The personal website of a native English front-end and content editor
+    based in Madrid. Here you can see the projects, posts and jobs Ant has done in the
+    past, and also what he can do for you!">
 
-    <title>{{ .Site.Data.front.title }}</title>
+    <title>AntVD.Space - Curriculum</title>
 
     {{ $css := "css/screen.css" | absURL }}
     <link rel="stylesheet" href="{{ $css }}">
@@ -37,23 +39,13 @@
 
                     </nav>
                     <div class="site-head-center">
-                        <a class="site-head-logo" href="#">{{ .Site.Data.front.title }}</a>
+                        <a class="site-head-logo" href="#">AntVD.Space - Curriculum</a>
                     </div>
                     <div class="site-head-right">
                       <div class="social-links">
-                        {{ with .Site.Data.front.github }}
-                        <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
-                        {{ end }}
-                        {{ with .Site.Data.front.linkedin }}
-                        <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
-                        {{ end }}
-                        {{ with .Site.Data.front.medium }}
-                        <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
-                        {{ end }}
-                        {{ with .Site.Data.front.instagram }}
-                        <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
-                        {{ end }}
-                      </div>
+                        <a href="https://github.com/avdean" title="Github" target="_blank">Github</a>
+                        <a href="https://linkedin.com/in/antvilladean/" title="LinkedIn" target="_blank">LinkedIn</a>
+                        <a href="https://www.instagram.com/antvd.captured" title="Instagram" target="_blank">Instagram</a>                      </div>
                     </div>
                 </div>
             </header>
@@ -68,7 +60,7 @@
               <h2 class="post-content-title">Curriculum Vitae</h2>
               </header>
                 <div class="col-12">
-                    <button class="button large primary" style="display: block; margin-left: auto; margin-right: auto;"><a href="{{ .Site.Data.front.cvUpload }}">Download CV</a></button>
+                    <button class="button large primary" style="display: block; margin-left: auto; margin-right: auto;"><a href="https://res.cloudinary.com/dmw0znxgj/image/upload/v1653470909/AntvdUploads/AntVillaDeanCV2020_bhkjsp.pdf">Download CV</a></button>
                 </div>
               {{ range $.Site.Data.jobs }}
                 <div class="col-12">
@@ -109,7 +101,7 @@
             </div>
 
             <footer class="site-foot">
-               {{ .Site.Data.front.footerContent }}
+              Copyright, 2022 Ant Villa Dean
             </footer>
             </div>
             <script src="js/swup.js"></script>

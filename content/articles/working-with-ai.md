@@ -1,3 +1,9 @@
+---
+_template: basic_article
+---
+
+
+
 +++
 FeatureImage = "https://res.cloudinary.com/dmw0znxgj/image/upload/v1672134271/AntvdUploads/grid_0_c9lorz.png"
 date = 2022-12-26T10:00:00Z
