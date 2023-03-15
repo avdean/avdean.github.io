@@ -31,8 +31,8 @@ collections:
       - {label: "Wide Image", name: "wideImage", widget: "boolean"}
       - {label: "Large Images", name: "largeImage", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
-      label: "Large Image Gallery"
-      name: "imagesLarge"
-      widget: "list"
-      fields:
-          {label:"Image Source",name:"imgSrc",widget: "image"}
+        label: "Large Image Gallery"
+        name: "imagesLarge"
+        widget: "list"
+        fields:
+            {label:"Image Source",name:"imgSrc",widget: "image"}
