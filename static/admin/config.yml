@@ -36,3 +36,11 @@ collections:
         name: "imagesLarge",
         widget: "list" ,
         field: {label:"Image", name: "thumbnail", widget: "image"}}
+      - {label: "Regular Image Gallery",
+        name: "imagesReg",
+        widget: "list" ,
+        field: {label:"Image", name: "thumbnail", widget: "image"}}
+      - {label: "Wide Image Gallery",
+        name: "imagesWide",
+        widget: "list" ,
+        field: {label:"Image", name: "thumbnail", widget: "image"}}
