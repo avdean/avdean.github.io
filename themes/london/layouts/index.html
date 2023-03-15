@@ -8,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="description" content="{{ .Site.Data.front.description }}">
 
-    <title>{{ .Site.Data.front.metatitle }}</title>
+    <title>Welcome to ANTVD.SPACE</title>
 
     {{ $css := "css/screen.css" | absURL }}
     <link rel="stylesheet" href="{{ $css }}">
@@ -37,22 +37,13 @@
 
                     </nav>
                     <div class="site-head-center">
-                        <a class="site-head-logo" href="#">{{ .Site.Data.front.title }}</a>
+                        <a class="site-head-logo" href="#">Antvd.Space</a>
                     </div>
                     <div class="site-head-right">
                       <div class="social-links">
-                        {{ with .Site.Data.front.github }}
-                        <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
-                        {{ end }}
-                        {{ with .Site.Data.front.linkedin }}
-                        <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
-                        {{ end }}
-                        {{ with .Site.Data.front.medium }}
-                        <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
-                        {{ end }}
-                        {{ with .Site.Data.front.instagram }}
-                        <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
-                        {{ end }}
+                        <a href="https://github.com/avdean" title="Github" target="_blank">Github</a>
+                        <a href="https://linkedin.com/in/antvilladean" title="LinkedIn" target="_blank">LinkedIn</a>
+                        <a href="https://www.instagram.com/antvd.captured" title="Instagram" target="_blank">Instagram</a>
                       </div>
                     </div>
                 </div>
@@ -65,7 +56,7 @@
 
 
               <header class="page-head">
-              <h2 class="page-head-title"> {{ .Site.Data.front.headerTitle }}</h2>
+              <h2 class="page-head-title"> Welcome to the portfolio space of Ant Villa Dean</h2>
               </header>
 
               <div class="post-feed">
@@ -88,7 +79,7 @@
             </div>
 
             <footer class="site-foot">
-               {{ .Site.Data.front.footerContent }}
+               A port of the free London template of Ghost CMS | Ported by Ant Villa Dean over to Hugo, 2023
             </footer>
             </div>
             <script src="js/swup.js"></script>
