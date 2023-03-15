@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dmw0znxgj
+    api_key: 133435594612789
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "articles" # Used in routes, e.g., /admin/collections/blog
+    label: "Articles" # Used in the UI
+    folder: "content/articles" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "FeatureImage", widget: "image"}
+      - {label: "Wide Image", name: "wideImage", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
