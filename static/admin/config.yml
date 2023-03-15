@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+local_backend: true
 media_library:
   name: cloudinary
   config:
@@ -31,4 +32,7 @@ collections:
       - {label: "Wide Image", name: "wideImage", widget: "boolean"}
       - {label: "Large Images", name: "largeImage", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: ImageSource, name: "imgSrc", widget: "list", field: {label:"Image Source", name: "imgSrc", widget:"image"}}
+      - {label: "ImageSource",
+        name: "imgSrc",
+        widget: "list" ,
+        field: {label:"Image Source", name: "imgSrc", widget:"image"}}
