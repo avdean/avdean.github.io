@@ -35,4 +35,4 @@ collections:
         name: "imagesLarge"
         widget: "list"
         fields:
-            {label:"Image Source",name:"imgSrc",widget: "image"}
+          - {label:"Image Source", name:"imgSrc", widget: "image"}
