@@ -35,4 +35,4 @@ collections:
       - {label: "Large Image Gallery",
         name: "imagesLarge",
         widget: "list" ,
-        field: {label:"Image Source", name: "thumbnail", widget: "image", media_library: config: multiple: true}}
+        field: {label:"Image", name: "thumbnail", widget: "image"}}
