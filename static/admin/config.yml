@@ -32,7 +32,7 @@ collections:
       - {label: "Wide Image", name: "wideImage", widget: "boolean"}
       - {label: "Large Images", name: "largeImage", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "ImageSource",
-        name: "imgSrc",
+      - {label: "Large Image Gallery",
+        name: "imagesLarge",
         widget: "list" ,
-        field: {label:"Image Source", name: "imgSrc", widget:"image"}}
+        field: {label:"Image Source", name: "thumbnail", widget: "image", media_library: config: multiple: true}}
