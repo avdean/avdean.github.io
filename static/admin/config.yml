@@ -6,8 +6,6 @@ media_library:
   config:
     cloud_name: dmw0znxgj
     api_key: 133435594612789
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
 collections:
   - name: "articles" # Used in routes, e.g., /admin/collections/blog
     label: "Articles" # Used in the UI
@@ -36,6 +34,6 @@ collections:
             label:"galleryImage", name:"imgSrc", widget:"image"}
       - {label: "Regular Image Gallery", name: "imagesReg", widget: "list", fields:
             label:"galleryImage", name:"imgSrc", widget:"image"}
-- {label: "Wide Image Gallery", name: "imagesWide", widget: "list", fields:
+      - {label: "Wide Image Gallery", name: "imagesWide", widget: "list", fields:
             label:"galleryImage", name:"imgSrc", widget:"image"}      
       - {label: "Body", name: "body", widget: "markdown"}
