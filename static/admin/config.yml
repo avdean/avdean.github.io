@@ -20,3 +20,22 @@ collections:
       - {label: "Featured Image", name: "FeatureImage", widget: "image"}
       - {label: "Wide Image", name: "wideImage", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Projects" # Used in the UI
+    folder: "content/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "FeatureImage", widget: "image"}
+      - {label: "Wide Image", name: "wideImage", widget: "boolean"}
+      - {label: "Large Images", name: "largeImage", widget: "boolean"}
+      - {label: "Large Image Gallery", name: "imagesLarge", widget: "list", fields:
+            label:"galleryImage", name:"imgSrc", widget:"image"}
+      - {label: "Regular Image Gallery", name: "imagesReg", widget: "list", fields:
+            label:"galleryImage", name:"imgSrc", widget:"image"}
+- {label: "Wide Image Gallery", name: "imagesWide", widget: "list", fields:
+            label:"galleryImage", name:"imgSrc", widget:"image"}      
+      - {label: "Body", name: "body", widget: "markdown"}
