@@ -9,11 +9,12 @@
     <meta name="description" content="{{ .Site.Data.front.description }}">
 
     <title>Welcome to ANTVD.SPACE</title>
+    
 
     {{ $css := "css/screen.css" | absURL }}
     <link rel="stylesheet" href="{{ $css }}">
     {{ partial "favicons.html" . }}
-
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
     <body>
       <div class="site-wrapper">
