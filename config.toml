@@ -23,18 +23,18 @@ sectionPagesMenu = "main"
     identifier = "projects"
     weight = 3
     url = "/projects"
-    [[menu.main]]
-        name = "Curriculum"
-        identifier = "curriculum"
-        weight = 4
-        url = "/curriculum"
-    [[menu.main]]
-        name = "About"
-        identifier = "about"
-        weight = 5
-        url = "/about"
-    [[menu.main]]
-        name = "Contact"
-        identifier = "contact"
-        weight = 6
-        url = "/contact"
+[[menu.main]]
+    name = "Curriculum"
+    identifier = "curriculum"
+    weight = 4
+    url = "/curriculum"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 5
+    url = "/about"
+[[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    weight = 6
+    url = "/contact"

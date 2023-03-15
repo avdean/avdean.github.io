@@ -1,45 +1,7 @@
 {{ define "main" }}
 <div class="site-wrapper">
 
-    <header class="site-head">
-        <div class="site-head-container">
-            <a class="nav-burger" href="#">
-                <div class="hamburger" aria-label="Menu" role="button" aria-controls="navigation">
-                    <div class="hamburger-box">
-                        <div class="hamburger-inner"></div>
-                    </div>
-                </div>
-            </a>
-            <nav id="swup" class="site-head-left">
-                <ul class="nav" role="menu">
-                  {{ $currentPage := . }}
-                  {{ range .Site.Menus.main }}
-                    <a class="nav-link" role="menuitem" href="{{ .URL | absLangURL }}">{{ .Name | title }}</a>
-                  {{ end }}
-                </ul>
-
-            </nav>
-            <div class="site-head-center">
-                <a class="site-head-logo" href="#">{{ .Site.Data.front.title }}</a>
-            </div>
-            <div class="site-head-right">
-              <div class="social-links">
-                {{ with .Site.Data.front.github }}
-                <a href="https://github.com/{{.}}" title="Github" target="_blank">Github</a>
-                {{ end }}
-                {{ with .Site.Data.front.linkedin }}
-                <a href="https://linkedin.com/in/{{.}}" title="LinkedIn" target="_blank">LinkedIn</a>
-                {{ end }}
-                {{ with .Site.Data.front.medium }}
-                <a href="https://www.medium.com/@{{.}}" title="Medium" target="_blank">Medium</a>
-                {{ end }}
-                {{ with .Site.Data.front.instagram }}
-                <a href="https://www.instagram.com/{{.}}" title="Instagram" target="_blank">Instagram</a>
-                {{ end }}
-              </div>
-            </div>
-        </div>
-    </header>
+  {{ partial "partials/header.html" . }}
 
 <main id="site-main" class="site-main">
     <div id="swup" class="transition-fade">
@@ -62,9 +24,6 @@
       </div>
     </div>
   </main>
-  <footer class="site-foot">
-     {{ .Site.Data.front.footerContent }}
-  </footer>
   </div>
 
 {{ end }}
