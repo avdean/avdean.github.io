@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  # name: git-gateway
+  # repo: avdean/avdean.github.io
+  name: proxy
+  proxy_url: http://localhost:8081/api/v1
   branch: master # Branch to update (optional; defaults to master)
 local_backend: true
 publish_mode: editorial_workflow
@@ -36,12 +39,12 @@ collections:
       - {label: "Large Image Gallery",
         name: "imagesLarge",
         widget: "list" ,
-        field: {label:"Image", name: "thumbnail", widget: "image"}}
+        field: {label:"Image", name: "Large Image", widget: "image"}}
       - {label: "Regular Image Gallery",
         name: "imagesReg",
         widget: "list" ,
-        field: {label:"Image", name: "thumbnail", widget: "image"}}
+        field: {label:"Image", name: "Regular Image", widget: "image"}}
       - {label: "Wide Image Gallery",
         name: "imagesWide",
         widget: "list" ,
-        field: {label:"Image", name: "thumbnail", widget: "image"}}
+        field: {label:"Image", name: "Wide Image", widget: "image"}}

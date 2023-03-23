@@ -18,6 +18,10 @@
     justify-content: space-between;
   }
 
+  [class*=AppHeaderNavLink] > [class*=IconWrapper], [class*=AppHeaderButton] > [class*=IconWrapper] {
+    display: none;
+  }
+
   [class*=AppHeaderQuickNewButton] {
     width: 100%;
   }
@@ -34,22 +38,16 @@
 
   [class*=ToolbarSubSectionFirst] {
     display: flex;
-    flex-direction: column;
-  }
-
-  [class*=PublishedToolbarButton] {
-    padding: 0 8px;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap:5px;
+    margin-top: 20px;
   }
 
   [class*=PublishedToolbarButton]::after {
     display: none;
   }
-
-  [class*=DeleteButton] {
-    margin-top: 5px;
-    padding: 0 2px;
-  }
-
+  
   [class*=ViewControls] {
     position: initial;
   }
