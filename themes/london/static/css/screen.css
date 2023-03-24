@@ -907,10 +907,11 @@ input[type="submit"].primary, input[type="reset"].primary, input[type="button"].
     }
     
     .lightbox-target:target img {
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 85%;
+    max-width: 85%;
     }
     
     .lightbox-target:target a.lightbox-close {
-    top: 0px;
+    top: 2vh;
+    right:2vw;
     }
