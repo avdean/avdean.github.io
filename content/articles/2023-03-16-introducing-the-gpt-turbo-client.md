@@ -4,22 +4,11 @@ date: 2023-03-15T21:12:22.593Z
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1678951638/AntvdUploads/CGPTurbo.jpg
 wideImage: false
 ---
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1678951638/AntvdUploads/EnterAPI.jpg)
+
 
 It's been a busy couple of weeks. I actually improved on my previous chat client, so you no longer need to clone the server, instead all you need to do is enter you're own API key and you can pretty much move from there. 
 
-I﻿nstead of give you an image, I'll do one better at let you have a play with it right here!
-
-<﻿div style="position: relative;overflow: hidden;width: 80%; h﻿eight:40vw;>
-
-<iframe class="responsive-iframe" src="https://gpt-client.netlify.app/" style="
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;"></iframe>
-<﻿/div>
+![]https://res.cloudinary.com/dmw0znxgj/image/upload/v1678951638/AntvdUploads/EnterAPI.jpg
 
 F﻿ull site is currently at <https://gpt-client.netlify.app/>
 
