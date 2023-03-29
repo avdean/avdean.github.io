@@ -8,12 +8,7 @@ It's been a busy couple of weeks. I actually improved on my previous chat client
 
 I﻿nstead of give you an image, I'll do one better at let you have a play with it right here!
 
-<﻿div style="position: relative;
-  overflow: hidden;
-  width: 80%;
-h﻿eight:40vw;
-
-  padding-top: 56.25%">
+<﻿div style="position: relative;overflow: hidden;width: 80%; h﻿eight:40vw;>
 <iframe class="responsive-iframe" src="https://gpt-client.netlify.app/" style="
   top: 0;
   left: 0;
