@@ -11,8 +11,10 @@ I﻿nstead of give you an image, I'll do one better at let you have a play with 
 <﻿div style="position: relative;
   overflow: hidden;
   width: 80%;
+h﻿eight:40vw;
+
   padding-top: 56.25%">
-<iframe class="responsive-iframe" src="https://gpt-client.netlify.app/" style="  position: absolute;
+<iframe class="responsive-iframe" src="https://gpt-client.netlify.app/" style="
   top: 0;
   left: 0;
   bottom: 0;
