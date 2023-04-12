@@ -1,12 +1,13 @@
 ---
 title: Website Creation
-subTitle: For both practice and learning, I created and set up websites for friends
-  and family. These are the finished products.
+subtitle: Websites I've created and worked on
+date: 2019-01-07T00:00:00.000+01:00
 FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1669367718/AntvdUploads/VagrantTea_website_wireframe_design_pastel_colours_8a13acc2-799c-4d11-b713-7611dba1a2fb_dcq0fi.png
 wideImage: false
+largeImage: false
 largeImages: true
-date: 2019-01-07T00:00:00.000+01:00
-
+subTitle: For both practice and learning, I created and set up websites for
+  friends and family. These are the finished products.
 ---
 #### [Pork Shack UK](https://www.theporkshack.co.uk "Pork Shack UK")
 
@@ -18,7 +19,7 @@ Pork Shack UK is a food trailer company that specialises in Phillipino food, run
 
 ![Pasion en Miniatura Site](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584460578/AntvdUploads/Screenshot_2020-03-17_at_16.55.40_jlk31n.png "Pasion en Miniatura Site")
 
-Pasión en Miniatura, is a Spanish blog centred around miniature cars. The idea of setting this up, was to stand as a way for a friend to showcase his work as a content writer, specifically in Spanish. The build of it, is also mainly Hugo, with a CMS connected in the form of [Forestry.io](Forestry.io), the same CMS I use for this site.
+Pasión en Miniatura, was a Spanish blog centred around miniature cars. The idea of setting this up, was to stand as a way for a friend to showcase his work as a content writer, specifically in Spanish. The build of it, was also mainly Hugo, with a CMS connected in the form of [Forestry.io](Forestry.io), the same CMS I use for this site.
 
 #### [Skip the City](https://skipthecity.com/ "Skip the City")
 
@@ -33,10 +34,3 @@ We also worked on an Instagram together with a very clear and distinct design, f
 ##### [@skipthecity_es](https://instagram.com/skipthecity_es)
 
 ![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584461751/AntvdUploads/Screenshot_2020-03-17_at_17.07.30_s7lnrx.png)
-
-#### [Weddingstr](https://weddingstr.netlify.com)
-
-![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584966182/AntvdUploads/Weddingstr_l27hyn.png)
-
-Weddingstr is a concept application I thought up. The concept is an application that would help the soon-to-be-married, wedding planners find the perfect wedding venue, while giving wedding venues an easy-to-use place to organize and contact clients.  
-Basically a hybrid of AirBnB/Booking.com for wedding venues.
