@@ -1,6 +1,6 @@
 ---
 image: https://res.cloudinary.com/dmw0znxgj/image/upload/v1584957963/AntvdUploads/_MG_0085_wvjusy.jpg
-tagline: Native English in Madrid, specializing in Front-End, Web Design and Content.
+tagline: Native English based in Madrid specializing in frontend, web design and content.
 title: About
 layout: about
 ---
