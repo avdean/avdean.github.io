@@ -8,7 +8,7 @@ wideImage: false
 
 It's been a busy couple of weeks. I actually improved on my previous chat client, so you no longer need to clone the server, instead all you need to do is enter you're own API key and you can pretty much move from there. 
 
-![]https://res.cloudinary.com/dmw0znxgj/image/upload/v1678951638/AntvdUploads/EnterAPI.jpg
+![](https://res.cloudinary.com/dmw0znxgj/image/upload/v1678951638/AntvdUploads/EnterAPI.jpg)
 
 F﻿ull site is currently at <https://gpt-client.netlify.app/>
 
