@@ -33,9 +33,9 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "FeatureImage", widget: "image"}
-      - {label: "Wide Image", name: "wideImage", widget: "boolean", optional: true}
-      - {label: "Large Images", name: "largeImage", widget: "boolean", optional: true}
-      - {label: "Body", name: "body", widget: "markdown", optional: true}
+      - {label: "Wide Image", name: "wideImage", widget: "boolean", optional: "true", default:"false"}
+      - {label: "Large Images", name: "largeImage", widget: "boolean", optional: "true", default:"false"}
+      - {label: "Body", name: "body", widget: "markdown", optional: "true"}
       - {label: "Large Image Gallery",
         name: "imagesLarge",
         widget: "list" ,
