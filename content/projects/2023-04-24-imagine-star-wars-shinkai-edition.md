@@ -18,4 +18,6 @@ imagesReg:
   - https://res.cloudinary.com/dmw0znxgj/image/upload/v1682264574/Shinkai/VagrantTea_anime_still_of_star_wars_Darth_Vader_lightsabre_by_m_f8469432-00b7-4794-a968-db107df28ce3.png
   - https://res.cloudinary.com/dmw0znxgj/image/upload/v1682265048/Shinkai/VagrantTea_anime_still_of_star_wars_curuscant_by_makoto_shinkai_6a0bdb9e-dcf7-40c0-8185-c481238a078c.png
 ---
-T﻿his is the first of a series of Imagine projects. With the images created by Midjourney, the idea is to 
+T﻿his is the first of a series of Imagine projects, a collection of images mixing two different concepts together in interesting ways, using Midjourney as the driving engine.
+
+Makoto Shinkai's movies have some of the best skies and colour palette in any anime, and Star Wars feels like the perfect franchise for Shinkai to create something beautiful.
