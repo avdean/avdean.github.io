@@ -9,17 +9,14 @@ largeImages: true
 subTitle: For both practice and learning, I created and set up websites for
   friends and family. These are the finished products.
 ---
-#### [Pork Shack UK](https://www.theporkshack.co.uk "Pork Shack UK")
+#### [Smash Cow](https://www.smashcow.co.uk "Smash Cow")
 
-![Pork Shack Site](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584460461/AntvdUploads/Screenshot_2020-03-17_at_16.53.44_cuwih8.png "Pork Shack Site")
+![Smash Cow](https://res.cloudinary.com/dmw0znxgj/image/upload/v1682341902/SmashCow.jpg "Smash Cow Site")
 
-Pork Shack UK is a food trailer company that specialises in Phillipino food, run by my sister and her husband, the site itself is a simply applied Hugo template, but was my first attempt at working with Hugo. As a single-page website, it acts as a fast-loading and hopefully, SEO-optimised experience.
+Smash Cow is a burger joint in my home town, whose website I offered to tweak after seeing it. The site is built with Squarespace to allow them to edit content at an easier pace. It's built using Squarespace 7.1, which allows for a certain level customizability, with CSS allowing for customization beyond what Squarespace allows.
 
-#### [Pasion en Miniatura](https://www.pasionenminiatura.com/)
+The logo itself has a strong relation to neon, and my favourite part of tweaking the website was coding the buttons to have a neon effect with reflection.
 
-![Pasion en Miniatura Site](https://res.cloudinary.com/dmw0znxgj/image/upload/v1584460578/AntvdUploads/Screenshot_2020-03-17_at_16.55.40_jlk31n.png "Pasion en Miniatura Site")
-
-Pasión en Miniatura, was a Spanish blog centred around miniature cars. The idea of setting this up, was to stand as a way for a friend to showcase his work as a content writer, specifically in Spanish. The build of it, was also mainly Hugo, with a CMS connected in the form of [Forestry.io](Forestry.io), the same CMS I use for this site.
 
 #### [Skip the City](https://skipthecity.com/ "Skip the City")
 
@@ -27,7 +24,7 @@ Pasión en Miniatura, was a Spanish blog centred around miniature cars. The idea
 
 Skip the City was a multilingual blog I set up using Wordpress, while working with travel company, Hellotickets. While the English homepage, was a proof of concept, of what it could become, the Spanish site is where you'll find the meat of the blog, with many posts structured by myself, and written by a colleague and friend.
 
-While I had previously worked in wordpress before, years ago, this was my first real dive into the platform. I had to use a number of CSS tricks and hacks, in order to get the site to how we wanted it. But in the end, I'm very proud of how it turned out.
+While I had previously worked in Wordpress before, years ago, this was my first real dive into the platform. I had to use a number of CSS tricks and hacks, in order to get the site to how we wanted it. But in the end, I'm very proud of how it turned out.
 
 We also worked on an Instagram together with a very clear and distinct design, for travel:
 
