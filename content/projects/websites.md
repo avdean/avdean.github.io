@@ -24,7 +24,7 @@ The logo itself has a strong relation to neon, and my favourite part of tweaking
 
 Skip the City was a multilingual blog I set up using Wordpress, while working with travel company, Hellotickets. While the English homepage, was a proof of concept, of what it could become, the Spanish site is where you'll find the meat of the blog, with many posts structured by myself, and written by a colleague and friend.
 
-While I had previously worked in wordpress before, years ago, this was my first real dive into the platform. I had to use a number of CSS tricks and hacks, in order to get the site to how we wanted it. But in the end, I'm very proud of how it turned out.
+While I had previously worked in Wordpress before, years ago, this was my first real dive into the platform. I had to use a number of CSS tricks and hacks, in order to get the site to how we wanted it. But in the end, I'm very proud of how it turned out.
 
 We also worked on an Instagram together with a very clear and distinct design, for travel:
 
