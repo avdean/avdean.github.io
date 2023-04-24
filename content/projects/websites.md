@@ -11,7 +11,7 @@ subTitle: For both practice and learning, I created and set up websites for
 ---
 #### [Smash Cow](https://www.smashcow.co.uk "Smash Cow")
 
-![Pork Shack Site](https://res.cloudinary.com/dmw0znxgj/image/upload/v1682341902/SmashCow.jpg "Smash Cow Site")
+![Smash Cow](https://res.cloudinary.com/dmw0znxgj/image/upload/v1682341902/SmashCow.jpg "Smash Cow Site")
 
 Smash Cow is a burger joint in my home town, whose website I offered to tweak after seeing it. The site is built with Squarespace to allow them to edit content at an easier pace. It's built using Squarespace 7.1, which allows for a certain level customizability, with CSS allowing for customization beyond what Squarespace allows.
 
