@@ -11,15 +11,9 @@
     <h2 class="page-head-title">{{ .Name | title }}</h2>
     </header>
 
-    <script>
-    window.addEventListener("load", () => {
-      document.getElementById("imageLoad").style.opacity = 1;
-    });
-    </script>
-
       <div class="post-feed">
           {{ range .Pages.ByPublishDate.Reverse }}
-              <article id="imageLoad" class="post-card  post {{ if eq .Params.wideImage "true" }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage  }}); opacity: 0.1; transition: opacity 0.5s;">
+              <article id="imageLoad" class="post-card  post {{ if eq .Params.wideImage "true" }} post-card-large with-image {{ else }} with-image {{ end }}" style="background-image: url({{ .Params.FeatureImage  }});">
               <a class="post-card-link" href="{{ .RelPermalink }}">
               <div class="post-card-content">
                   <h2 class="post-card-title">{{ .Title }}</h2>
