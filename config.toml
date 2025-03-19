@@ -12,7 +12,7 @@ sectionPagesMenu = "main"
     name = "Home"
     weight = 1
     identifier = "home"
-    url = "https://antvd.space"
+    url = "https://antvd.xyz"
 [[menu.main]]
     name = "Articles"
     identifier = "articles"
