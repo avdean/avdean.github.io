@@ -1,7 +1,7 @@
 ---
-title: So I have cancer. It's stage 4, and we're coming into Christmas.
+title: So I have stage 4 cancer and it's Christmas.
 date: 2025-12-01T00:27:47.999Z
-FeatureImage: https://res.cloudinary.com/dmw0znxgj/image/upload/v1764549627/360_F_204886984_AtNmBZ3kUSSl73xCyyCdKRhpVQNumbvm_yjtfkk.jpg
+FeatureImage: IMG_4263_s9uy5y
 wideImage: true
 ---
 There's a lot to process and I will get into it.. it's rectal. I spent a year with the hope of a cure, however recently things have taken a turn for the wand despite surgery, the cancer went metastatic. 
