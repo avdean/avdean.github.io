@@ -1,5 +1,5 @@
 ---
-title: So I have cancer. It's stage 4, and we're coming into Christmas.
+title: So I have stage 4 cancer and it's Christmas.
 date: 2025-12-01T00:27:47.999Z
 FeatureImage: IMG_4263_s9uy5y
 wideImage: true
