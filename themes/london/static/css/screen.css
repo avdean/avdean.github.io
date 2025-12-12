@@ -755,6 +755,11 @@ body {
 
 /* Custom Edits
 /* ----------------------------------------------------------- */
+/* fixes footer text*/
+.footerText {
+font-style: italic;
+font-size:1rem;
+}
 
 @keyframes aniImageLoad {
   from {
