@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  repo: avdean/avdean.github.io
+  # name: proxy
+  # proxy_url: http://localhost:8081/api/v1
+  branch: master # Branch to update (optional; defaults to master)
+local_backend: true
+publish_mode: editorial_workflow
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dmw0znxgj
+    api_key: 133435594612789
+collections:
+  - name: "articles" # Used in routes, e.g., /admin/collections/blog
+    label: "Articles" # Used in the UI
+    folder: "content/articles" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "FeatureImage", widget: "image"}
+      - {label: "Wide Image", name: "wideImage", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Projects" # Used in the UI
+    folder: "content/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "FeatureImage", widget: "image"}
+      - {label: "Wide Image", name: "wideImage", widget: "boolean", optional: "true", default:"false"}
+      - {label: "Large Images", name: "largeImage", widget: "boolean", optional: "true", default:"false"}
+      - {label: "Body", name: "body", widget: "markdown", optional: "true"}
+      - {label: "Large Image Gallery",
+        name: "imagesLarge",
+        widget: "list" ,
+        field: {label:"Image", name: "Large Image", widget: "image"}}
+      - {label: "Regular Image Gallery",
+        name: "imagesReg",
+        widget: "list" ,
+        field: {label:"Image", name: "Regular Image", widget: "image"}}
+      - {label: "Wide Image Gallery",
+        name: "imagesWide",
+        widget: "list" ,
+        field: {label:"Image", name: "Wide Image", widget: "image"}}

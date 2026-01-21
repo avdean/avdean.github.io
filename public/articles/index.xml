@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on AntVD.site</title>
+    <link>http://localhost:1313/articles/</link>
+    <description>Recent content in Articles on AntVD.site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Dec 2025 01:27:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So I have stage 4 cancer.</title>
+      <link>http://localhost:1313/articles/2025-12-01-so-i-have-cancer-its-stage-4-and-were-coming-into-christmas/</link>
+      <pubDate>Mon, 01 Dec 2025 01:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/2025-12-01-so-i-have-cancer-its-stage-4-and-were-coming-into-christmas/</guid>
+      <description>I now survive via the unending care of my wife and my beautiful daughter, she&amp;rsquo;s 3 pushing on 4 and I&amp;rsquo;ll try my best to I represent how amazing they both are, despite how easy it is to feel into the trap of being sad.&#xA;I underwent 4th chemo round and it left me beyond tired, and next week will be the beginning of the 5th.&#xA;It&amp;rsquo;s been difficult because transitioning from stage 3 to stage 4 has resulted in a lot of &amp;ldquo;wait and see&amp;rdquo; and take it &amp;ldquo;day by day&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Introducing the GPT Turbo Client!</title>
+      <link>http://localhost:1313/articles/2023-03-16-introducing-the-gpt-turbo-client/</link>
+      <pubDate>Wed, 15 Mar 2023 21:12:22 +0000</pubDate>
+      <guid>http://localhost:1313/articles/2023-03-16-introducing-the-gpt-turbo-client/</guid>
+      <description>It&amp;rsquo;s been a busy couple of weeks. I actually improved on my previous chat client, so you no longer need to clone the server, instead all you need to do is enter you&amp;rsquo;re own API key and you can pretty much move from there.&#xA;F﻿ull site is currently at https://chat.antvd.xyz/ it&amp;rsquo;s half cocked at this point, but it&amp;rsquo;s a good starting point to use the API.&#xA;It also uses OpenAI&amp;rsquo;s ChatCompletions call, which basically means it&amp;rsquo;s using the models tailored more for chat, this includes the one currently used for ChatGPT (GPT-3.</description>
+    </item>
+    <item>
+      <title>I made a thing for AI!</title>
+      <link>http://localhost:1313/articles/i-made-a-thing-for-ai/</link>
+      <pubDate>Wed, 01 Mar 2023 20:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/i-made-a-thing-for-ai/</guid>
+      <description>So we&amp;rsquo;ve all heard of ChatGPT at this point, but if you&amp;rsquo;re tired of the rate limiting and the services&amp;rsquo; downtime. If so, you may want to check out OpenAI&amp;rsquo;s other offerings including text-davinci-003 model and the like. It&amp;rsquo;s with this in mind that I built out a frontend client to interface with.&#xA;Why do I need a client? OpenAI does actually have their own Playground on their site, which lets you tinker with their APIs but it does leave a lot to be desired UX/UI wise.</description>
+    </item>
+    <item>
+      <title>Working with AI </title>
+      <link>http://localhost:1313/articles/working-with-ai/</link>
+      <pubDate>Mon, 26 Dec 2022 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/working-with-ai/</guid>
+      <description>As you may have noticed, a few of my recent projects have come about from tinkering with Midjourney, an AI image generator, which has advanced ridiculously in the last few months. Now there are certainly issues regarding intellectual property, and understandably, AI image generation has taken centre stage in many artists rallying against the new technology. Personally I believe it will eventually fall into its own category of &amp;ldquo;Synthetic Art&amp;rdquo;, whereby the prompt engineering itself, will be what is judged.</description>
+    </item>
+    <item>
+      <title>Design Systems</title>
+      <link>http://localhost:1313/articles/design-systems/</link>
+      <pubDate>Fri, 18 Nov 2022 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/design-systems/</guid>
+      <description>Web design in the last decade has come a long way from its humble beginnings in the early days of the internet. In the past few decades, we&amp;rsquo;ve seen the rise of responsive design, the proliferation of mobile devices, and the emergence of new design tools and frameworks. In the last decade I&amp;rsquo;ve witnessed the switch from desktop to mobile-first and it&amp;rsquo;s been crazy seeing its evolution.&#xA;I tend to keep the work I do with a company close to the chest, but this is something that I really wanted to write about.</description>
+    </item>
+    <item>
+      <title>Introducing Marvel-Discover</title>
+      <link>http://localhost:1313/articles/introducing-marvel-discover/</link>
+      <pubDate>Wed, 24 Jun 2020 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/introducing-marvel-discover/</guid>
+      <description>I have created my first React web-application!&#xA;https://marvel-discover.netlify.app&#xA;What&amp;rsquo;s most important about it is that I wanted to create something that could call Restful APIs successfully, and rather nerdilly there is a Marvel API for exactly that.&#xA;There isn&amp;rsquo;t much to it at the moment, as I&amp;rsquo;m only half way through the course, but it is kind of gratifying to see something beginning to form.&#xA;I also started using Figma for the planning and prototyping of different elements, and it&amp;rsquo;s actually really pleasant to use.</description>
+    </item>
+    <item>
+      <title>Migration 2.0 - Jekyll to Hugo</title>
+      <link>http://localhost:1313/articles/migration-2.0-jekyll-to-hugo/</link>
+      <pubDate>Sat, 06 Jun 2020 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/migration-2.0-jekyll-to-hugo/</guid>
+      <description>This has been a post a long time coming, since the switch from Jekyll to Hugo happend a long while ago.&#xA;The reason for the switch was partly to see how Go language works, and redesign the site for a much cleaner look. In the end it was actually relatively easy, since it&amp;rsquo;s simply a case of changing the templating language and structure.&#xA;In the end, for the overall design, I ported Ghost&amp;rsquo;s London theme to Hugo, so one day I&amp;rsquo;ll probably share a variant of it on GitHub (was previously working on a webcomic-friendly template).</description>
+    </item>
+    <item>
+      <title>Getting the most out of Android iconpacks</title>
+      <link>http://localhost:1313/articles/how-to-use-android-icons-on-pc/</link>
+      <pubDate>Sun, 03 May 2020 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/how-to-use-android-icons-on-pc/</guid>
+      <description>Knee-deep in quarantine, I decided to delve into giving my Linux setup a little of a refresh, I know it&amp;rsquo;s been a while since I&amp;rsquo;ve posted a proper article, and this is a topic that really appeals to a very select few. But for those select few, its definitely cool to know.&#xA;So I stumbled into a neat little trick to use Android&amp;rsquo;s iconpacks outside of.. well Android and it&amp;rsquo;s relatively easy to do.</description>
+    </item>
+    <item>
+      <title>Migrating to Jekyll</title>
+      <link>http://localhost:1313/articles/2018-11-11-migrating-to-jekyll/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/articles/2018-11-11-migrating-to-jekyll/</guid>
+      <description>unsplash-logoAustin Chan&#xA;I mentioned this in my previous post, but moving to an SSG was a long time coming. I had already been looking at ways to work with more dynamic technologies, however everywhere I read wrote about how overkill it was to learn something like React or Ruby considering it was for a simple site.&#xA;I suppose that kind of made sense, in the same way, you wouldn&amp;rsquo;t use a blowtorch to light candles.</description>
+    </item>
+    <item>
+      <title>To Broaden or Focus</title>
+      <link>http://localhost:1313/articles/2018-11-30-broaden-or-focus/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/articles/2018-11-30-broaden-or-focus/</guid>
+      <description>Since building this website and then sharing it with some colleagues and friends, one thing was brought to my attention above everything else.&#xA;The website was far too broad with readers failing to find the main point that I was trying to get across.&#xA;This makes sense, as this is pretty much something I battle in every day life. In trying to be good at everything, I would find myself either stretching myself too thinly or finishing once satisfied with my own level (which can sometimes be almost impossible in itself or simply put lazily defined).</description>
+    </item>
+    <item>
+      <title>Chilly Central Park - Photo Essay</title>
+      <link>http://localhost:1313/articles/centralparkfrozen/</link>
+      <pubDate>Sun, 03 Mar 2019 23:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/centralparkfrozen/</guid>
+      <description>Two years ago, back in Christmas, we went to New York and experienced one of the whitest Christmas&amp;rsquo; imaginable. For a little context, I live in Spain and as you can probably tell by the date this has been published, the temperature is currently between hot and black-smith-furnace..&#xA;In a desperate attempt for some mental compensation and sheer nostalgia, I decided to a share a photo-essay of our trip in New York, specifically our visit to Central Park.</description>
+    </item>
+    <item>
+      <title>Wordpress or HTML</title>
+      <link>http://localhost:1313/articles/2018-11-05-wordpress-or-html/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/articles/2018-11-05-wordpress-or-html/</guid>
+      <description>While my current job doesn&amp;rsquo;t require the knowledge of HTML, it&amp;rsquo;s certainly helped. I know that part of this comes as part of the territory (virtually any job in the digital sector). Depending on who you ask, creating a website can fall into three categories: You can rely on a paid CMS such as WordPress.com, Squarespace, etc. for an easy experience. which, depending on how much you spend be tailored exactly to your spec.</description>
+    </item>
+  </channel>
+</rss>
