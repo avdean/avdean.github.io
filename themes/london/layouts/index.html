@@ -8,13 +8,11 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="description" content="{{ .Site.Data.front.description }}">
 
-    <title>Welcome to ANTVD.XYZ</title>
+    <title>Welcome to ANTVD.SITE</title>
     
-
-    {{ $css := "css/screen.css" | absURL }}
-    <link rel="stylesheet" href="{{ $css }}">
+    
+    <link rel="stylesheet" href="/css/screen.css">
     {{ partial "favicons.html" . }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
     <body>
       <div class="site-wrapper">
@@ -119,16 +117,6 @@
               container.style.flex = ratio + ' 1 0%';
             })
             </script>
-            <script>
-              if (window.netlifyIdentity) {
-                window.netlifyIdentity.on("init", user => {
-                  if (!user) {
-                    window.netlifyIdentity.on("login", () => {
-                      document.location.href = "/admin/";
-                    });
-                  }
-                });
-              }
-            </script>
+
     </body>
 </html>
